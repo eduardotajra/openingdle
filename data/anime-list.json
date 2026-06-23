@@ -1,0 +1,974 @@
+[
+  {
+    "name": "[Oshi no Ko]",
+    "aliases": [
+      "[Oshi no Ko]",
+      "Oshi no Ko",
+      "【OSHI NO KO】",
+      "My Star",
+      "Oshi No Ko",
+      "【推しの子】"
+    ]
+  },
+  {
+    "name": "Akame ga Kill!",
+    "aliases": [
+      "Akame ga Kill!"
+    ]
+  },
+  {
+    "name": "Angel Beats!",
+    "aliases": [
+      "Angel Beats!"
+    ]
+  },
+  {
+    "name": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+    "aliases": [
+      "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+      "Anohana: The Flower We Saw That Day",
+      "anohana: The Flower We Saw That Day",
+      "あの日見た花の名前を僕達はまだ知らない。"
+    ]
+  },
+  {
+    "name": "Ansatsu Kyoushitsu (TV)",
+    "aliases": [
+      "Ansatsu Kyoushitsu (TV)",
+      "Assassination Classroom",
+      "暗殺教室"
+    ]
+  },
+  {
+    "name": "Ao no Exorcist: Kyoto Fujouou-hen",
+    "aliases": [
+      "Ao no Exorcist: Kyoto Fujouou-hen",
+      "Blue Exorcist",
+      "Blue Exorcist: Kyoto Saga",
+      "Blue Exorcist: Impure King Arc",
+      "青の祓魔師 京都不浄王篇",
+      "Blue Exorcist Season 2"
+    ]
+  },
+  {
+    "name": "Bakugan Battle Brawlers",
+    "aliases": [
+      "Bakugan Battle Brawlers"
+    ]
+  },
+  {
+    "name": "Beastars",
+    "aliases": [
+      "Beastars",
+      "BEASTARS"
+    ]
+  },
+  {
+    "name": "Berserk",
+    "aliases": [
+      "Berserk",
+      "Kenpuu Denki Berserk",
+      "Kenfu Denki Berserk"
+    ]
+  },
+  {
+    "name": "Beyblade Burst Super King",
+    "aliases": [
+      "Beyblade Burst Super King",
+      "Beyblade",
+      "Beyblade Burst Sparking",
+      "Beyblade Burst Surge ",
+      "ベイブレードバースト スパーキング"
+    ]
+  },
+  {
+    "name": "Bishoujo Senshi Sailor Moon Crystal",
+    "aliases": [
+      "Bishoujo Senshi Sailor Moon Crystal",
+      "Sailor Moon",
+      "Pretty Guardian Sailor Moon Crystal",
+      "Pretty Soldier Sailor Moon (2014)",
+      "Sailor Moon Remake",
+      "Bishoujo Senshi Sailor Moon (2014)",
+      "Sailor Moon Crystal",
+      "美少女戦士セーラームーンCrystal"
+    ]
+  },
+  {
+    "name": "Black Clover (TV)",
+    "aliases": [
+      "Black Clover (TV)",
+      "Black Clover",
+      "ブラッククローバー"
+    ]
+  },
+  {
+    "name": "Black Lagoon",
+    "aliases": [
+      "Black Lagoon"
+    ]
+  },
+  {
+    "name": "Bleach",
+    "aliases": [
+      "Bleach"
+    ]
+  },
+  {
+    "name": "Blue Lock",
+    "aliases": [
+      "Blue Lock",
+      "BLUELOCK",
+      "ブルーロック"
+    ]
+  },
+  {
+    "name": "Bocchi the Rock!",
+    "aliases": [
+      "Bocchi the Rock!",
+      "BOCCHI THE ROCK!",
+      "ぼっち・ざ・ろっく！"
+    ]
+  },
+  {
+    "name": "Boku dake ga Inai Machi",
+    "aliases": [
+      "Boku dake ga Inai Machi",
+      "Erased",
+      "ERASED",
+      "The Town Where Only I am Missing",
+      "BokuMachi",
+      "僕だけがいない街"
+    ]
+  },
+  {
+    "name": "Boku no Hero Academia 2nd Season",
+    "aliases": [
+      "Boku no Hero Academia 2nd Season",
+      "My Hero Academia",
+      "My Hero Academia 2",
+      "My Hero Academia Season 2",
+      "僕のヒーローアカデミア２"
+    ]
+  },
+  {
+    "name": "Boruto: Naruto Next Generations",
+    "aliases": [
+      "Boruto: Naruto Next Generations"
+    ]
+  },
+  {
+    "name": "Bungou Stray Dogs",
+    "aliases": [
+      "Bungou Stray Dogs",
+      "Bungo Stray Dogs",
+      "Literary Stray Dogs",
+      "文豪ストレイドッグス"
+    ]
+  },
+  {
+    "name": "Cardcaptor Sakura",
+    "aliases": [
+      "Cardcaptor Sakura",
+      "CCS",
+      "Cardcaptors",
+      "Card Captor Sakura"
+    ]
+  },
+  {
+    "name": "Chainsaw Man",
+    "aliases": [
+      "Chainsaw Man",
+      "CSM"
+    ]
+  },
+  {
+    "name": "Charlotte",
+    "aliases": [
+      "Charlotte"
+    ]
+  },
+  {
+    "name": "Clannad",
+    "aliases": [
+      "Clannad"
+    ]
+  },
+  {
+    "name": "Code Geass: Hangyaku no Lelouch I - Koudou",
+    "aliases": [
+      "Code Geass: Hangyaku no Lelouch I - Koudou",
+      "Code Geass: Lelouch of the Rebellion",
+      "Code Geass: Lelouch of the Rebellion - Awakening",
+      "Code Geass: Lelouch of the Rebellion I - Initiation",
+      "コードギアス 反逆のルルーシュⅠ 興道"
+    ]
+  },
+  {
+    "name": "Cowboy Bebop",
+    "aliases": [
+      "Cowboy Bebop"
+    ]
+  },
+  {
+    "name": "Cyberpunk: Edgerunners",
+    "aliases": [
+      "Cyberpunk: Edgerunners"
+    ]
+  },
+  {
+    "name": "D.Gray-man",
+    "aliases": [
+      "D.Gray-man",
+      "D. Gray-man",
+      "D. Grey-man"
+    ]
+  },
+  {
+    "name": "Darling in the FranXX",
+    "aliases": [
+      "Darling in the FranXX",
+      "DARLING in the FRANXX",
+      "ダーリン・イン・ザ・フランキス"
+    ]
+  },
+  {
+    "name": "Death Note",
+    "aliases": [
+      "Death Note"
+    ]
+  },
+  {
+    "name": "Digimon Adventure",
+    "aliases": [
+      "Digimon Adventure",
+      "Digimon Adventure 01",
+      "Digimon: Digital Monsters",
+      "デジモンアドベンチャー"
+    ]
+  },
+  {
+    "name": "Dororo",
+    "aliases": [
+      "Dororo",
+      "Dororo to Hyakkimaru"
+    ]
+  },
+  {
+    "name": "Dr. Slump: Arale-chan",
+    "aliases": [
+      "Dr. Slump: Arale-chan",
+      "Dr. Slump",
+      "Dr. Slump & Arale-chan",
+      "Dr. Slump 1"
+    ]
+  },
+  {
+    "name": "Dr. Stone",
+    "aliases": [
+      "Dr. Stone",
+      "Dr. STONE",
+      "Dr.STONE"
+    ]
+  },
+  {
+    "name": "Dragon Ball",
+    "aliases": [
+      "Dragon Ball",
+      "Dragonball"
+    ]
+  },
+  {
+    "name": "Dragon Ball Super",
+    "aliases": [
+      "Dragon Ball Super",
+      "Dragon Ball Chou"
+    ]
+  },
+  {
+    "name": "Dragon Ball Z",
+    "aliases": [
+      "Dragon Ball Z",
+      "DBZ"
+    ]
+  },
+  {
+    "name": "Enen no Shouboutai",
+    "aliases": [
+      "Enen no Shouboutai",
+      "Fire Force",
+      "炎炎ノ消防隊"
+    ]
+  },
+  {
+    "name": "Fairy Tail",
+    "aliases": [
+      "Fairy Tail"
+    ]
+  },
+  {
+    "name": "Fullmetal Alchemist: Brotherhood",
+    "aliases": [
+      "Fullmetal Alchemist: Brotherhood",
+      "Hagane no Renkinjutsushi (2009)",
+      "Fullmetal Alchemist (2009)",
+      "FMA"
+    ]
+  },
+  {
+    "name": "Gintama",
+    "aliases": [
+      "Gintama",
+      "Gin Tama",
+      "Silver Soul"
+    ]
+  },
+  {
+    "name": "Goblin Slayer",
+    "aliases": [
+      "Goblin Slayer",
+      "GOBLIN SLAYER",
+      "ゴブリンスレイヤー"
+    ]
+  },
+  {
+    "name": "Gotoubun no Hanayome",
+    "aliases": [
+      "Gotoubun no Hanayome",
+      "Quintessential Quintuplets",
+      "The Quintessential Quintuplets",
+      "五等分の花嫁"
+    ]
+  },
+  {
+    "name": "Grand Blue",
+    "aliases": [
+      "Grand Blue",
+      "Grand Blue Dreaming",
+      "ぐらんぶる"
+    ]
+  },
+  {
+    "name": "Guilty Crown",
+    "aliases": [
+      "Guilty Crown"
+    ]
+  },
+  {
+    "name": "Haikyuu!!",
+    "aliases": [
+      "Haikyuu!!",
+      "Haikyu!!",
+      "High Kyuu!!",
+      "HQ!",
+      "HAIKYU!!",
+      "ハイキュー!!"
+    ]
+  },
+  {
+    "name": "Hataraku Maou-sama!! 2nd Season",
+    "aliases": [
+      "Hataraku Maou-sama!! 2nd Season",
+      "The Devil is a Part-Timer!",
+      "The Devil is a Part-Timer! Season 2",
+      "The Devil is a Part-Timer! Season 2 Part 2",
+      "はたらく魔王さま！！2nd Season"
+    ]
+  },
+  {
+    "name": "Hataraku Saibou",
+    "aliases": [
+      "Hataraku Saibou",
+      "Cells at Work!",
+      "Cells At Work",
+      "はたらく細胞"
+    ]
+  },
+  {
+    "name": "Hellsing",
+    "aliases": [
+      "Hellsing",
+      "Hellsing Ultimate"
+    ]
+  },
+  {
+    "name": "Horimiya",
+    "aliases": [
+      "Horimiya"
+    ]
+  },
+  {
+    "name": "Hunter x Hunter",
+    "aliases": [
+      "Hunter x Hunter",
+      "HxH"
+    ]
+  },
+  {
+    "name": "InuYasha",
+    "aliases": [
+      "InuYasha",
+      "Inuyasha",
+      "Inu Yasha"
+    ]
+  },
+  {
+    "name": "Jibaku Shounen Hanako-kun",
+    "aliases": [
+      "Jibaku Shounen Hanako-kun",
+      "Toilet-bound Hanako-kun",
+      "地縛少年 花子くん"
+    ]
+  },
+  {
+    "name": "Jigokuraku",
+    "aliases": [
+      "Jigokuraku",
+      "Hell's Paradise",
+      "Paradition",
+      "Heavenhell",
+      "Hell’s Paradise",
+      "地獄楽"
+    ]
+  },
+  {
+    "name": "JoJo no Kimyou na Bouken",
+    "aliases": [
+      "JoJo no Kimyou na Bouken",
+      "JoJo's Bizarre Adventure",
+      "JoJo's Bizarre Adventure (2012)",
+      "JoJo's Bizarre Adventure (TV)",
+      "ジョジョの奇妙な冒険 (TV)"
+    ]
+  },
+  {
+    "name": "Jujutsu Kaisen",
+    "aliases": [
+      "Jujutsu Kaisen",
+      "Sorcery Fight",
+      "JUJUTSU KAISEN",
+      "呪術廻戦"
+    ]
+  },
+  {
+    "name": "K-On!",
+    "aliases": [
+      "K-On!",
+      "K-ON!",
+      "けいおん!"
+    ]
+  },
+  {
+    "name": "Kage no Jitsuryokusha ni Naritakute!",
+    "aliases": [
+      "Kage no Jitsuryokusha ni Naritakute!",
+      "The Eminence in Shadow",
+      "陰の実力者になりたくて！"
+    ]
+  },
+  {
+    "name": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+    "aliases": [
+      "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+      "Kaguya-sama: Love is War",
+      "Kaguya-sama: Love Is War - Ultra Romantic",
+      "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 3rd Season",
+      "Kaguya-sama: Love is War Season 3rd Season",
+      "Kaguya-sama: Love is War -Ultra Romantic-",
+      "かぐや様は告らせたい-ウルトラロマンティック-"
+    ]
+  },
+  {
+    "name": "Kanojo, Okarishimasu",
+    "aliases": [
+      "Kanojo, Okarishimasu",
+      "Rent-a-Girlfriend",
+      "KanoKari",
+      "彼女、お借りします"
+    ]
+  },
+  {
+    "name": "Kill Ao",
+    "aliases": [
+      "Kill Ao",
+      "Kill la Kill",
+      "KILL BLUE",
+      "キルアオ"
+    ]
+  },
+  {
+    "name": "Kimetsu no Yaiba",
+    "aliases": [
+      "Kimetsu no Yaiba",
+      "Demon Slayer: Kimetsu no Yaiba",
+      "Blade of Demon Destruction",
+      "鬼滅の刃"
+    ]
+  },
+  {
+    "name": "Kiseijuu: Sei no Kakuritsu",
+    "aliases": [
+      "Kiseijuu: Sei no Kakuritsu",
+      "Parasyte: The Maxim",
+      "Parasyte -the maxim-",
+      "寄生獣 セイの格率"
+    ]
+  },
+  {
+    "name": "Koe no Katachi",
+    "aliases": [
+      "Koe no Katachi",
+      "A Silent Voice",
+      "聲の形"
+    ]
+  },
+  {
+    "name": "Kono Subarashii Sekai ni Shukufuku wo! 2",
+    "aliases": [
+      "Kono Subarashii Sekai ni Shukufuku wo! 2",
+      "Konosuba",
+      "KonoSuba: God's Blessing on This Wonderful World! 2",
+      "KonoSuba 2",
+      "KONOSUBA -God's blessing on this wonderful world! 2",
+      "この素晴らしい世界に祝福を！2"
+    ]
+  },
+  {
+    "name": "Kuroko no Basket",
+    "aliases": [
+      "Kuroko no Basket",
+      "Kuroko's Basketball",
+      "Kuroko no Basuke",
+      "黒子のバスケ"
+    ]
+  },
+  {
+    "name": "Little Witch Academia (TV)",
+    "aliases": [
+      "Little Witch Academia (TV)",
+      "Little Witch Academia"
+    ]
+  },
+  {
+    "name": "Lucky☆Star",
+    "aliases": [
+      "Lucky☆Star",
+      "Lucky Star"
+    ]
+  },
+  {
+    "name": "Lycoris Recoil",
+    "aliases": [
+      "Lycoris Recoil"
+    ]
+  },
+  {
+    "name": "Made in Abyss",
+    "aliases": [
+      "Made in Abyss"
+    ]
+  },
+  {
+    "name": "Magi: The Labyrinth of Magic",
+    "aliases": [
+      "Magi: The Labyrinth of Magic"
+    ]
+  },
+  {
+    "name": "Mashle",
+    "aliases": [
+      "Mashle",
+      "Mashle: Magic and Muscles",
+      "MASHLE: MAGIC AND MUSCLES",
+      "マッシュル-MASHLE-"
+    ]
+  },
+  {
+    "name": "Mob Psycho 100",
+    "aliases": [
+      "Mob Psycho 100",
+      "Mob Psycho Hyaku",
+      "Mob Psycho One Hundred"
+    ]
+  },
+  {
+    "name": "Mob Psycho 100 II",
+    "aliases": [
+      "Mob Psycho 100 II",
+      "Mob Psycho 100 2nd Season",
+      "Mob Psycho Hyaku",
+      "Mob Psycho One Hundred"
+    ]
+  },
+  {
+    "name": "Mononoke",
+    "aliases": [
+      "Mononoke"
+    ]
+  },
+  {
+    "name": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+    "aliases": [
+      "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+      "Mushoku Tensei",
+      "Mushoku Tensei: Jobless Reincarnation Part 2",
+      "Mushoku Tensei: Jobless Reincarnation Cour 2",
+      "無職転生 ～異世界行ったら本気だす～ 第2クール"
+    ]
+  },
+  {
+    "name": "Nanatsu no Taizai",
+    "aliases": [
+      "Nanatsu no Taizai",
+      "The Seven Deadly Sins",
+      "七つの大罪"
+    ]
+  },
+  {
+    "name": "Naruto",
+    "aliases": [
+      "Naruto"
+    ]
+  },
+  {
+    "name": "Naruto: Shippuuden",
+    "aliases": [
+      "Naruto: Shippuuden",
+      "Naruto Shippuuden",
+      "Naruto: Shippuden",
+      "NARUTO -ナルト- 疾風伝"
+    ]
+  },
+  {
+    "name": "Neon Genesis Evangelion",
+    "aliases": [
+      "Neon Genesis Evangelion",
+      "Shinseiki Evangelion"
+    ]
+  },
+  {
+    "name": "Nichijou",
+    "aliases": [
+      "Nichijou",
+      "My Ordinary Life",
+      "Everyday",
+      "Nichijou - My Ordinary Life",
+      "日常"
+    ]
+  },
+  {
+    "name": "No Game No Life",
+    "aliases": [
+      "No Game No Life",
+      "No Game, No Life",
+      "ノーゲーム・ノーライフ"
+    ]
+  },
+  {
+    "name": "Noragami",
+    "aliases": [
+      "Noragami"
+    ]
+  },
+  {
+    "name": "One Piece",
+    "aliases": [
+      "One Piece",
+      "ONE PIECE"
+    ]
+  },
+  {
+    "name": "One Punch Man",
+    "aliases": [
+      "One Punch Man",
+      "One Punch-Man",
+      "One-Punch Man",
+      "OPM",
+      "ワンパンマン"
+    ]
+  },
+  {
+    "name": "Ore dake Level Up na Ken",
+    "aliases": [
+      "Ore dake Level Up na Ken",
+      "Solo Leveling",
+      "俺だけレベルアップな件"
+    ]
+  },
+  {
+    "name": "Overlord",
+    "aliases": [
+      "Overlord"
+    ]
+  },
+  {
+    "name": "Owari no Seraph",
+    "aliases": [
+      "Owari no Seraph",
+      "Seraph of the End",
+      "Seraph of the End: Vampire Reign",
+      "終わりのセラフ"
+    ]
+  },
+  {
+    "name": "Plastic Memories",
+    "aliases": [
+      "Plastic Memories",
+      "Plamemo"
+    ]
+  },
+  {
+    "name": "Pokemon",
+    "aliases": [
+      "Pokemon",
+      "Pokémon",
+      "Pocket Monsters",
+      "Indigo League",
+      "Adventures on the Orange Islands",
+      "The Johto Journeys",
+      "Johto League Champions",
+      "Master Quest",
+      "ポケットモンスター"
+    ]
+  },
+  {
+    "name": "Re:Zero kara Hajimeru Isekai Seikatsu",
+    "aliases": [
+      "Re:Zero kara Hajimeru Isekai Seikatsu",
+      "Re:ZERO -Starting Life in Another World-",
+      "Re: Life in a different world from zero",
+      "ReZero",
+      "Re:ゼロから始める異世界生活"
+    ]
+  },
+  {
+    "name": "Rurouni Kenshin: Meiji Kenkaku Romantan",
+    "aliases": [
+      "Rurouni Kenshin: Meiji Kenkaku Romantan",
+      "Rurouni Kenshin",
+      "Samurai X",
+      "るろうに剣心 -明治剣客浪漫譚-"
+    ]
+  },
+  {
+    "name": "Saiki Kusuo no Ψ-nan 2",
+    "aliases": [
+      "Saiki Kusuo no Ψ-nan 2",
+      "The Disastrous Life of Saiki K.",
+      "The Disastrous Life of Saiki K. 2",
+      "Saiki Kusuo no Psi Nan 2",
+      "The Disastrous Life of Saiki K. Season 2",
+      "斉木楠雄のΨ難 2"
+    ]
+  },
+  {
+    "name": "Shigatsu wa Kimi no Uso",
+    "aliases": [
+      "Shigatsu wa Kimi no Uso",
+      "Your Lie in April",
+      "Your lie in April",
+      "四月は君の嘘"
+    ]
+  },
+  {
+    "name": "Shingeki no Kyojin",
+    "aliases": [
+      "Shingeki no Kyojin",
+      "Attack on Titan",
+      "進撃の巨人"
+    ]
+  },
+  {
+    "name": "Shokugeki no Souma: Food Wars",
+    "aliases": [
+      "Shokugeki no Souma: Food Wars",
+      "Food Wars! Shokugeki no Soma",
+      "Shokugeki no Soma",
+      "Food Wars: Shokugeki no Soma",
+      "Food Wars!",
+      "食戟のソーマ"
+    ]
+  },
+  {
+    "name": "Soul Eater",
+    "aliases": [
+      "Soul Eater"
+    ]
+  },
+  {
+    "name": "Sousou no Frieren",
+    "aliases": [
+      "Sousou no Frieren",
+      "Frieren: Beyond Journey's End",
+      "Frieren at the Funeral",
+      "Frieren: Beyond Journey’s End",
+      "葬送のフリーレン"
+    ]
+  },
+  {
+    "name": "Spy x Family",
+    "aliases": [
+      "Spy x Family",
+      "SPY x FAMILY",
+      "SPY×FAMILY"
+    ]
+  },
+  {
+    "name": "Steins;Gate",
+    "aliases": [
+      "Steins;Gate"
+    ]
+  },
+  {
+    "name": "Suzumiya Haruhi no Yuuutsu",
+    "aliases": [
+      "Suzumiya Haruhi no Yuuutsu",
+      "The Melancholy of Haruhi Suzumiya",
+      "The Melancholy of Haruhi Suzumiya (2009)",
+      "The Melancholy of Haruhi Suzumiya Season 2",
+      "涼宮ハルヒの憂鬱"
+    ]
+  },
+  {
+    "name": "Sword Art Online",
+    "aliases": [
+      "Sword Art Online",
+      "S.A.O",
+      "SAO"
+    ]
+  },
+  {
+    "name": "Tate no Yuusha no Nariagari",
+    "aliases": [
+      "Tate no Yuusha no Nariagari",
+      "The Rising of the Shield Hero",
+      "盾の勇者の成り上がり"
+    ]
+  },
+  {
+    "name": "Tengen Toppa Gurren Lagann",
+    "aliases": [
+      "Tengen Toppa Gurren Lagann",
+      "Gurren Lagann",
+      "Making Break-Through Gurren Lagann",
+      "Heavenly Breakthrough Gurren Lagann",
+      "TTGL",
+      "天元突破グレンラガン"
+    ]
+  },
+  {
+    "name": "Tensei shitara Slime Datta Ken",
+    "aliases": [
+      "Tensei shitara Slime Datta Ken",
+      "That Time I Got Reincarnated as a Slime",
+      "TenSura",
+      "転生したらスライムだった件"
+    ]
+  },
+  {
+    "name": "Tokyo Ghoul",
+    "aliases": [
+      "Tokyo Ghoul",
+      "Tokyo Kushu"
+    ]
+  },
+  {
+    "name": "Tokyo Revengers",
+    "aliases": [
+      "Tokyo Revengers"
+    ]
+  },
+  {
+    "name": "Toradora!",
+    "aliases": [
+      "Toradora!",
+      "Tiger X Dragon"
+    ]
+  },
+  {
+    "name": "Trigun",
+    "aliases": [
+      "Trigun"
+    ]
+  },
+  {
+    "name": "Undead Unluck",
+    "aliases": [
+      "Undead Unluck"
+    ]
+  },
+  {
+    "name": "Vinland Saga",
+    "aliases": [
+      "Vinland Saga"
+    ]
+  },
+  {
+    "name": "Violet Evergarden",
+    "aliases": [
+      "Violet Evergarden"
+    ]
+  },
+  {
+    "name": "Wonder Egg Priority",
+    "aliases": [
+      "Wonder Egg Priority",
+      "WONDER EGG PRIORITY",
+      "ワンダーエッグ・プライオリティ"
+    ]
+  },
+  {
+    "name": "Yakusoku no Neverland 2nd Season",
+    "aliases": [
+      "Yakusoku no Neverland 2nd Season",
+      "The Promised Neverland",
+      "The Promised Neverland 2nd Season",
+      "The Promised Neverland Season 2",
+      "約束のネバーランド2"
+    ]
+  },
+  {
+    "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+    "aliases": [
+      "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+      "Classroom of the Elite",
+      "Welcome to the Classroom of the Elite",
+      "Youjitsu",
+      "ようこそ実力至上主義の教室へ"
+    ]
+  },
+  {
+    "name": "Yu☆Gi☆Oh! Duel Monsters",
+    "aliases": [
+      "Yu☆Gi☆Oh! Duel Monsters",
+      "Yu-Gi-Oh! Duel Monsters",
+      "Yu-Gi-Oh!",
+      "Yugioh",
+      "Yu-Gi-Oh!: Duel Monsters",
+      "Yugioh: Duel Monsters",
+      "遊☆戯☆王　デュエルモンスターズ"
+    ]
+  },
+  {
+    "name": "YURI!!! on ICE",
+    "aliases": [
+      "YURI!!! on ICE",
+      "Yuri!!! on Ice",
+      "Yuri!!! on ICE",
+      "ユーリ!!! on ICE"
+    ]
+  },
+  {
+    "name": "Yuu☆Yuu☆Hakusho",
+    "aliases": [
+      "Yuu☆Yuu☆Hakusho",
+      "Yu Yu Hakusho",
+      "Yu Yu Hakusho: Ghost Files",
+      "Ghost Fighter",
+      "Poltergeist Report",
+      "YuYu Hakusho",
+      "Yu Yu Hakusho: Ghostfiles",
+      "幽☆遊☆白書"
+    ]
+  }
+]

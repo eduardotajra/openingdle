@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# faixas geradas (Demucs/demo) — artefato pesado; regenere com os scripts.
+# O manifesto data/stems.json é versionado (o build importa ele).
+/public/stems/
+
+# ambiente Python isolado p/ o Demucs (criado com `uv venv .venv-demucs`)
+/.venv-demucs/
+
+# configs locais do Claude Code / IDE
+/.claude/
+/.idea/
+/.vscode/

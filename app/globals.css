@@ -1,26 +1,101 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Paleta inspirada na vibe pirata-anime: pergaminho velho, oceano profundo,
+     dourado de tesouro e vermelho de bandana. Sem marcas registradas. */
+  --background: #0b1220;          /* azul-meia-noite (deep sea) */
+  --foreground: #f5e7c4;          /* pergaminho */
+  --color-ocean: #1e3a5f;
+  --color-ocean-deep: #0f1f33;
+  --color-gold: #f4c542;          /* doblão */
+  --color-gold-soft: #d4a430;
+  --color-crimson: #c53030;       /* bandana */
+  --color-crimson-soft: #9b1c1c;
+  --color-sand: #f5e7c4;
+  --color-sand-muted: #c4b08a;
+  --color-parchment: #f0d9a3;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-ocean: var(--color-ocean);
+  --color-ocean-deep: var(--color-ocean-deep);
+  --color-gold: var(--color-gold);
+  --color-gold-soft: var(--color-gold-soft);
+  --color-crimson: var(--color-crimson);
+  --color-crimson-soft: var(--color-crimson-soft);
+  --color-sand: var(--color-sand);
+  --color-sand-muted: var(--color-sand-muted);
+  --color-parchment: var(--color-parchment);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: var(--font-display);
 }
 
 body {
-  background: var(--background);
+  /* Camadas: brilho dourado leve no topo (sol) + sutil ruído + base oceano */
+  background:
+    radial-gradient(ellipse 70% 40% at 50% -10%, rgba(244, 197, 66, 0.12), transparent 70%),
+    radial-gradient(ellipse 50% 30% at 100% 100%, rgba(197, 48, 48, 0.08), transparent 70%),
+    var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-feature-settings: "ss01", "cv11";
+  text-rendering: optimizeLegibility;
+}
+
+/* Fonte temática usada para títulos e marca */
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+  letter-spacing: 0.02em;
+}
+
+/* Foco acessível */
+:focus { outline: none; }
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Scrollbar tema oceano */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(244, 197, 66, 0.15);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(244, 197, 66, 0.3); }
+
+/* Borda estilo "pergaminho" — bordas suavemente desgastadas */
+.parchment-edge {
+  border-image: linear-gradient(
+    135deg,
+    rgba(244, 197, 66, 0.4),
+    rgba(244, 197, 66, 0.1) 30%,
+    rgba(244, 197, 66, 0.1) 70%,
+    rgba(244, 197, 66, 0.4)
+  ) 1;
+}
+
+/* Linha decorativa de bússola/corda */
+.rope-divider {
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgba(244, 197, 66, 0.4) 0,
+    rgba(244, 197, 66, 0.4) 4px,
+    transparent 4px,
+    transparent 10px
+  );
+  height: 2px;
+}
+
+/* Animação sutil para o ícone da bússola (giro lento ao hover) */
+@keyframes compass-spin {
+  to { transform: rotate(360deg); }
+}
+.compass-spin:hover {
+  animation: compass-spin 3s linear infinite;
 }

@@ -1,0 +1,122 @@
+# Lista curada de animes populares (um por linha).
+# Linhas começando com # são ignoradas.
+# O seed busca cada título na API da AnimeThemes e pega as aberturas (OP).
+Naruto
+Naruto Shippuuden
+Bleach
+One Piece
+Dragon Ball Z
+Fullmetal Alchemist: Brotherhood
+Death Note
+Attack on Titan
+Hunter x Hunter
+My Hero Academia
+Demon Slayer: Kimetsu no Yaiba
+Jujutsu Kaisen
+Sword Art Online
+Tokyo Ghoul
+Code Geass: Lelouch of the Rebellion
+Neon Genesis Evangelion
+Cowboy Bebop
+One Punch Man
+Mob Psycho 100
+Steins;Gate
+Re:Zero kara Hajimeru Isekai Seikatsu
+The Promised Neverland
+Dr. Stone
+Black Clover
+Fairy Tail
+The Seven Deadly Sins
+Fire Force
+Haikyuu!!
+Kuroko no Basket
+Yuri!!! on Ice
+Your Lie in April
+Violet Evergarden
+A Silent Voice
+Spy x Family
+Chainsaw Man
+Vinland Saga
+Dororo
+Made in Abyss
+The Rising of the Shield Hero
+That Time I Got Reincarnated as a Slime
+Overlord
+No Game No Life
+Konosuba
+Mushoku Tensei
+Dr. Slump
+Gintama
+JoJo's Bizarre Adventure
+Mononoke
+Soul Eater
+Blue Exorcist
+D.Gray-man
+Magi: The Labyrinth of Magic
+Akame ga Kill!
+Parasyte: The Maxim
+Erased
+Anohana: The Flower We Saw That Day
+Clannad
+Toradora!
+The Melancholy of Haruhi Suzumiya
+Lucky Star
+K-On!
+Angel Beats!
+Charlotte
+Plastic Memories
+Darling in the FranXX
+Guilty Crown
+Kill la Kill
+Gurren Lagann
+Little Witch Academia
+Assassination Classroom
+Nanatsu no Taizai
+Black Lagoon
+Hellsing Ultimate
+Berserk
+Trigun
+Yu Yu Hakusho
+Inuyasha
+Rurouni Kenshin
+Sailor Moon
+Cardcaptor Sakura
+Pokemon
+Digimon Adventure
+Yu-Gi-Oh! Duel Monsters
+Beyblade
+Bakugan Battle Brawlers
+Dragon Ball
+Dragon Ball Super
+Boruto: Naruto Next Generations
+Food Wars! Shokugeki no Soma
+Kaguya-sama: Love is War
+Horimiya
+Rent-a-Girlfriend
+Quintessential Quintuplets
+Toilet-bound Hanako-kun
+Beastars
+Cells at Work!
+Goblin Slayer
+The Devil is a Part-Timer!
+Noragami
+Seraph of the End
+Tokyo Revengers
+Wonder Egg Priority
+Bocchi the Rock!
+Lycoris Recoil
+Cyberpunk: Edgerunners
+Oshi no Ko
+Frieren: Beyond Journey's End
+Solo Leveling
+Blue Lock
+Hell's Paradise
+Mashle: Magic and Muscles
+Undead Unluck
+The Eminence in Shadow
+Classroom of the Elite
+Bungo Stray Dogs
+The Disastrous Life of Saiki K.
+Grand Blue
+Mob Psycho 100 II
+Nichijou

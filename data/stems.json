@@ -1,0 +1,2783 @@
+[
+  {
+    "id": "naruto-op1",
+    "stems": {
+      "bass": "/stems/naruto-op1/bass.ogg",
+      "drums": "/stems/naruto-op1/drums.ogg",
+      "other": "/stems/naruto-op1/other.ogg",
+      "vocals": "/stems/naruto-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op1",
+    "stems": {
+      "bass": "/stems/bleach-op1/bass.ogg",
+      "drums": "/stems/bleach-op1/drums.ogg",
+      "other": "/stems/bleach-op1/other.ogg",
+      "vocals": "/stems/bleach-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "jujutsu-kaisen-op1",
+    "stems": {
+      "bass": "/stems/jujutsu-kaisen-op1/bass.ogg",
+      "drums": "/stems/jujutsu-kaisen-op1/drums.ogg",
+      "other": "/stems/jujutsu-kaisen-op1/other.ogg",
+      "vocals": "/stems/jujutsu-kaisen-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op1",
+    "stems": {
+      "bass": "/stems/one-piece-op1/bass.ogg",
+      "drums": "/stems/one-piece-op1/drums.ogg",
+      "other": "/stems/one-piece-op1/other.ogg",
+      "vocals": "/stems/one-piece-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-op2",
+    "stems": {
+      "bass": "/stems/naruto-op2/bass.ogg",
+      "drums": "/stems/naruto-op2/drums.ogg",
+      "other": "/stems/naruto-op2/other.ogg",
+      "vocals": "/stems/naruto-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-op3",
+    "stems": {
+      "bass": "/stems/naruto-op3/bass.ogg",
+      "drums": "/stems/naruto-op3/drums.ogg",
+      "other": "/stems/naruto-op3/other.ogg",
+      "vocals": "/stems/naruto-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-op4",
+    "stems": {
+      "bass": "/stems/naruto-op4/bass.ogg",
+      "drums": "/stems/naruto-op4/drums.ogg",
+      "other": "/stems/naruto-op4/other.ogg",
+      "vocals": "/stems/naruto-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-op5",
+    "stems": {
+      "bass": "/stems/naruto-op5/bass.ogg",
+      "drums": "/stems/naruto-op5/drums.ogg",
+      "other": "/stems/naruto-op5/other.ogg",
+      "vocals": "/stems/naruto-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-op6",
+    "stems": {
+      "bass": "/stems/naruto-op6/bass.ogg",
+      "drums": "/stems/naruto-op6/drums.ogg",
+      "other": "/stems/naruto-op6/other.ogg",
+      "vocals": "/stems/naruto-op6/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-op7",
+    "stems": {
+      "bass": "/stems/naruto-op7/bass.ogg",
+      "drums": "/stems/naruto-op7/drums.ogg",
+      "other": "/stems/naruto-op7/other.ogg",
+      "vocals": "/stems/naruto-op7/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-op8",
+    "stems": {
+      "bass": "/stems/naruto-op8/bass.ogg",
+      "drums": "/stems/naruto-op8/drums.ogg",
+      "other": "/stems/naruto-op8/other.ogg",
+      "vocals": "/stems/naruto-op8/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-op9",
+    "stems": {
+      "bass": "/stems/naruto-op9/bass.ogg",
+      "drums": "/stems/naruto-op9/drums.ogg",
+      "other": "/stems/naruto-op9/other.ogg",
+      "vocals": "/stems/naruto-op9/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op1",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op1/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op1/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op1/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op2",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op2/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op2/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op2/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op3",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op3/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op3/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op3/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op4",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op4/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op4/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op4/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op5",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op5/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op5/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op5/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op6",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op6/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op6/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op6/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op6/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op7",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op7/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op7/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op7/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op7/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op8",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op8/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op8/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op8/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op8/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op9",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op9/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op9/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op9/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op9/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op10",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op10/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op10/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op10/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op10/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op11",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op11/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op11/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op11/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op11/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op12",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op12/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op12/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op12/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op12/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op13",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op13/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op13/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op13/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op13/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op14",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op14/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op14/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op14/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op14/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op15",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op15/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op15/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op15/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op15/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op16",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op16/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op16/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op16/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op16/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op17",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op17/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op17/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op17/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op17/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op18",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op18/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op18/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op18/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op18/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op19",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op19/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op19/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op19/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op19/vocals.ogg"
+    }
+  },
+  {
+    "id": "naruto-shippuuden-op20",
+    "stems": {
+      "bass": "/stems/naruto-shippuuden-op20/bass.ogg",
+      "drums": "/stems/naruto-shippuuden-op20/drums.ogg",
+      "other": "/stems/naruto-shippuuden-op20/other.ogg",
+      "vocals": "/stems/naruto-shippuuden-op20/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op2",
+    "stems": {
+      "bass": "/stems/bleach-op2/bass.ogg",
+      "drums": "/stems/bleach-op2/drums.ogg",
+      "other": "/stems/bleach-op2/other.ogg",
+      "vocals": "/stems/bleach-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op3",
+    "stems": {
+      "bass": "/stems/bleach-op3/bass.ogg",
+      "drums": "/stems/bleach-op3/drums.ogg",
+      "other": "/stems/bleach-op3/other.ogg",
+      "vocals": "/stems/bleach-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op4",
+    "stems": {
+      "bass": "/stems/bleach-op4/bass.ogg",
+      "drums": "/stems/bleach-op4/drums.ogg",
+      "other": "/stems/bleach-op4/other.ogg",
+      "vocals": "/stems/bleach-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op5",
+    "stems": {
+      "bass": "/stems/bleach-op5/bass.ogg",
+      "drums": "/stems/bleach-op5/drums.ogg",
+      "other": "/stems/bleach-op5/other.ogg",
+      "vocals": "/stems/bleach-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op6",
+    "stems": {
+      "bass": "/stems/bleach-op6/bass.ogg",
+      "drums": "/stems/bleach-op6/drums.ogg",
+      "other": "/stems/bleach-op6/other.ogg",
+      "vocals": "/stems/bleach-op6/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op7",
+    "stems": {
+      "bass": "/stems/bleach-op7/bass.ogg",
+      "drums": "/stems/bleach-op7/drums.ogg",
+      "other": "/stems/bleach-op7/other.ogg",
+      "vocals": "/stems/bleach-op7/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op8",
+    "stems": {
+      "bass": "/stems/bleach-op8/bass.ogg",
+      "drums": "/stems/bleach-op8/drums.ogg",
+      "other": "/stems/bleach-op8/other.ogg",
+      "vocals": "/stems/bleach-op8/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op9",
+    "stems": {
+      "bass": "/stems/bleach-op9/bass.ogg",
+      "drums": "/stems/bleach-op9/drums.ogg",
+      "other": "/stems/bleach-op9/other.ogg",
+      "vocals": "/stems/bleach-op9/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op10",
+    "stems": {
+      "bass": "/stems/bleach-op10/bass.ogg",
+      "drums": "/stems/bleach-op10/drums.ogg",
+      "other": "/stems/bleach-op10/other.ogg",
+      "vocals": "/stems/bleach-op10/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op11",
+    "stems": {
+      "bass": "/stems/bleach-op11/bass.ogg",
+      "drums": "/stems/bleach-op11/drums.ogg",
+      "other": "/stems/bleach-op11/other.ogg",
+      "vocals": "/stems/bleach-op11/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op12",
+    "stems": {
+      "bass": "/stems/bleach-op12/bass.ogg",
+      "drums": "/stems/bleach-op12/drums.ogg",
+      "other": "/stems/bleach-op12/other.ogg",
+      "vocals": "/stems/bleach-op12/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op13",
+    "stems": {
+      "bass": "/stems/bleach-op13/bass.ogg",
+      "drums": "/stems/bleach-op13/drums.ogg",
+      "other": "/stems/bleach-op13/other.ogg",
+      "vocals": "/stems/bleach-op13/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op14",
+    "stems": {
+      "bass": "/stems/bleach-op14/bass.ogg",
+      "drums": "/stems/bleach-op14/drums.ogg",
+      "other": "/stems/bleach-op14/other.ogg",
+      "vocals": "/stems/bleach-op14/vocals.ogg"
+    }
+  },
+  {
+    "id": "bleach-op15",
+    "stems": {
+      "bass": "/stems/bleach-op15/bass.ogg",
+      "drums": "/stems/bleach-op15/drums.ogg",
+      "other": "/stems/bleach-op15/other.ogg",
+      "vocals": "/stems/bleach-op15/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op2",
+    "stems": {
+      "bass": "/stems/one-piece-op2/bass.ogg",
+      "drums": "/stems/one-piece-op2/drums.ogg",
+      "other": "/stems/one-piece-op2/other.ogg",
+      "vocals": "/stems/one-piece-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op3",
+    "stems": {
+      "bass": "/stems/one-piece-op3/bass.ogg",
+      "drums": "/stems/one-piece-op3/drums.ogg",
+      "other": "/stems/one-piece-op3/other.ogg",
+      "vocals": "/stems/one-piece-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op4",
+    "stems": {
+      "bass": "/stems/one-piece-op4/bass.ogg",
+      "drums": "/stems/one-piece-op4/drums.ogg",
+      "other": "/stems/one-piece-op4/other.ogg",
+      "vocals": "/stems/one-piece-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op5",
+    "stems": {
+      "bass": "/stems/one-piece-op5/bass.ogg",
+      "drums": "/stems/one-piece-op5/drums.ogg",
+      "other": "/stems/one-piece-op5/other.ogg",
+      "vocals": "/stems/one-piece-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op6",
+    "stems": {
+      "bass": "/stems/one-piece-op6/bass.ogg",
+      "drums": "/stems/one-piece-op6/drums.ogg",
+      "other": "/stems/one-piece-op6/other.ogg",
+      "vocals": "/stems/one-piece-op6/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op7",
+    "stems": {
+      "bass": "/stems/one-piece-op7/bass.ogg",
+      "drums": "/stems/one-piece-op7/drums.ogg",
+      "other": "/stems/one-piece-op7/other.ogg",
+      "vocals": "/stems/one-piece-op7/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op8",
+    "stems": {
+      "bass": "/stems/one-piece-op8/bass.ogg",
+      "drums": "/stems/one-piece-op8/drums.ogg",
+      "other": "/stems/one-piece-op8/other.ogg",
+      "vocals": "/stems/one-piece-op8/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op9",
+    "stems": {
+      "bass": "/stems/one-piece-op9/bass.ogg",
+      "drums": "/stems/one-piece-op9/drums.ogg",
+      "other": "/stems/one-piece-op9/other.ogg",
+      "vocals": "/stems/one-piece-op9/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op10",
+    "stems": {
+      "bass": "/stems/one-piece-op10/bass.ogg",
+      "drums": "/stems/one-piece-op10/drums.ogg",
+      "other": "/stems/one-piece-op10/other.ogg",
+      "vocals": "/stems/one-piece-op10/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op11",
+    "stems": {
+      "bass": "/stems/one-piece-op11/bass.ogg",
+      "drums": "/stems/one-piece-op11/drums.ogg",
+      "other": "/stems/one-piece-op11/other.ogg",
+      "vocals": "/stems/one-piece-op11/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op12",
+    "stems": {
+      "bass": "/stems/one-piece-op12/bass.ogg",
+      "drums": "/stems/one-piece-op12/drums.ogg",
+      "other": "/stems/one-piece-op12/other.ogg",
+      "vocals": "/stems/one-piece-op12/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op13",
+    "stems": {
+      "bass": "/stems/one-piece-op13/bass.ogg",
+      "drums": "/stems/one-piece-op13/drums.ogg",
+      "other": "/stems/one-piece-op13/other.ogg",
+      "vocals": "/stems/one-piece-op13/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op15",
+    "stems": {
+      "bass": "/stems/one-piece-op15/bass.ogg",
+      "drums": "/stems/one-piece-op15/drums.ogg",
+      "other": "/stems/one-piece-op15/other.ogg",
+      "vocals": "/stems/one-piece-op15/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op16",
+    "stems": {
+      "bass": "/stems/one-piece-op16/bass.ogg",
+      "drums": "/stems/one-piece-op16/drums.ogg",
+      "other": "/stems/one-piece-op16/other.ogg",
+      "vocals": "/stems/one-piece-op16/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op17",
+    "stems": {
+      "bass": "/stems/one-piece-op17/bass.ogg",
+      "drums": "/stems/one-piece-op17/drums.ogg",
+      "other": "/stems/one-piece-op17/other.ogg",
+      "vocals": "/stems/one-piece-op17/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op18",
+    "stems": {
+      "bass": "/stems/one-piece-op18/bass.ogg",
+      "drums": "/stems/one-piece-op18/drums.ogg",
+      "other": "/stems/one-piece-op18/other.ogg",
+      "vocals": "/stems/one-piece-op18/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op19",
+    "stems": {
+      "bass": "/stems/one-piece-op19/bass.ogg",
+      "drums": "/stems/one-piece-op19/drums.ogg",
+      "other": "/stems/one-piece-op19/other.ogg",
+      "vocals": "/stems/one-piece-op19/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op20",
+    "stems": {
+      "bass": "/stems/one-piece-op20/bass.ogg",
+      "drums": "/stems/one-piece-op20/drums.ogg",
+      "other": "/stems/one-piece-op20/other.ogg",
+      "vocals": "/stems/one-piece-op20/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op21",
+    "stems": {
+      "bass": "/stems/one-piece-op21/bass.ogg",
+      "drums": "/stems/one-piece-op21/drums.ogg",
+      "other": "/stems/one-piece-op21/other.ogg",
+      "vocals": "/stems/one-piece-op21/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op22",
+    "stems": {
+      "bass": "/stems/one-piece-op22/bass.ogg",
+      "drums": "/stems/one-piece-op22/drums.ogg",
+      "other": "/stems/one-piece-op22/other.ogg",
+      "vocals": "/stems/one-piece-op22/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op23",
+    "stems": {
+      "bass": "/stems/one-piece-op23/bass.ogg",
+      "drums": "/stems/one-piece-op23/drums.ogg",
+      "other": "/stems/one-piece-op23/other.ogg",
+      "vocals": "/stems/one-piece-op23/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op1-en",
+    "stems": {
+      "bass": "/stems/one-piece-op1-en/bass.ogg",
+      "drums": "/stems/one-piece-op1-en/drums.ogg",
+      "other": "/stems/one-piece-op1-en/other.ogg",
+      "vocals": "/stems/one-piece-op1-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op2-en",
+    "stems": {
+      "bass": "/stems/one-piece-op2-en/bass.ogg",
+      "drums": "/stems/one-piece-op2-en/drums.ogg",
+      "other": "/stems/one-piece-op2-en/other.ogg",
+      "vocals": "/stems/one-piece-op2-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op3-en",
+    "stems": {
+      "bass": "/stems/one-piece-op3-en/bass.ogg",
+      "drums": "/stems/one-piece-op3-en/drums.ogg",
+      "other": "/stems/one-piece-op3-en/other.ogg",
+      "vocals": "/stems/one-piece-op3-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op4-en",
+    "stems": {
+      "bass": "/stems/one-piece-op4-en/bass.ogg",
+      "drums": "/stems/one-piece-op4-en/drums.ogg",
+      "other": "/stems/one-piece-op4-en/other.ogg",
+      "vocals": "/stems/one-piece-op4-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op1-en4kids",
+    "stems": {
+      "bass": "/stems/one-piece-op1-en4kids/bass.ogg",
+      "drums": "/stems/one-piece-op1-en4kids/drums.ogg",
+      "other": "/stems/one-piece-op1-en4kids/other.ogg",
+      "vocals": "/stems/one-piece-op1-en4kids/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op24",
+    "stems": {
+      "bass": "/stems/one-piece-op24/bass.ogg",
+      "drums": "/stems/one-piece-op24/drums.ogg",
+      "other": "/stems/one-piece-op24/other.ogg",
+      "vocals": "/stems/one-piece-op24/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op25",
+    "stems": {
+      "bass": "/stems/one-piece-op25/bass.ogg",
+      "drums": "/stems/one-piece-op25/drums.ogg",
+      "other": "/stems/one-piece-op25/other.ogg",
+      "vocals": "/stems/one-piece-op25/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-piece-op26",
+    "stems": {
+      "bass": "/stems/one-piece-op26/bass.ogg",
+      "drums": "/stems/one-piece-op26/drums.ogg",
+      "other": "/stems/one-piece-op26/other.ogg",
+      "vocals": "/stems/one-piece-op26/vocals.ogg"
+    }
+  },
+  {
+    "id": "dragon-ball-z-op1",
+    "stems": {
+      "bass": "/stems/dragon-ball-z-op1/bass.ogg",
+      "drums": "/stems/dragon-ball-z-op1/drums.ogg",
+      "other": "/stems/dragon-ball-z-op1/other.ogg",
+      "vocals": "/stems/dragon-ball-z-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "dragon-ball-z-op2",
+    "stems": {
+      "bass": "/stems/dragon-ball-z-op2/bass.ogg",
+      "drums": "/stems/dragon-ball-z-op2/drums.ogg",
+      "other": "/stems/dragon-ball-z-op2/other.ogg",
+      "vocals": "/stems/dragon-ball-z-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "fullmetal-alchemist-brotherhood-op1",
+    "stems": {
+      "bass": "/stems/fullmetal-alchemist-brotherhood-op1/bass.ogg",
+      "drums": "/stems/fullmetal-alchemist-brotherhood-op1/drums.ogg",
+      "other": "/stems/fullmetal-alchemist-brotherhood-op1/other.ogg",
+      "vocals": "/stems/fullmetal-alchemist-brotherhood-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "fullmetal-alchemist-brotherhood-op2",
+    "stems": {
+      "bass": "/stems/fullmetal-alchemist-brotherhood-op2/bass.ogg",
+      "drums": "/stems/fullmetal-alchemist-brotherhood-op2/drums.ogg",
+      "other": "/stems/fullmetal-alchemist-brotherhood-op2/other.ogg",
+      "vocals": "/stems/fullmetal-alchemist-brotherhood-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "fullmetal-alchemist-brotherhood-op3",
+    "stems": {
+      "bass": "/stems/fullmetal-alchemist-brotherhood-op3/bass.ogg",
+      "drums": "/stems/fullmetal-alchemist-brotherhood-op3/drums.ogg",
+      "other": "/stems/fullmetal-alchemist-brotherhood-op3/other.ogg",
+      "vocals": "/stems/fullmetal-alchemist-brotherhood-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "fullmetal-alchemist-brotherhood-op4",
+    "stems": {
+      "bass": "/stems/fullmetal-alchemist-brotherhood-op4/bass.ogg",
+      "drums": "/stems/fullmetal-alchemist-brotherhood-op4/drums.ogg",
+      "other": "/stems/fullmetal-alchemist-brotherhood-op4/other.ogg",
+      "vocals": "/stems/fullmetal-alchemist-brotherhood-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "fullmetal-alchemist-brotherhood-op5",
+    "stems": {
+      "bass": "/stems/fullmetal-alchemist-brotherhood-op5/bass.ogg",
+      "drums": "/stems/fullmetal-alchemist-brotherhood-op5/drums.ogg",
+      "other": "/stems/fullmetal-alchemist-brotherhood-op5/other.ogg",
+      "vocals": "/stems/fullmetal-alchemist-brotherhood-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "death-note-op1",
+    "stems": {
+      "bass": "/stems/death-note-op1/bass.ogg",
+      "drums": "/stems/death-note-op1/drums.ogg",
+      "other": "/stems/death-note-op1/other.ogg",
+      "vocals": "/stems/death-note-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "death-note-op2",
+    "stems": {
+      "bass": "/stems/death-note-op2/bass.ogg",
+      "drums": "/stems/death-note-op2/drums.ogg",
+      "other": "/stems/death-note-op2/other.ogg",
+      "vocals": "/stems/death-note-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "shingeki-no-kyojin-op1",
+    "stems": {
+      "bass": "/stems/shingeki-no-kyojin-op1/bass.ogg",
+      "drums": "/stems/shingeki-no-kyojin-op1/drums.ogg",
+      "other": "/stems/shingeki-no-kyojin-op1/other.ogg",
+      "vocals": "/stems/shingeki-no-kyojin-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "shingeki-no-kyojin-op2",
+    "stems": {
+      "bass": "/stems/shingeki-no-kyojin-op2/bass.ogg",
+      "drums": "/stems/shingeki-no-kyojin-op2/drums.ogg",
+      "other": "/stems/shingeki-no-kyojin-op2/other.ogg",
+      "vocals": "/stems/shingeki-no-kyojin-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "hunter-x-hunter-op1",
+    "stems": {
+      "bass": "/stems/hunter-x-hunter-op1/bass.ogg",
+      "drums": "/stems/hunter-x-hunter-op1/drums.ogg",
+      "other": "/stems/hunter-x-hunter-op1/other.ogg",
+      "vocals": "/stems/hunter-x-hunter-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "hunter-x-hunter-op2",
+    "stems": {
+      "bass": "/stems/hunter-x-hunter-op2/bass.ogg",
+      "drums": "/stems/hunter-x-hunter-op2/drums.ogg",
+      "other": "/stems/hunter-x-hunter-op2/other.ogg",
+      "vocals": "/stems/hunter-x-hunter-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "boku-no-hero-academia-2nd-season-op1",
+    "stems": {
+      "bass": "/stems/boku-no-hero-academia-2nd-season-op1/bass.ogg",
+      "drums": "/stems/boku-no-hero-academia-2nd-season-op1/drums.ogg",
+      "other": "/stems/boku-no-hero-academia-2nd-season-op1/other.ogg",
+      "vocals": "/stems/boku-no-hero-academia-2nd-season-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "boku-no-hero-academia-2nd-season-op2",
+    "stems": {
+      "bass": "/stems/boku-no-hero-academia-2nd-season-op2/bass.ogg",
+      "drums": "/stems/boku-no-hero-academia-2nd-season-op2/drums.ogg",
+      "other": "/stems/boku-no-hero-academia-2nd-season-op2/other.ogg",
+      "vocals": "/stems/boku-no-hero-academia-2nd-season-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "kimetsu-no-yaiba-op1",
+    "stems": {
+      "bass": "/stems/kimetsu-no-yaiba-op1/bass.ogg",
+      "drums": "/stems/kimetsu-no-yaiba-op1/drums.ogg",
+      "other": "/stems/kimetsu-no-yaiba-op1/other.ogg",
+      "vocals": "/stems/kimetsu-no-yaiba-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "jujutsu-kaisen-op2",
+    "stems": {
+      "bass": "/stems/jujutsu-kaisen-op2/bass.ogg",
+      "drums": "/stems/jujutsu-kaisen-op2/drums.ogg",
+      "other": "/stems/jujutsu-kaisen-op2/other.ogg",
+      "vocals": "/stems/jujutsu-kaisen-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "sword-art-online-op1",
+    "stems": {
+      "bass": "/stems/sword-art-online-op1/bass.ogg",
+      "drums": "/stems/sword-art-online-op1/drums.ogg",
+      "other": "/stems/sword-art-online-op1/other.ogg",
+      "vocals": "/stems/sword-art-online-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "tokyo-ghoul-op1",
+    "stems": {
+      "bass": "/stems/tokyo-ghoul-op1/bass.ogg",
+      "drums": "/stems/tokyo-ghoul-op1/drums.ogg",
+      "other": "/stems/tokyo-ghoul-op1/other.ogg",
+      "vocals": "/stems/tokyo-ghoul-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "code-geass-hangyaku-no-lelouch-i-koudou-op1",
+    "stems": {
+      "bass": "/stems/code-geass-hangyaku-no-lelouch-i-koudou-op1/bass.ogg",
+      "drums": "/stems/code-geass-hangyaku-no-lelouch-i-koudou-op1/drums.ogg",
+      "other": "/stems/code-geass-hangyaku-no-lelouch-i-koudou-op1/other.ogg",
+      "vocals": "/stems/code-geass-hangyaku-no-lelouch-i-koudou-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "neon-genesis-evangelion-op1",
+    "stems": {
+      "bass": "/stems/neon-genesis-evangelion-op1/bass.ogg",
+      "drums": "/stems/neon-genesis-evangelion-op1/drums.ogg",
+      "other": "/stems/neon-genesis-evangelion-op1/other.ogg",
+      "vocals": "/stems/neon-genesis-evangelion-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "cowboy-bebop-op1",
+    "stems": {
+      "bass": "/stems/cowboy-bebop-op1/bass.ogg",
+      "drums": "/stems/cowboy-bebop-op1/drums.ogg",
+      "other": "/stems/cowboy-bebop-op1/other.ogg",
+      "vocals": "/stems/cowboy-bebop-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "one-punch-man-op1",
+    "stems": {
+      "bass": "/stems/one-punch-man-op1/bass.ogg",
+      "drums": "/stems/one-punch-man-op1/drums.ogg",
+      "other": "/stems/one-punch-man-op1/other.ogg",
+      "vocals": "/stems/one-punch-man-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "mob-psycho-100-op1",
+    "stems": {
+      "bass": "/stems/mob-psycho-100-op1/bass.ogg",
+      "drums": "/stems/mob-psycho-100-op1/drums.ogg",
+      "other": "/stems/mob-psycho-100-op1/other.ogg",
+      "vocals": "/stems/mob-psycho-100-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "steins-gate-op1",
+    "stems": {
+      "bass": "/stems/steins-gate-op1/bass.ogg",
+      "drums": "/stems/steins-gate-op1/drums.ogg",
+      "other": "/stems/steins-gate-op1/other.ogg",
+      "vocals": "/stems/steins-gate-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "re-zero-kara-hajimeru-isekai-seikatsu-op1",
+    "stems": {
+      "bass": "/stems/re-zero-kara-hajimeru-isekai-seikatsu-op1/bass.ogg",
+      "drums": "/stems/re-zero-kara-hajimeru-isekai-seikatsu-op1/drums.ogg",
+      "other": "/stems/re-zero-kara-hajimeru-isekai-seikatsu-op1/other.ogg",
+      "vocals": "/stems/re-zero-kara-hajimeru-isekai-seikatsu-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "re-zero-kara-hajimeru-isekai-seikatsu-op2",
+    "stems": {
+      "bass": "/stems/re-zero-kara-hajimeru-isekai-seikatsu-op2/bass.ogg",
+      "drums": "/stems/re-zero-kara-hajimeru-isekai-seikatsu-op2/drums.ogg",
+      "other": "/stems/re-zero-kara-hajimeru-isekai-seikatsu-op2/other.ogg",
+      "vocals": "/stems/re-zero-kara-hajimeru-isekai-seikatsu-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "yakusoku-no-neverland-2nd-season-op1",
+    "stems": {
+      "bass": "/stems/yakusoku-no-neverland-2nd-season-op1/bass.ogg",
+      "drums": "/stems/yakusoku-no-neverland-2nd-season-op1/drums.ogg",
+      "other": "/stems/yakusoku-no-neverland-2nd-season-op1/other.ogg",
+      "vocals": "/stems/yakusoku-no-neverland-2nd-season-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "dr-stone-op1",
+    "stems": {
+      "bass": "/stems/dr-stone-op1/bass.ogg",
+      "drums": "/stems/dr-stone-op1/drums.ogg",
+      "other": "/stems/dr-stone-op1/other.ogg",
+      "vocals": "/stems/dr-stone-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "dr-stone-op2",
+    "stems": {
+      "bass": "/stems/dr-stone-op2/bass.ogg",
+      "drums": "/stems/dr-stone-op2/drums.ogg",
+      "other": "/stems/dr-stone-op2/other.ogg",
+      "vocals": "/stems/dr-stone-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op1",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op1/bass.ogg",
+      "drums": "/stems/black-clover-tv-op1/drums.ogg",
+      "other": "/stems/black-clover-tv-op1/other.ogg",
+      "vocals": "/stems/black-clover-tv-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op2",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op2/bass.ogg",
+      "drums": "/stems/black-clover-tv-op2/drums.ogg",
+      "other": "/stems/black-clover-tv-op2/other.ogg",
+      "vocals": "/stems/black-clover-tv-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op3",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op3/bass.ogg",
+      "drums": "/stems/black-clover-tv-op3/drums.ogg",
+      "other": "/stems/black-clover-tv-op3/other.ogg",
+      "vocals": "/stems/black-clover-tv-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op4",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op4/bass.ogg",
+      "drums": "/stems/black-clover-tv-op4/drums.ogg",
+      "other": "/stems/black-clover-tv-op4/other.ogg",
+      "vocals": "/stems/black-clover-tv-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op5",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op5/bass.ogg",
+      "drums": "/stems/black-clover-tv-op5/drums.ogg",
+      "other": "/stems/black-clover-tv-op5/other.ogg",
+      "vocals": "/stems/black-clover-tv-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op6",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op6/bass.ogg",
+      "drums": "/stems/black-clover-tv-op6/drums.ogg",
+      "other": "/stems/black-clover-tv-op6/other.ogg",
+      "vocals": "/stems/black-clover-tv-op6/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op7",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op7/bass.ogg",
+      "drums": "/stems/black-clover-tv-op7/drums.ogg",
+      "other": "/stems/black-clover-tv-op7/other.ogg",
+      "vocals": "/stems/black-clover-tv-op7/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op8",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op8/bass.ogg",
+      "drums": "/stems/black-clover-tv-op8/drums.ogg",
+      "other": "/stems/black-clover-tv-op8/other.ogg",
+      "vocals": "/stems/black-clover-tv-op8/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op9",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op9/bass.ogg",
+      "drums": "/stems/black-clover-tv-op9/drums.ogg",
+      "other": "/stems/black-clover-tv-op9/other.ogg",
+      "vocals": "/stems/black-clover-tv-op9/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op10",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op10/bass.ogg",
+      "drums": "/stems/black-clover-tv-op10/drums.ogg",
+      "other": "/stems/black-clover-tv-op10/other.ogg",
+      "vocals": "/stems/black-clover-tv-op10/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op11",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op11/bass.ogg",
+      "drums": "/stems/black-clover-tv-op11/drums.ogg",
+      "other": "/stems/black-clover-tv-op11/other.ogg",
+      "vocals": "/stems/black-clover-tv-op11/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op12",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op12/bass.ogg",
+      "drums": "/stems/black-clover-tv-op12/drums.ogg",
+      "other": "/stems/black-clover-tv-op12/other.ogg",
+      "vocals": "/stems/black-clover-tv-op12/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-clover-tv-op13",
+    "stems": {
+      "bass": "/stems/black-clover-tv-op13/bass.ogg",
+      "drums": "/stems/black-clover-tv-op13/drums.ogg",
+      "other": "/stems/black-clover-tv-op13/other.ogg",
+      "vocals": "/stems/black-clover-tv-op13/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op1",
+    "stems": {
+      "bass": "/stems/fairy-tail-op1/bass.ogg",
+      "drums": "/stems/fairy-tail-op1/drums.ogg",
+      "other": "/stems/fairy-tail-op1/other.ogg",
+      "vocals": "/stems/fairy-tail-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op2",
+    "stems": {
+      "bass": "/stems/fairy-tail-op2/bass.ogg",
+      "drums": "/stems/fairy-tail-op2/drums.ogg",
+      "other": "/stems/fairy-tail-op2/other.ogg",
+      "vocals": "/stems/fairy-tail-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op3",
+    "stems": {
+      "bass": "/stems/fairy-tail-op3/bass.ogg",
+      "drums": "/stems/fairy-tail-op3/drums.ogg",
+      "other": "/stems/fairy-tail-op3/other.ogg",
+      "vocals": "/stems/fairy-tail-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op4",
+    "stems": {
+      "bass": "/stems/fairy-tail-op4/bass.ogg",
+      "drums": "/stems/fairy-tail-op4/drums.ogg",
+      "other": "/stems/fairy-tail-op4/other.ogg",
+      "vocals": "/stems/fairy-tail-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op5",
+    "stems": {
+      "bass": "/stems/fairy-tail-op5/bass.ogg",
+      "drums": "/stems/fairy-tail-op5/drums.ogg",
+      "other": "/stems/fairy-tail-op5/other.ogg",
+      "vocals": "/stems/fairy-tail-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op6",
+    "stems": {
+      "bass": "/stems/fairy-tail-op6/bass.ogg",
+      "drums": "/stems/fairy-tail-op6/drums.ogg",
+      "other": "/stems/fairy-tail-op6/other.ogg",
+      "vocals": "/stems/fairy-tail-op6/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op7",
+    "stems": {
+      "bass": "/stems/fairy-tail-op7/bass.ogg",
+      "drums": "/stems/fairy-tail-op7/drums.ogg",
+      "other": "/stems/fairy-tail-op7/other.ogg",
+      "vocals": "/stems/fairy-tail-op7/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op8",
+    "stems": {
+      "bass": "/stems/fairy-tail-op8/bass.ogg",
+      "drums": "/stems/fairy-tail-op8/drums.ogg",
+      "other": "/stems/fairy-tail-op8/other.ogg",
+      "vocals": "/stems/fairy-tail-op8/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op9",
+    "stems": {
+      "bass": "/stems/fairy-tail-op9/bass.ogg",
+      "drums": "/stems/fairy-tail-op9/drums.ogg",
+      "other": "/stems/fairy-tail-op9/other.ogg",
+      "vocals": "/stems/fairy-tail-op9/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op10",
+    "stems": {
+      "bass": "/stems/fairy-tail-op10/bass.ogg",
+      "drums": "/stems/fairy-tail-op10/drums.ogg",
+      "other": "/stems/fairy-tail-op10/other.ogg",
+      "vocals": "/stems/fairy-tail-op10/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op11",
+    "stems": {
+      "bass": "/stems/fairy-tail-op11/bass.ogg",
+      "drums": "/stems/fairy-tail-op11/drums.ogg",
+      "other": "/stems/fairy-tail-op11/other.ogg",
+      "vocals": "/stems/fairy-tail-op11/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op12",
+    "stems": {
+      "bass": "/stems/fairy-tail-op12/bass.ogg",
+      "drums": "/stems/fairy-tail-op12/drums.ogg",
+      "other": "/stems/fairy-tail-op12/other.ogg",
+      "vocals": "/stems/fairy-tail-op12/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op13",
+    "stems": {
+      "bass": "/stems/fairy-tail-op13/bass.ogg",
+      "drums": "/stems/fairy-tail-op13/drums.ogg",
+      "other": "/stems/fairy-tail-op13/other.ogg",
+      "vocals": "/stems/fairy-tail-op13/vocals.ogg"
+    }
+  },
+  {
+    "id": "fairy-tail-op14",
+    "stems": {
+      "bass": "/stems/fairy-tail-op14/bass.ogg",
+      "drums": "/stems/fairy-tail-op14/drums.ogg",
+      "other": "/stems/fairy-tail-op14/other.ogg",
+      "vocals": "/stems/fairy-tail-op14/vocals.ogg"
+    }
+  },
+  {
+    "id": "nanatsu-no-taizai-op1",
+    "stems": {
+      "bass": "/stems/nanatsu-no-taizai-op1/bass.ogg",
+      "drums": "/stems/nanatsu-no-taizai-op1/drums.ogg",
+      "other": "/stems/nanatsu-no-taizai-op1/other.ogg",
+      "vocals": "/stems/nanatsu-no-taizai-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "enen-no-shouboutai-op1",
+    "stems": {
+      "bass": "/stems/enen-no-shouboutai-op1/bass.ogg",
+      "drums": "/stems/enen-no-shouboutai-op1/drums.ogg",
+      "other": "/stems/enen-no-shouboutai-op1/other.ogg",
+      "vocals": "/stems/enen-no-shouboutai-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "enen-no-shouboutai-op2",
+    "stems": {
+      "bass": "/stems/enen-no-shouboutai-op2/bass.ogg",
+      "drums": "/stems/enen-no-shouboutai-op2/drums.ogg",
+      "other": "/stems/enen-no-shouboutai-op2/other.ogg",
+      "vocals": "/stems/enen-no-shouboutai-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "haikyuu-op1",
+    "stems": {
+      "bass": "/stems/haikyuu-op1/bass.ogg",
+      "drums": "/stems/haikyuu-op1/drums.ogg",
+      "other": "/stems/haikyuu-op1/other.ogg",
+      "vocals": "/stems/haikyuu-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "haikyuu-op2",
+    "stems": {
+      "bass": "/stems/haikyuu-op2/bass.ogg",
+      "drums": "/stems/haikyuu-op2/drums.ogg",
+      "other": "/stems/haikyuu-op2/other.ogg",
+      "vocals": "/stems/haikyuu-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "kuroko-no-basket-op1",
+    "stems": {
+      "bass": "/stems/kuroko-no-basket-op1/bass.ogg",
+      "drums": "/stems/kuroko-no-basket-op1/drums.ogg",
+      "other": "/stems/kuroko-no-basket-op1/other.ogg",
+      "vocals": "/stems/kuroko-no-basket-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "kuroko-no-basket-op2",
+    "stems": {
+      "bass": "/stems/kuroko-no-basket-op2/bass.ogg",
+      "drums": "/stems/kuroko-no-basket-op2/drums.ogg",
+      "other": "/stems/kuroko-no-basket-op2/other.ogg",
+      "vocals": "/stems/kuroko-no-basket-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "yuri-on-ice-op1",
+    "stems": {
+      "bass": "/stems/yuri-on-ice-op1/bass.ogg",
+      "drums": "/stems/yuri-on-ice-op1/drums.ogg",
+      "other": "/stems/yuri-on-ice-op1/other.ogg",
+      "vocals": "/stems/yuri-on-ice-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "shigatsu-wa-kimi-no-uso-op1",
+    "stems": {
+      "bass": "/stems/shigatsu-wa-kimi-no-uso-op1/bass.ogg",
+      "drums": "/stems/shigatsu-wa-kimi-no-uso-op1/drums.ogg",
+      "other": "/stems/shigatsu-wa-kimi-no-uso-op1/other.ogg",
+      "vocals": "/stems/shigatsu-wa-kimi-no-uso-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "shigatsu-wa-kimi-no-uso-op2",
+    "stems": {
+      "bass": "/stems/shigatsu-wa-kimi-no-uso-op2/bass.ogg",
+      "drums": "/stems/shigatsu-wa-kimi-no-uso-op2/drums.ogg",
+      "other": "/stems/shigatsu-wa-kimi-no-uso-op2/other.ogg",
+      "vocals": "/stems/shigatsu-wa-kimi-no-uso-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "violet-evergarden-op1",
+    "stems": {
+      "bass": "/stems/violet-evergarden-op1/bass.ogg",
+      "drums": "/stems/violet-evergarden-op1/drums.ogg",
+      "other": "/stems/violet-evergarden-op1/other.ogg",
+      "vocals": "/stems/violet-evergarden-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "koe-no-katachi-op1",
+    "stems": {
+      "bass": "/stems/koe-no-katachi-op1/bass.ogg",
+      "drums": "/stems/koe-no-katachi-op1/drums.ogg",
+      "other": "/stems/koe-no-katachi-op1/other.ogg",
+      "vocals": "/stems/koe-no-katachi-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "spy-x-family-op1",
+    "stems": {
+      "bass": "/stems/spy-x-family-op1/bass.ogg",
+      "drums": "/stems/spy-x-family-op1/drums.ogg",
+      "other": "/stems/spy-x-family-op1/other.ogg",
+      "vocals": "/stems/spy-x-family-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "chainsaw-man-op1",
+    "stems": {
+      "bass": "/stems/chainsaw-man-op1/bass.ogg",
+      "drums": "/stems/chainsaw-man-op1/drums.ogg",
+      "other": "/stems/chainsaw-man-op1/other.ogg",
+      "vocals": "/stems/chainsaw-man-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "vinland-saga-op1",
+    "stems": {
+      "bass": "/stems/vinland-saga-op1/bass.ogg",
+      "drums": "/stems/vinland-saga-op1/drums.ogg",
+      "other": "/stems/vinland-saga-op1/other.ogg",
+      "vocals": "/stems/vinland-saga-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "vinland-saga-op2",
+    "stems": {
+      "bass": "/stems/vinland-saga-op2/bass.ogg",
+      "drums": "/stems/vinland-saga-op2/drums.ogg",
+      "other": "/stems/vinland-saga-op2/other.ogg",
+      "vocals": "/stems/vinland-saga-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "dororo-op1",
+    "stems": {
+      "bass": "/stems/dororo-op1/bass.ogg",
+      "drums": "/stems/dororo-op1/drums.ogg",
+      "other": "/stems/dororo-op1/other.ogg",
+      "vocals": "/stems/dororo-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "dororo-op2",
+    "stems": {
+      "bass": "/stems/dororo-op2/bass.ogg",
+      "drums": "/stems/dororo-op2/drums.ogg",
+      "other": "/stems/dororo-op2/other.ogg",
+      "vocals": "/stems/dororo-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "made-in-abyss-op1",
+    "stems": {
+      "bass": "/stems/made-in-abyss-op1/bass.ogg",
+      "drums": "/stems/made-in-abyss-op1/drums.ogg",
+      "other": "/stems/made-in-abyss-op1/other.ogg",
+      "vocals": "/stems/made-in-abyss-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "made-in-abyss-op2",
+    "stems": {
+      "bass": "/stems/made-in-abyss-op2/bass.ogg",
+      "drums": "/stems/made-in-abyss-op2/drums.ogg",
+      "other": "/stems/made-in-abyss-op2/other.ogg",
+      "vocals": "/stems/made-in-abyss-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "tate-no-yuusha-no-nariagari-op1",
+    "stems": {
+      "bass": "/stems/tate-no-yuusha-no-nariagari-op1/bass.ogg",
+      "drums": "/stems/tate-no-yuusha-no-nariagari-op1/drums.ogg",
+      "other": "/stems/tate-no-yuusha-no-nariagari-op1/other.ogg",
+      "vocals": "/stems/tate-no-yuusha-no-nariagari-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "tate-no-yuusha-no-nariagari-op2",
+    "stems": {
+      "bass": "/stems/tate-no-yuusha-no-nariagari-op2/bass.ogg",
+      "drums": "/stems/tate-no-yuusha-no-nariagari-op2/drums.ogg",
+      "other": "/stems/tate-no-yuusha-no-nariagari-op2/other.ogg",
+      "vocals": "/stems/tate-no-yuusha-no-nariagari-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "tensei-shitara-slime-datta-ken-op1",
+    "stems": {
+      "bass": "/stems/tensei-shitara-slime-datta-ken-op1/bass.ogg",
+      "drums": "/stems/tensei-shitara-slime-datta-ken-op1/drums.ogg",
+      "other": "/stems/tensei-shitara-slime-datta-ken-op1/other.ogg",
+      "vocals": "/stems/tensei-shitara-slime-datta-ken-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "tensei-shitara-slime-datta-ken-op2",
+    "stems": {
+      "bass": "/stems/tensei-shitara-slime-datta-ken-op2/bass.ogg",
+      "drums": "/stems/tensei-shitara-slime-datta-ken-op2/drums.ogg",
+      "other": "/stems/tensei-shitara-slime-datta-ken-op2/other.ogg",
+      "vocals": "/stems/tensei-shitara-slime-datta-ken-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "overlord-op1",
+    "stems": {
+      "bass": "/stems/overlord-op1/bass.ogg",
+      "drums": "/stems/overlord-op1/drums.ogg",
+      "other": "/stems/overlord-op1/other.ogg",
+      "vocals": "/stems/overlord-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "no-game-no-life-op1",
+    "stems": {
+      "bass": "/stems/no-game-no-life-op1/bass.ogg",
+      "drums": "/stems/no-game-no-life-op1/drums.ogg",
+      "other": "/stems/no-game-no-life-op1/other.ogg",
+      "vocals": "/stems/no-game-no-life-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "no-game-no-life-op2",
+    "stems": {
+      "bass": "/stems/no-game-no-life-op2/bass.ogg",
+      "drums": "/stems/no-game-no-life-op2/drums.ogg",
+      "other": "/stems/no-game-no-life-op2/other.ogg",
+      "vocals": "/stems/no-game-no-life-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "kono-subarashii-sekai-ni-shukufuku-wo-2-op1",
+    "stems": {
+      "bass": "/stems/kono-subarashii-sekai-ni-shukufuku-wo-2-op1/bass.ogg",
+      "drums": "/stems/kono-subarashii-sekai-ni-shukufuku-wo-2-op1/drums.ogg",
+      "other": "/stems/kono-subarashii-sekai-ni-shukufuku-wo-2-op1/other.ogg",
+      "vocals": "/stems/kono-subarashii-sekai-ni-shukufuku-wo-2-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "mushoku-tensei-isekai-ittara-honki-dasu-part-2-op2",
+    "stems": {
+      "bass": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op2/bass.ogg",
+      "drums": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op2/drums.ogg",
+      "other": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op2/other.ogg",
+      "vocals": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "mushoku-tensei-isekai-ittara-honki-dasu-part-2-op3",
+    "stems": {
+      "bass": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op3/bass.ogg",
+      "drums": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op3/drums.ogg",
+      "other": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op3/other.ogg",
+      "vocals": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "mushoku-tensei-isekai-ittara-honki-dasu-part-2-op4",
+    "stems": {
+      "bass": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op4/bass.ogg",
+      "drums": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op4/drums.ogg",
+      "other": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op4/other.ogg",
+      "vocals": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "mushoku-tensei-isekai-ittara-honki-dasu-part-2-op5",
+    "stems": {
+      "bass": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op5/bass.ogg",
+      "drums": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op5/drums.ogg",
+      "other": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op5/other.ogg",
+      "vocals": "/stems/mushoku-tensei-isekai-ittara-honki-dasu-part-2-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "dr-slump-arale-chan-op1",
+    "stems": {
+      "bass": "/stems/dr-slump-arale-chan-op1/bass.ogg",
+      "drums": "/stems/dr-slump-arale-chan-op1/drums.ogg",
+      "other": "/stems/dr-slump-arale-chan-op1/other.ogg",
+      "vocals": "/stems/dr-slump-arale-chan-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "dr-slump-arale-chan-op2",
+    "stems": {
+      "bass": "/stems/dr-slump-arale-chan-op2/bass.ogg",
+      "drums": "/stems/dr-slump-arale-chan-op2/drums.ogg",
+      "other": "/stems/dr-slump-arale-chan-op2/other.ogg",
+      "vocals": "/stems/dr-slump-arale-chan-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op1",
+    "stems": {
+      "bass": "/stems/gintama-op1/bass.ogg",
+      "drums": "/stems/gintama-op1/drums.ogg",
+      "other": "/stems/gintama-op1/other.ogg",
+      "vocals": "/stems/gintama-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op2",
+    "stems": {
+      "bass": "/stems/gintama-op2/bass.ogg",
+      "drums": "/stems/gintama-op2/drums.ogg",
+      "other": "/stems/gintama-op2/other.ogg",
+      "vocals": "/stems/gintama-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op3",
+    "stems": {
+      "bass": "/stems/gintama-op3/bass.ogg",
+      "drums": "/stems/gintama-op3/drums.ogg",
+      "other": "/stems/gintama-op3/other.ogg",
+      "vocals": "/stems/gintama-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op4",
+    "stems": {
+      "bass": "/stems/gintama-op4/bass.ogg",
+      "drums": "/stems/gintama-op4/drums.ogg",
+      "other": "/stems/gintama-op4/other.ogg",
+      "vocals": "/stems/gintama-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op6",
+    "stems": {
+      "bass": "/stems/gintama-op6/bass.ogg",
+      "drums": "/stems/gintama-op6/drums.ogg",
+      "other": "/stems/gintama-op6/other.ogg",
+      "vocals": "/stems/gintama-op6/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op7",
+    "stems": {
+      "bass": "/stems/gintama-op7/bass.ogg",
+      "drums": "/stems/gintama-op7/drums.ogg",
+      "other": "/stems/gintama-op7/other.ogg",
+      "vocals": "/stems/gintama-op7/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op8",
+    "stems": {
+      "bass": "/stems/gintama-op8/bass.ogg",
+      "drums": "/stems/gintama-op8/drums.ogg",
+      "other": "/stems/gintama-op8/other.ogg",
+      "vocals": "/stems/gintama-op8/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op1-yorinukigintamasan",
+    "stems": {
+      "bass": "/stems/gintama-op1-yorinukigintamasan/bass.ogg",
+      "drums": "/stems/gintama-op1-yorinukigintamasan/drums.ogg",
+      "other": "/stems/gintama-op1-yorinukigintamasan/other.ogg",
+      "vocals": "/stems/gintama-op1-yorinukigintamasan/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op2-yorinukigintamasan",
+    "stems": {
+      "bass": "/stems/gintama-op2-yorinukigintamasan/bass.ogg",
+      "drums": "/stems/gintama-op2-yorinukigintamasan/drums.ogg",
+      "other": "/stems/gintama-op2-yorinukigintamasan/other.ogg",
+      "vocals": "/stems/gintama-op2-yorinukigintamasan/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op3-yorinukigintamasan",
+    "stems": {
+      "bass": "/stems/gintama-op3-yorinukigintamasan/bass.ogg",
+      "drums": "/stems/gintama-op3-yorinukigintamasan/drums.ogg",
+      "other": "/stems/gintama-op3-yorinukigintamasan/other.ogg",
+      "vocals": "/stems/gintama-op3-yorinukigintamasan/vocals.ogg"
+    }
+  },
+  {
+    "id": "gintama-op4-yorinukigintamasan",
+    "stems": {
+      "bass": "/stems/gintama-op4-yorinukigintamasan/bass.ogg",
+      "drums": "/stems/gintama-op4-yorinukigintamasan/drums.ogg",
+      "other": "/stems/gintama-op4-yorinukigintamasan/other.ogg",
+      "vocals": "/stems/gintama-op4-yorinukigintamasan/vocals.ogg"
+    }
+  },
+  {
+    "id": "jojo-no-kimyou-na-bouken-op1",
+    "stems": {
+      "bass": "/stems/jojo-no-kimyou-na-bouken-op1/bass.ogg",
+      "drums": "/stems/jojo-no-kimyou-na-bouken-op1/drums.ogg",
+      "other": "/stems/jojo-no-kimyou-na-bouken-op1/other.ogg",
+      "vocals": "/stems/jojo-no-kimyou-na-bouken-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "jojo-no-kimyou-na-bouken-op2",
+    "stems": {
+      "bass": "/stems/jojo-no-kimyou-na-bouken-op2/bass.ogg",
+      "drums": "/stems/jojo-no-kimyou-na-bouken-op2/drums.ogg",
+      "other": "/stems/jojo-no-kimyou-na-bouken-op2/other.ogg",
+      "vocals": "/stems/jojo-no-kimyou-na-bouken-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "mononoke-op1",
+    "stems": {
+      "bass": "/stems/mononoke-op1/bass.ogg",
+      "drums": "/stems/mononoke-op1/drums.ogg",
+      "other": "/stems/mononoke-op1/other.ogg",
+      "vocals": "/stems/mononoke-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "soul-eater-op1",
+    "stems": {
+      "bass": "/stems/soul-eater-op1/bass.ogg",
+      "drums": "/stems/soul-eater-op1/drums.ogg",
+      "other": "/stems/soul-eater-op1/other.ogg",
+      "vocals": "/stems/soul-eater-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "soul-eater-op2",
+    "stems": {
+      "bass": "/stems/soul-eater-op2/bass.ogg",
+      "drums": "/stems/soul-eater-op2/drums.ogg",
+      "other": "/stems/soul-eater-op2/other.ogg",
+      "vocals": "/stems/soul-eater-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "soul-eater-op1-repeatshow",
+    "stems": {
+      "bass": "/stems/soul-eater-op1-repeatshow/bass.ogg",
+      "drums": "/stems/soul-eater-op1-repeatshow/drums.ogg",
+      "other": "/stems/soul-eater-op1-repeatshow/other.ogg",
+      "vocals": "/stems/soul-eater-op1-repeatshow/vocals.ogg"
+    }
+  },
+  {
+    "id": "soul-eater-op2-repeatshow",
+    "stems": {
+      "bass": "/stems/soul-eater-op2-repeatshow/bass.ogg",
+      "drums": "/stems/soul-eater-op2-repeatshow/drums.ogg",
+      "other": "/stems/soul-eater-op2-repeatshow/other.ogg",
+      "vocals": "/stems/soul-eater-op2-repeatshow/vocals.ogg"
+    }
+  },
+  {
+    "id": "ao-no-exorcist-kyoto-fujouou-hen-op1",
+    "stems": {
+      "bass": "/stems/ao-no-exorcist-kyoto-fujouou-hen-op1/bass.ogg",
+      "drums": "/stems/ao-no-exorcist-kyoto-fujouou-hen-op1/drums.ogg",
+      "other": "/stems/ao-no-exorcist-kyoto-fujouou-hen-op1/other.ogg",
+      "vocals": "/stems/ao-no-exorcist-kyoto-fujouou-hen-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "d-gray-man-op1",
+    "stems": {
+      "bass": "/stems/d-gray-man-op1/bass.ogg",
+      "drums": "/stems/d-gray-man-op1/drums.ogg",
+      "other": "/stems/d-gray-man-op1/other.ogg",
+      "vocals": "/stems/d-gray-man-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "d-gray-man-op2",
+    "stems": {
+      "bass": "/stems/d-gray-man-op2/bass.ogg",
+      "drums": "/stems/d-gray-man-op2/drums.ogg",
+      "other": "/stems/d-gray-man-op2/other.ogg",
+      "vocals": "/stems/d-gray-man-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "d-gray-man-op3",
+    "stems": {
+      "bass": "/stems/d-gray-man-op3/bass.ogg",
+      "drums": "/stems/d-gray-man-op3/drums.ogg",
+      "other": "/stems/d-gray-man-op3/other.ogg",
+      "vocals": "/stems/d-gray-man-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "d-gray-man-op4",
+    "stems": {
+      "bass": "/stems/d-gray-man-op4/bass.ogg",
+      "drums": "/stems/d-gray-man-op4/drums.ogg",
+      "other": "/stems/d-gray-man-op4/other.ogg",
+      "vocals": "/stems/d-gray-man-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "magi-the-labyrinth-of-magic-op1",
+    "stems": {
+      "bass": "/stems/magi-the-labyrinth-of-magic-op1/bass.ogg",
+      "drums": "/stems/magi-the-labyrinth-of-magic-op1/drums.ogg",
+      "other": "/stems/magi-the-labyrinth-of-magic-op1/other.ogg",
+      "vocals": "/stems/magi-the-labyrinth-of-magic-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "magi-the-labyrinth-of-magic-op2",
+    "stems": {
+      "bass": "/stems/magi-the-labyrinth-of-magic-op2/bass.ogg",
+      "drums": "/stems/magi-the-labyrinth-of-magic-op2/drums.ogg",
+      "other": "/stems/magi-the-labyrinth-of-magic-op2/other.ogg",
+      "vocals": "/stems/magi-the-labyrinth-of-magic-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "akame-ga-kill-op1",
+    "stems": {
+      "bass": "/stems/akame-ga-kill-op1/bass.ogg",
+      "drums": "/stems/akame-ga-kill-op1/drums.ogg",
+      "other": "/stems/akame-ga-kill-op1/other.ogg",
+      "vocals": "/stems/akame-ga-kill-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "akame-ga-kill-op2",
+    "stems": {
+      "bass": "/stems/akame-ga-kill-op2/bass.ogg",
+      "drums": "/stems/akame-ga-kill-op2/drums.ogg",
+      "other": "/stems/akame-ga-kill-op2/other.ogg",
+      "vocals": "/stems/akame-ga-kill-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "kiseijuu-sei-no-kakuritsu-op1",
+    "stems": {
+      "bass": "/stems/kiseijuu-sei-no-kakuritsu-op1/bass.ogg",
+      "drums": "/stems/kiseijuu-sei-no-kakuritsu-op1/drums.ogg",
+      "other": "/stems/kiseijuu-sei-no-kakuritsu-op1/other.ogg",
+      "vocals": "/stems/kiseijuu-sei-no-kakuritsu-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "boku-dake-ga-inai-machi-op1",
+    "stems": {
+      "bass": "/stems/boku-dake-ga-inai-machi-op1/bass.ogg",
+      "drums": "/stems/boku-dake-ga-inai-machi-op1/drums.ogg",
+      "other": "/stems/boku-dake-ga-inai-machi-op1/other.ogg",
+      "vocals": "/stems/boku-dake-ga-inai-machi-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-op1",
+    "stems": {
+      "bass": "/stems/ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-op1/bass.ogg",
+      "drums": "/stems/ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-op1/drums.ogg",
+      "other": "/stems/ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-op1/other.ogg",
+      "vocals": "/stems/ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "clannad-op1",
+    "stems": {
+      "bass": "/stems/clannad-op1/bass.ogg",
+      "drums": "/stems/clannad-op1/drums.ogg",
+      "other": "/stems/clannad-op1/other.ogg",
+      "vocals": "/stems/clannad-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "toradora-op1",
+    "stems": {
+      "bass": "/stems/toradora-op1/bass.ogg",
+      "drums": "/stems/toradora-op1/drums.ogg",
+      "other": "/stems/toradora-op1/other.ogg",
+      "vocals": "/stems/toradora-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "toradora-op2",
+    "stems": {
+      "bass": "/stems/toradora-op2/bass.ogg",
+      "drums": "/stems/toradora-op2/drums.ogg",
+      "other": "/stems/toradora-op2/other.ogg",
+      "vocals": "/stems/toradora-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "suzumiya-haruhi-no-yuuutsu-op1",
+    "stems": {
+      "bass": "/stems/suzumiya-haruhi-no-yuuutsu-op1/bass.ogg",
+      "drums": "/stems/suzumiya-haruhi-no-yuuutsu-op1/drums.ogg",
+      "other": "/stems/suzumiya-haruhi-no-yuuutsu-op1/other.ogg",
+      "vocals": "/stems/suzumiya-haruhi-no-yuuutsu-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "lucky-star-op1",
+    "stems": {
+      "bass": "/stems/lucky-star-op1/bass.ogg",
+      "drums": "/stems/lucky-star-op1/drums.ogg",
+      "other": "/stems/lucky-star-op1/other.ogg",
+      "vocals": "/stems/lucky-star-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "k-on-op1",
+    "stems": {
+      "bass": "/stems/k-on-op1/bass.ogg",
+      "drums": "/stems/k-on-op1/drums.ogg",
+      "other": "/stems/k-on-op1/other.ogg",
+      "vocals": "/stems/k-on-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "k-on-op2",
+    "stems": {
+      "bass": "/stems/k-on-op2/bass.ogg",
+      "drums": "/stems/k-on-op2/drums.ogg",
+      "other": "/stems/k-on-op2/other.ogg",
+      "vocals": "/stems/k-on-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "angel-beats-op1",
+    "stems": {
+      "bass": "/stems/angel-beats-op1/bass.ogg",
+      "drums": "/stems/angel-beats-op1/drums.ogg",
+      "other": "/stems/angel-beats-op1/other.ogg",
+      "vocals": "/stems/angel-beats-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "angel-beats-op2",
+    "stems": {
+      "bass": "/stems/angel-beats-op2/bass.ogg",
+      "drums": "/stems/angel-beats-op2/drums.ogg",
+      "other": "/stems/angel-beats-op2/other.ogg",
+      "vocals": "/stems/angel-beats-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "charlotte-op1",
+    "stems": {
+      "bass": "/stems/charlotte-op1/bass.ogg",
+      "drums": "/stems/charlotte-op1/drums.ogg",
+      "other": "/stems/charlotte-op1/other.ogg",
+      "vocals": "/stems/charlotte-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "plastic-memories-op1",
+    "stems": {
+      "bass": "/stems/plastic-memories-op1/bass.ogg",
+      "drums": "/stems/plastic-memories-op1/drums.ogg",
+      "other": "/stems/plastic-memories-op1/other.ogg",
+      "vocals": "/stems/plastic-memories-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "darling-in-the-franxx-op1",
+    "stems": {
+      "bass": "/stems/darling-in-the-franxx-op1/bass.ogg",
+      "drums": "/stems/darling-in-the-franxx-op1/drums.ogg",
+      "other": "/stems/darling-in-the-franxx-op1/other.ogg",
+      "vocals": "/stems/darling-in-the-franxx-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "darling-in-the-franxx-op2",
+    "stems": {
+      "bass": "/stems/darling-in-the-franxx-op2/bass.ogg",
+      "drums": "/stems/darling-in-the-franxx-op2/drums.ogg",
+      "other": "/stems/darling-in-the-franxx-op2/other.ogg",
+      "vocals": "/stems/darling-in-the-franxx-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "guilty-crown-op1",
+    "stems": {
+      "bass": "/stems/guilty-crown-op1/bass.ogg",
+      "drums": "/stems/guilty-crown-op1/drums.ogg",
+      "other": "/stems/guilty-crown-op1/other.ogg",
+      "vocals": "/stems/guilty-crown-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "guilty-crown-op2",
+    "stems": {
+      "bass": "/stems/guilty-crown-op2/bass.ogg",
+      "drums": "/stems/guilty-crown-op2/drums.ogg",
+      "other": "/stems/guilty-crown-op2/other.ogg",
+      "vocals": "/stems/guilty-crown-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "guilty-crown-op3",
+    "stems": {
+      "bass": "/stems/guilty-crown-op3/bass.ogg",
+      "drums": "/stems/guilty-crown-op3/drums.ogg",
+      "other": "/stems/guilty-crown-op3/other.ogg",
+      "vocals": "/stems/guilty-crown-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "tengen-toppa-gurren-lagann-op1",
+    "stems": {
+      "bass": "/stems/tengen-toppa-gurren-lagann-op1/bass.ogg",
+      "drums": "/stems/tengen-toppa-gurren-lagann-op1/drums.ogg",
+      "other": "/stems/tengen-toppa-gurren-lagann-op1/other.ogg",
+      "vocals": "/stems/tengen-toppa-gurren-lagann-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "little-witch-academia-tv-op1",
+    "stems": {
+      "bass": "/stems/little-witch-academia-tv-op1/bass.ogg",
+      "drums": "/stems/little-witch-academia-tv-op1/drums.ogg",
+      "other": "/stems/little-witch-academia-tv-op1/other.ogg",
+      "vocals": "/stems/little-witch-academia-tv-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "little-witch-academia-tv-op2",
+    "stems": {
+      "bass": "/stems/little-witch-academia-tv-op2/bass.ogg",
+      "drums": "/stems/little-witch-academia-tv-op2/drums.ogg",
+      "other": "/stems/little-witch-academia-tv-op2/other.ogg",
+      "vocals": "/stems/little-witch-academia-tv-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "ansatsu-kyoushitsu-tv-op1",
+    "stems": {
+      "bass": "/stems/ansatsu-kyoushitsu-tv-op1/bass.ogg",
+      "drums": "/stems/ansatsu-kyoushitsu-tv-op1/drums.ogg",
+      "other": "/stems/ansatsu-kyoushitsu-tv-op1/other.ogg",
+      "vocals": "/stems/ansatsu-kyoushitsu-tv-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "ansatsu-kyoushitsu-tv-op2",
+    "stems": {
+      "bass": "/stems/ansatsu-kyoushitsu-tv-op2/bass.ogg",
+      "drums": "/stems/ansatsu-kyoushitsu-tv-op2/drums.ogg",
+      "other": "/stems/ansatsu-kyoushitsu-tv-op2/other.ogg",
+      "vocals": "/stems/ansatsu-kyoushitsu-tv-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "black-lagoon-op1",
+    "stems": {
+      "bass": "/stems/black-lagoon-op1/bass.ogg",
+      "drums": "/stems/black-lagoon-op1/drums.ogg",
+      "other": "/stems/black-lagoon-op1/other.ogg",
+      "vocals": "/stems/black-lagoon-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "hellsing-op1",
+    "stems": {
+      "bass": "/stems/hellsing-op1/bass.ogg",
+      "drums": "/stems/hellsing-op1/drums.ogg",
+      "other": "/stems/hellsing-op1/other.ogg",
+      "vocals": "/stems/hellsing-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "berserk-op1",
+    "stems": {
+      "bass": "/stems/berserk-op1/bass.ogg",
+      "drums": "/stems/berserk-op1/drums.ogg",
+      "other": "/stems/berserk-op1/other.ogg",
+      "vocals": "/stems/berserk-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "trigun-op1",
+    "stems": {
+      "bass": "/stems/trigun-op1/bass.ogg",
+      "drums": "/stems/trigun-op1/drums.ogg",
+      "other": "/stems/trigun-op1/other.ogg",
+      "vocals": "/stems/trigun-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "yuu-yuu-hakusho-op1",
+    "stems": {
+      "bass": "/stems/yuu-yuu-hakusho-op1/bass.ogg",
+      "drums": "/stems/yuu-yuu-hakusho-op1/drums.ogg",
+      "other": "/stems/yuu-yuu-hakusho-op1/other.ogg",
+      "vocals": "/stems/yuu-yuu-hakusho-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "yuu-yuu-hakusho-op1-en",
+    "stems": {
+      "bass": "/stems/yuu-yuu-hakusho-op1-en/bass.ogg",
+      "drums": "/stems/yuu-yuu-hakusho-op1-en/drums.ogg",
+      "other": "/stems/yuu-yuu-hakusho-op1-en/other.ogg",
+      "vocals": "/stems/yuu-yuu-hakusho-op1-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "inuyasha-op1",
+    "stems": {
+      "bass": "/stems/inuyasha-op1/bass.ogg",
+      "drums": "/stems/inuyasha-op1/drums.ogg",
+      "other": "/stems/inuyasha-op1/other.ogg",
+      "vocals": "/stems/inuyasha-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "inuyasha-op2",
+    "stems": {
+      "bass": "/stems/inuyasha-op2/bass.ogg",
+      "drums": "/stems/inuyasha-op2/drums.ogg",
+      "other": "/stems/inuyasha-op2/other.ogg",
+      "vocals": "/stems/inuyasha-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "inuyasha-op3",
+    "stems": {
+      "bass": "/stems/inuyasha-op3/bass.ogg",
+      "drums": "/stems/inuyasha-op3/drums.ogg",
+      "other": "/stems/inuyasha-op3/other.ogg",
+      "vocals": "/stems/inuyasha-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "inuyasha-op4",
+    "stems": {
+      "bass": "/stems/inuyasha-op4/bass.ogg",
+      "drums": "/stems/inuyasha-op4/drums.ogg",
+      "other": "/stems/inuyasha-op4/other.ogg",
+      "vocals": "/stems/inuyasha-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "inuyasha-op5",
+    "stems": {
+      "bass": "/stems/inuyasha-op5/bass.ogg",
+      "drums": "/stems/inuyasha-op5/drums.ogg",
+      "other": "/stems/inuyasha-op5/other.ogg",
+      "vocals": "/stems/inuyasha-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "inuyasha-op6",
+    "stems": {
+      "bass": "/stems/inuyasha-op6/bass.ogg",
+      "drums": "/stems/inuyasha-op6/drums.ogg",
+      "other": "/stems/inuyasha-op6/other.ogg",
+      "vocals": "/stems/inuyasha-op6/vocals.ogg"
+    }
+  },
+  {
+    "id": "rurouni-kenshin-meiji-kenkaku-romantan-op1",
+    "stems": {
+      "bass": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op1/bass.ogg",
+      "drums": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op1/drums.ogg",
+      "other": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op1/other.ogg",
+      "vocals": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "rurouni-kenshin-meiji-kenkaku-romantan-op2",
+    "stems": {
+      "bass": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op2/bass.ogg",
+      "drums": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op2/drums.ogg",
+      "other": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op2/other.ogg",
+      "vocals": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "rurouni-kenshin-meiji-kenkaku-romantan-op3",
+    "stems": {
+      "bass": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op3/bass.ogg",
+      "drums": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op3/drums.ogg",
+      "other": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op3/other.ogg",
+      "vocals": "/stems/rurouni-kenshin-meiji-kenkaku-romantan-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "bishoujo-senshi-sailor-moon-crystal-op1",
+    "stems": {
+      "bass": "/stems/bishoujo-senshi-sailor-moon-crystal-op1/bass.ogg",
+      "drums": "/stems/bishoujo-senshi-sailor-moon-crystal-op1/drums.ogg",
+      "other": "/stems/bishoujo-senshi-sailor-moon-crystal-op1/other.ogg",
+      "vocals": "/stems/bishoujo-senshi-sailor-moon-crystal-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "cardcaptor-sakura-op1",
+    "stems": {
+      "bass": "/stems/cardcaptor-sakura-op1/bass.ogg",
+      "drums": "/stems/cardcaptor-sakura-op1/drums.ogg",
+      "other": "/stems/cardcaptor-sakura-op1/other.ogg",
+      "vocals": "/stems/cardcaptor-sakura-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "cardcaptor-sakura-op2",
+    "stems": {
+      "bass": "/stems/cardcaptor-sakura-op2/bass.ogg",
+      "drums": "/stems/cardcaptor-sakura-op2/drums.ogg",
+      "other": "/stems/cardcaptor-sakura-op2/other.ogg",
+      "vocals": "/stems/cardcaptor-sakura-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "cardcaptor-sakura-op3",
+    "stems": {
+      "bass": "/stems/cardcaptor-sakura-op3/bass.ogg",
+      "drums": "/stems/cardcaptor-sakura-op3/drums.ogg",
+      "other": "/stems/cardcaptor-sakura-op3/other.ogg",
+      "vocals": "/stems/cardcaptor-sakura-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "pokemon-op1",
+    "stems": {
+      "bass": "/stems/pokemon-op1/bass.ogg",
+      "drums": "/stems/pokemon-op1/drums.ogg",
+      "other": "/stems/pokemon-op1/other.ogg",
+      "vocals": "/stems/pokemon-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "pokemon-op2",
+    "stems": {
+      "bass": "/stems/pokemon-op2/bass.ogg",
+      "drums": "/stems/pokemon-op2/drums.ogg",
+      "other": "/stems/pokemon-op2/other.ogg",
+      "vocals": "/stems/pokemon-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "pokemon-op3",
+    "stems": {
+      "bass": "/stems/pokemon-op3/bass.ogg",
+      "drums": "/stems/pokemon-op3/drums.ogg",
+      "other": "/stems/pokemon-op3/other.ogg",
+      "vocals": "/stems/pokemon-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "pokemon-op4",
+    "stems": {
+      "bass": "/stems/pokemon-op4/bass.ogg",
+      "drums": "/stems/pokemon-op4/drums.ogg",
+      "other": "/stems/pokemon-op4/other.ogg",
+      "vocals": "/stems/pokemon-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "pokemon-op5",
+    "stems": {
+      "bass": "/stems/pokemon-op5/bass.ogg",
+      "drums": "/stems/pokemon-op5/drums.ogg",
+      "other": "/stems/pokemon-op5/other.ogg",
+      "vocals": "/stems/pokemon-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "pokemon-op1-en",
+    "stems": {
+      "bass": "/stems/pokemon-op1-en/bass.ogg",
+      "drums": "/stems/pokemon-op1-en/drums.ogg",
+      "other": "/stems/pokemon-op1-en/other.ogg",
+      "vocals": "/stems/pokemon-op1-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "pokemon-op3-en",
+    "stems": {
+      "bass": "/stems/pokemon-op3-en/bass.ogg",
+      "drums": "/stems/pokemon-op3-en/drums.ogg",
+      "other": "/stems/pokemon-op3-en/other.ogg",
+      "vocals": "/stems/pokemon-op3-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "pokemon-op4-en",
+    "stems": {
+      "bass": "/stems/pokemon-op4-en/bass.ogg",
+      "drums": "/stems/pokemon-op4-en/drums.ogg",
+      "other": "/stems/pokemon-op4-en/other.ogg",
+      "vocals": "/stems/pokemon-op4-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "pokemon-op5-en",
+    "stems": {
+      "bass": "/stems/pokemon-op5-en/bass.ogg",
+      "drums": "/stems/pokemon-op5-en/drums.ogg",
+      "other": "/stems/pokemon-op5-en/other.ogg",
+      "vocals": "/stems/pokemon-op5-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "digimon-adventure-op1",
+    "stems": {
+      "bass": "/stems/digimon-adventure-op1/bass.ogg",
+      "drums": "/stems/digimon-adventure-op1/drums.ogg",
+      "other": "/stems/digimon-adventure-op1/other.ogg",
+      "vocals": "/stems/digimon-adventure-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "digimon-adventure-op1-en",
+    "stems": {
+      "bass": "/stems/digimon-adventure-op1-en/bass.ogg",
+      "drums": "/stems/digimon-adventure-op1-en/drums.ogg",
+      "other": "/stems/digimon-adventure-op1-en/other.ogg",
+      "vocals": "/stems/digimon-adventure-op1-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "yu-gi-oh-duel-monsters-op1",
+    "stems": {
+      "bass": "/stems/yu-gi-oh-duel-monsters-op1/bass.ogg",
+      "drums": "/stems/yu-gi-oh-duel-monsters-op1/drums.ogg",
+      "other": "/stems/yu-gi-oh-duel-monsters-op1/other.ogg",
+      "vocals": "/stems/yu-gi-oh-duel-monsters-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "yu-gi-oh-duel-monsters-op2",
+    "stems": {
+      "bass": "/stems/yu-gi-oh-duel-monsters-op2/bass.ogg",
+      "drums": "/stems/yu-gi-oh-duel-monsters-op2/drums.ogg",
+      "other": "/stems/yu-gi-oh-duel-monsters-op2/other.ogg",
+      "vocals": "/stems/yu-gi-oh-duel-monsters-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "yu-gi-oh-duel-monsters-op3",
+    "stems": {
+      "bass": "/stems/yu-gi-oh-duel-monsters-op3/bass.ogg",
+      "drums": "/stems/yu-gi-oh-duel-monsters-op3/drums.ogg",
+      "other": "/stems/yu-gi-oh-duel-monsters-op3/other.ogg",
+      "vocals": "/stems/yu-gi-oh-duel-monsters-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "yu-gi-oh-duel-monsters-op4",
+    "stems": {
+      "bass": "/stems/yu-gi-oh-duel-monsters-op4/bass.ogg",
+      "drums": "/stems/yu-gi-oh-duel-monsters-op4/drums.ogg",
+      "other": "/stems/yu-gi-oh-duel-monsters-op4/other.ogg",
+      "vocals": "/stems/yu-gi-oh-duel-monsters-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "yu-gi-oh-duel-monsters-op5",
+    "stems": {
+      "bass": "/stems/yu-gi-oh-duel-monsters-op5/bass.ogg",
+      "drums": "/stems/yu-gi-oh-duel-monsters-op5/drums.ogg",
+      "other": "/stems/yu-gi-oh-duel-monsters-op5/other.ogg",
+      "vocals": "/stems/yu-gi-oh-duel-monsters-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "yu-gi-oh-duel-monsters-op1-en",
+    "stems": {
+      "bass": "/stems/yu-gi-oh-duel-monsters-op1-en/bass.ogg",
+      "drums": "/stems/yu-gi-oh-duel-monsters-op1-en/drums.ogg",
+      "other": "/stems/yu-gi-oh-duel-monsters-op1-en/other.ogg",
+      "vocals": "/stems/yu-gi-oh-duel-monsters-op1-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "beyblade-burst-super-king-op1",
+    "stems": {
+      "bass": "/stems/beyblade-burst-super-king-op1/bass.ogg",
+      "drums": "/stems/beyblade-burst-super-king-op1/drums.ogg",
+      "other": "/stems/beyblade-burst-super-king-op1/other.ogg",
+      "vocals": "/stems/beyblade-burst-super-king-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "bakugan-battle-brawlers-op1",
+    "stems": {
+      "bass": "/stems/bakugan-battle-brawlers-op1/bass.ogg",
+      "drums": "/stems/bakugan-battle-brawlers-op1/drums.ogg",
+      "other": "/stems/bakugan-battle-brawlers-op1/other.ogg",
+      "vocals": "/stems/bakugan-battle-brawlers-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "bakugan-battle-brawlers-op2",
+    "stems": {
+      "bass": "/stems/bakugan-battle-brawlers-op2/bass.ogg",
+      "drums": "/stems/bakugan-battle-brawlers-op2/drums.ogg",
+      "other": "/stems/bakugan-battle-brawlers-op2/other.ogg",
+      "vocals": "/stems/bakugan-battle-brawlers-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "dragon-ball-op1",
+    "stems": {
+      "bass": "/stems/dragon-ball-op1/bass.ogg",
+      "drums": "/stems/dragon-ball-op1/drums.ogg",
+      "other": "/stems/dragon-ball-op1/other.ogg",
+      "vocals": "/stems/dragon-ball-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "dragon-ball-op1-en",
+    "stems": {
+      "bass": "/stems/dragon-ball-op1-en/bass.ogg",
+      "drums": "/stems/dragon-ball-op1-en/drums.ogg",
+      "other": "/stems/dragon-ball-op1-en/other.ogg",
+      "vocals": "/stems/dragon-ball-op1-en/vocals.ogg"
+    }
+  },
+  {
+    "id": "dragon-ball-super-op1",
+    "stems": {
+      "bass": "/stems/dragon-ball-super-op1/bass.ogg",
+      "drums": "/stems/dragon-ball-super-op1/drums.ogg",
+      "other": "/stems/dragon-ball-super-op1/other.ogg",
+      "vocals": "/stems/dragon-ball-super-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "dragon-ball-super-op2",
+    "stems": {
+      "bass": "/stems/dragon-ball-super-op2/bass.ogg",
+      "drums": "/stems/dragon-ball-super-op2/drums.ogg",
+      "other": "/stems/dragon-ball-super-op2/other.ogg",
+      "vocals": "/stems/dragon-ball-super-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op1",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op1/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op1/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op1/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op2",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op2/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op2/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op2/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op3",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op3/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op3/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op3/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op3/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op4",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op4/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op4/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op4/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op4/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op5",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op5/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op5/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op5/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op5/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op6",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op6/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op6/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op6/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op6/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op7",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op7/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op7/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op7/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op7/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op8",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op8/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op8/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op8/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op8/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op9",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op9/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op9/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op9/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op9/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op10",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op10/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op10/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op10/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op10/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op11",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op11/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op11/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op11/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op11/vocals.ogg"
+    }
+  },
+  {
+    "id": "boruto-naruto-next-generations-op12",
+    "stems": {
+      "bass": "/stems/boruto-naruto-next-generations-op12/bass.ogg",
+      "drums": "/stems/boruto-naruto-next-generations-op12/drums.ogg",
+      "other": "/stems/boruto-naruto-next-generations-op12/other.ogg",
+      "vocals": "/stems/boruto-naruto-next-generations-op12/vocals.ogg"
+    }
+  },
+  {
+    "id": "shokugeki-no-souma-food-wars-op1",
+    "stems": {
+      "bass": "/stems/shokugeki-no-souma-food-wars-op1/bass.ogg",
+      "drums": "/stems/shokugeki-no-souma-food-wars-op1/drums.ogg",
+      "other": "/stems/shokugeki-no-souma-food-wars-op1/other.ogg",
+      "vocals": "/stems/shokugeki-no-souma-food-wars-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "shokugeki-no-souma-food-wars-op2",
+    "stems": {
+      "bass": "/stems/shokugeki-no-souma-food-wars-op2/bass.ogg",
+      "drums": "/stems/shokugeki-no-souma-food-wars-op2/drums.ogg",
+      "other": "/stems/shokugeki-no-souma-food-wars-op2/other.ogg",
+      "vocals": "/stems/shokugeki-no-souma-food-wars-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "kaguya-sama-wa-kokurasetai-ultra-romantic-op1",
+    "stems": {
+      "bass": "/stems/kaguya-sama-wa-kokurasetai-ultra-romantic-op1/bass.ogg",
+      "drums": "/stems/kaguya-sama-wa-kokurasetai-ultra-romantic-op1/drums.ogg",
+      "other": "/stems/kaguya-sama-wa-kokurasetai-ultra-romantic-op1/other.ogg",
+      "vocals": "/stems/kaguya-sama-wa-kokurasetai-ultra-romantic-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "horimiya-op1",
+    "stems": {
+      "bass": "/stems/horimiya-op1/bass.ogg",
+      "drums": "/stems/horimiya-op1/drums.ogg",
+      "other": "/stems/horimiya-op1/other.ogg",
+      "vocals": "/stems/horimiya-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "kanojo-okarishimasu-op1",
+    "stems": {
+      "bass": "/stems/kanojo-okarishimasu-op1/bass.ogg",
+      "drums": "/stems/kanojo-okarishimasu-op1/drums.ogg",
+      "other": "/stems/kanojo-okarishimasu-op1/other.ogg",
+      "vocals": "/stems/kanojo-okarishimasu-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "gotoubun-no-hanayome-op1",
+    "stems": {
+      "bass": "/stems/gotoubun-no-hanayome-op1/bass.ogg",
+      "drums": "/stems/gotoubun-no-hanayome-op1/drums.ogg",
+      "other": "/stems/gotoubun-no-hanayome-op1/other.ogg",
+      "vocals": "/stems/gotoubun-no-hanayome-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "jibaku-shounen-hanako-kun-op1",
+    "stems": {
+      "bass": "/stems/jibaku-shounen-hanako-kun-op1/bass.ogg",
+      "drums": "/stems/jibaku-shounen-hanako-kun-op1/drums.ogg",
+      "other": "/stems/jibaku-shounen-hanako-kun-op1/other.ogg",
+      "vocals": "/stems/jibaku-shounen-hanako-kun-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "beastars-op1",
+    "stems": {
+      "bass": "/stems/beastars-op1/bass.ogg",
+      "drums": "/stems/beastars-op1/drums.ogg",
+      "other": "/stems/beastars-op1/other.ogg",
+      "vocals": "/stems/beastars-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "hataraku-saibou-op1",
+    "stems": {
+      "bass": "/stems/hataraku-saibou-op1/bass.ogg",
+      "drums": "/stems/hataraku-saibou-op1/drums.ogg",
+      "other": "/stems/hataraku-saibou-op1/other.ogg",
+      "vocals": "/stems/hataraku-saibou-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "goblin-slayer-op1",
+    "stems": {
+      "bass": "/stems/goblin-slayer-op1/bass.ogg",
+      "drums": "/stems/goblin-slayer-op1/drums.ogg",
+      "other": "/stems/goblin-slayer-op1/other.ogg",
+      "vocals": "/stems/goblin-slayer-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "hataraku-maou-sama-2nd-season-op1",
+    "stems": {
+      "bass": "/stems/hataraku-maou-sama-2nd-season-op1/bass.ogg",
+      "drums": "/stems/hataraku-maou-sama-2nd-season-op1/drums.ogg",
+      "other": "/stems/hataraku-maou-sama-2nd-season-op1/other.ogg",
+      "vocals": "/stems/hataraku-maou-sama-2nd-season-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "noragami-op1",
+    "stems": {
+      "bass": "/stems/noragami-op1/bass.ogg",
+      "drums": "/stems/noragami-op1/drums.ogg",
+      "other": "/stems/noragami-op1/other.ogg",
+      "vocals": "/stems/noragami-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "owari-no-seraph-op1",
+    "stems": {
+      "bass": "/stems/owari-no-seraph-op1/bass.ogg",
+      "drums": "/stems/owari-no-seraph-op1/drums.ogg",
+      "other": "/stems/owari-no-seraph-op1/other.ogg",
+      "vocals": "/stems/owari-no-seraph-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "tokyo-revengers-op1",
+    "stems": {
+      "bass": "/stems/tokyo-revengers-op1/bass.ogg",
+      "drums": "/stems/tokyo-revengers-op1/drums.ogg",
+      "other": "/stems/tokyo-revengers-op1/other.ogg",
+      "vocals": "/stems/tokyo-revengers-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "wonder-egg-priority-op1",
+    "stems": {
+      "bass": "/stems/wonder-egg-priority-op1/bass.ogg",
+      "drums": "/stems/wonder-egg-priority-op1/drums.ogg",
+      "other": "/stems/wonder-egg-priority-op1/other.ogg",
+      "vocals": "/stems/wonder-egg-priority-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "bocchi-the-rock-op1",
+    "stems": {
+      "bass": "/stems/bocchi-the-rock-op1/bass.ogg",
+      "drums": "/stems/bocchi-the-rock-op1/drums.ogg",
+      "other": "/stems/bocchi-the-rock-op1/other.ogg",
+      "vocals": "/stems/bocchi-the-rock-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "lycoris-recoil-op1",
+    "stems": {
+      "bass": "/stems/lycoris-recoil-op1/bass.ogg",
+      "drums": "/stems/lycoris-recoil-op1/drums.ogg",
+      "other": "/stems/lycoris-recoil-op1/other.ogg",
+      "vocals": "/stems/lycoris-recoil-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "cyberpunk-edgerunners-op1",
+    "stems": {
+      "bass": "/stems/cyberpunk-edgerunners-op1/bass.ogg",
+      "drums": "/stems/cyberpunk-edgerunners-op1/drums.ogg",
+      "other": "/stems/cyberpunk-edgerunners-op1/other.ogg",
+      "vocals": "/stems/cyberpunk-edgerunners-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "oshi-no-ko-op1",
+    "stems": {
+      "bass": "/stems/oshi-no-ko-op1/bass.ogg",
+      "drums": "/stems/oshi-no-ko-op1/drums.ogg",
+      "other": "/stems/oshi-no-ko-op1/other.ogg",
+      "vocals": "/stems/oshi-no-ko-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "sousou-no-frieren-op1",
+    "stems": {
+      "bass": "/stems/sousou-no-frieren-op1/bass.ogg",
+      "drums": "/stems/sousou-no-frieren-op1/drums.ogg",
+      "other": "/stems/sousou-no-frieren-op1/other.ogg",
+      "vocals": "/stems/sousou-no-frieren-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "sousou-no-frieren-op2",
+    "stems": {
+      "bass": "/stems/sousou-no-frieren-op2/bass.ogg",
+      "drums": "/stems/sousou-no-frieren-op2/drums.ogg",
+      "other": "/stems/sousou-no-frieren-op2/other.ogg",
+      "vocals": "/stems/sousou-no-frieren-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "ore-dake-level-up-na-ken-op1",
+    "stems": {
+      "bass": "/stems/ore-dake-level-up-na-ken-op1/bass.ogg",
+      "drums": "/stems/ore-dake-level-up-na-ken-op1/drums.ogg",
+      "other": "/stems/ore-dake-level-up-na-ken-op1/other.ogg",
+      "vocals": "/stems/ore-dake-level-up-na-ken-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "ore-dake-level-up-na-ken-op1-tv",
+    "stems": {
+      "bass": "/stems/ore-dake-level-up-na-ken-op1-tv/bass.ogg",
+      "drums": "/stems/ore-dake-level-up-na-ken-op1-tv/drums.ogg",
+      "other": "/stems/ore-dake-level-up-na-ken-op1-tv/other.ogg",
+      "vocals": "/stems/ore-dake-level-up-na-ken-op1-tv/vocals.ogg"
+    }
+  },
+  {
+    "id": "blue-lock-op1",
+    "stems": {
+      "bass": "/stems/blue-lock-op1/bass.ogg",
+      "drums": "/stems/blue-lock-op1/drums.ogg",
+      "other": "/stems/blue-lock-op1/other.ogg",
+      "vocals": "/stems/blue-lock-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "blue-lock-op2",
+    "stems": {
+      "bass": "/stems/blue-lock-op2/bass.ogg",
+      "drums": "/stems/blue-lock-op2/drums.ogg",
+      "other": "/stems/blue-lock-op2/other.ogg",
+      "vocals": "/stems/blue-lock-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "mashle-op1",
+    "stems": {
+      "bass": "/stems/mashle-op1/bass.ogg",
+      "drums": "/stems/mashle-op1/drums.ogg",
+      "other": "/stems/mashle-op1/other.ogg",
+      "vocals": "/stems/mashle-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "undead-unluck-op1",
+    "stems": {
+      "bass": "/stems/undead-unluck-op1/bass.ogg",
+      "drums": "/stems/undead-unluck-op1/drums.ogg",
+      "other": "/stems/undead-unluck-op1/other.ogg",
+      "vocals": "/stems/undead-unluck-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "undead-unluck-op2",
+    "stems": {
+      "bass": "/stems/undead-unluck-op2/bass.ogg",
+      "drums": "/stems/undead-unluck-op2/drums.ogg",
+      "other": "/stems/undead-unluck-op2/other.ogg",
+      "vocals": "/stems/undead-unluck-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "kage-no-jitsuryokusha-ni-naritakute-op1",
+    "stems": {
+      "bass": "/stems/kage-no-jitsuryokusha-ni-naritakute-op1/bass.ogg",
+      "drums": "/stems/kage-no-jitsuryokusha-ni-naritakute-op1/drums.ogg",
+      "other": "/stems/kage-no-jitsuryokusha-ni-naritakute-op1/other.ogg",
+      "vocals": "/stems/kage-no-jitsuryokusha-ni-naritakute-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-op1",
+    "stems": {
+      "bass": "/stems/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-op1/bass.ogg",
+      "drums": "/stems/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-op1/drums.ogg",
+      "other": "/stems/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-op1/other.ogg",
+      "vocals": "/stems/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "bungou-stray-dogs-op1",
+    "stems": {
+      "bass": "/stems/bungou-stray-dogs-op1/bass.ogg",
+      "drums": "/stems/bungou-stray-dogs-op1/drums.ogg",
+      "other": "/stems/bungou-stray-dogs-op1/other.ogg",
+      "vocals": "/stems/bungou-stray-dogs-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "saiki-kusuo-no-nan-2-op1",
+    "stems": {
+      "bass": "/stems/saiki-kusuo-no-nan-2-op1/bass.ogg",
+      "drums": "/stems/saiki-kusuo-no-nan-2-op1/drums.ogg",
+      "other": "/stems/saiki-kusuo-no-nan-2-op1/other.ogg",
+      "vocals": "/stems/saiki-kusuo-no-nan-2-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "saiki-kusuo-no-nan-2-op2",
+    "stems": {
+      "bass": "/stems/saiki-kusuo-no-nan-2-op2/bass.ogg",
+      "drums": "/stems/saiki-kusuo-no-nan-2-op2/drums.ogg",
+      "other": "/stems/saiki-kusuo-no-nan-2-op2/other.ogg",
+      "vocals": "/stems/saiki-kusuo-no-nan-2-op2/vocals.ogg"
+    }
+  },
+  {
+    "id": "grand-blue-op1",
+    "stems": {
+      "bass": "/stems/grand-blue-op1/bass.ogg",
+      "drums": "/stems/grand-blue-op1/drums.ogg",
+      "other": "/stems/grand-blue-op1/other.ogg",
+      "vocals": "/stems/grand-blue-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "mob-psycho-100-ii-op1",
+    "stems": {
+      "bass": "/stems/mob-psycho-100-ii-op1/bass.ogg",
+      "drums": "/stems/mob-psycho-100-ii-op1/drums.ogg",
+      "other": "/stems/mob-psycho-100-ii-op1/other.ogg",
+      "vocals": "/stems/mob-psycho-100-ii-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "nichijou-op1",
+    "stems": {
+      "bass": "/stems/nichijou-op1/bass.ogg",
+      "drums": "/stems/nichijou-op1/drums.ogg",
+      "other": "/stems/nichijou-op1/other.ogg",
+      "vocals": "/stems/nichijou-op1/vocals.ogg"
+    }
+  },
+  {
+    "id": "nichijou-op2",
+    "stems": {
+      "bass": "/stems/nichijou-op2/bass.ogg",
+      "drums": "/stems/nichijou-op2/drums.ogg",
+      "other": "/stems/nichijou-op2/other.ogg",
+      "vocals": "/stems/nichijou-op2/vocals.ogg"
+    }
+  }
+]
