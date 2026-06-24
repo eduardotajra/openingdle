@@ -4,19 +4,18 @@ import type { Opening } from "./types";
 import { hashString } from "./dailySeed";
 
 /**
- * Sufixos do themeSlug que indicam variantes cosméticas (mesma música, vídeo
- * praticamente idêntico) — re-runs e best-of. Ex: "OP1-RepeatShow",
- * "OP1-YorinukiGintamaSan". Filtramos para não duplicar no autocomplete nem
- * sortear como resposta do jogo.
- *
- * NÃO filtramos `-en` / `-en4kids` porque são dublagens com música diferente
- * (legítimas como opções separadas).
+ * Aceita só a versão canônica de cada abertura: themeSlug do tipo `OP1`,
+ * `OP12`, `ED2`. Filtra qualquer variante com sufixo:
+ *   - `-EN`, `-EN4Kids`  → dublagens (poluem o autocomplete)
+ *   - `-RepeatShow`      → re-exibições (música idêntica à OP original)
+ *   - `-YorinukiGintamaSan` → best-of (música idêntica)
+ *   - `-TV`              → "TV size" duplicada
+ * O jogo fica com 1 entrada por OP/ED de cada anime, sem ruído.
  */
-const COSMETIC_SUFFIXES = ["-repeatshow", "-yorinukigintamasan"];
+const CANONICAL_SLUG = /^(OP|ED)\d+$/i;
 
 function isCosmeticVariant(o: Opening): boolean {
-  const id = o.id.toLowerCase();
-  return COSMETIC_SUFFIXES.some((s) => id.endsWith(s));
+  return !CANONICAL_SLUG.test(o.themeSlug);
 }
 
 const ALL_OPENINGS = openingsJson as Opening[];
