@@ -2,30 +2,42 @@
 
 import { useMemo, useRef, useState } from "react";
 import { SkipForward } from "lucide-react";
-import type { AnimeListItem } from "@/lib/types";
-import { searchAnime } from "@/lib/matching";
+import {
+  buildSuggestionPool,
+  searchSuggestions,
+  type OpeningSuggestion,
+} from "@/lib/matching";
+import type { Opening } from "@/lib/types";
 
 interface Props {
-  animeList: AnimeListItem[];
+  openings: Opening[];
   disabled?: boolean;
-  onGuess: (name: string) => void;
+  onGuess: (label: string) => void;
   onSkip?: () => void;
 }
 
-export default function GuessInput({ animeList, disabled, onGuess, onSkip }: Props) {
+export default function GuessInput({
+  openings,
+  disabled,
+  onGuess,
+  onSkip,
+}: Props) {
   const [text, setText] = useState("");
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const suggestions = useMemo(
-    () => searchAnime(text, animeList, 8),
-    [text, animeList],
+  // Pool de "anime + OP" estável entre renders (calculado uma vez por pool).
+  const pool = useMemo(() => buildSuggestionPool(openings), [openings]);
+  const suggestions: OpeningSuggestion[] = useMemo(
+    () => searchSuggestions(text, pool, 8),
+    [text, pool],
   );
 
-  function submit(name: string) {
-    if (!name.trim() || disabled) return;
-    onGuess(name);
+  function submit(label: string) {
+    const value = label.trim();
+    if (!value || disabled) return;
+    onGuess(value);
     setText("");
     setOpen(false);
     setActive(0);
@@ -45,7 +57,7 @@ export default function GuessInput({ animeList, disabled, onGuess, onSkip }: Pro
       setActive((a) => (a - 1 + suggestions.length) % suggestions.length);
     } else if (e.key === "Enter") {
       e.preventDefault();
-      submit(suggestions[active]?.name ?? text);
+      submit(suggestions[active]?.label ?? text);
     } else if (e.key === "Escape") {
       setOpen(false);
     }
@@ -60,7 +72,7 @@ export default function GuessInput({ animeList, disabled, onGuess, onSkip }: Pro
             type="text"
             value={text}
             disabled={disabled}
-            placeholder="Digite o nome do anime…"
+            placeholder="Ex: Naruto OP1"
             autoComplete="off"
             onChange={(e) => {
               setText(e.target.value);
@@ -75,12 +87,12 @@ export default function GuessInput({ animeList, disabled, onGuess, onSkip }: Pro
           {open && suggestions.length > 0 && (
             <ul className="absolute bottom-full z-10 mb-1 max-h-64 w-full overflow-auto rounded-lg border border-[var(--color-gold)]/25 bg-[var(--color-ocean-deep)]/95 shadow-2xl backdrop-blur">
               {suggestions.map((s, i) => (
-                <li key={s.name}>
+                <li key={s.opening.id}>
                   <button
                     type="button"
                     onMouseDown={(e) => {
                       e.preventDefault();
-                      submit(s.name);
+                      submit(s.label);
                     }}
                     onMouseEnter={() => setActive(i)}
                     className={`block w-full px-4 py-2 text-left text-sm transition ${
@@ -89,7 +101,10 @@ export default function GuessInput({ animeList, disabled, onGuess, onSkip }: Pro
                         : "text-[var(--color-sand)]/80 hover:bg-[var(--color-ocean)]/40"
                     }`}
                   >
-                    {s.name}
+                    <span>{s.opening.animeName}</span>
+                    <span className="ml-2 font-mono text-xs text-[var(--color-gold)]/70">
+                      {s.opening.themeSlug}
+                    </span>
                   </button>
                 </li>
               ))}

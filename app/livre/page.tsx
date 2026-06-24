@@ -93,6 +93,7 @@ export default function FreePage() {
           key={`${opening.id}-${playMode}`}
           mode="free"
           playMode={playMode}
+          freeModeLabel={playMode === "standard" ? "free" : playMode}
           opening={opening}
           startFraction={startFraction}
           onNext={shuffle}

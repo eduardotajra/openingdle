@@ -40,6 +40,7 @@ export default function FasesPage() {
         <GameBoard
           key={round.opening.id}
           mode="free"
+          freeModeLabel="fases"
           opening={round.opening}
           startFraction={0}
           onNext={shuffle}

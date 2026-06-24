@@ -15,5 +15,5 @@ export function buildShareText({ puzzle, won, attempts }: ShareInput): string {
     (won ? "🟩" : "") +
     "⬛".repeat(Math.max(0, MAX_ATTEMPTS - wrong - (won ? 1 : 0)));
   const score = won ? `${attempts}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`;
-  return `Animedle #${puzzle} ${score}\n${squares}`;
+  return `Openingdle #${puzzle} ${score}\n${squares}`;
 }

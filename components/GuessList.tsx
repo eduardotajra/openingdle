@@ -1,53 +1,84 @@
 "use client";
 
-import { Check, X } from "lucide-react";
+import { Check, CircleHelp, X } from "lucide-react";
+import type { GuessResult } from "@/lib/matching";
 
-interface Props {
-  guesses: string[];
-  correctAnswer?: string; // se definido, o último palpite certo aparece em verde
+/** Cada palpite carrega o texto e o resultado avaliado. */
+export interface GuessEntry {
+  text: string;
+  result: GuessResult;
 }
 
-export default function GuessList({ guesses, correctAnswer }: Props) {
+interface Props {
+  guesses: GuessEntry[];
+}
+
+export default function GuessList({ guesses }: Props) {
   if (guesses.length === 0) return null;
   return (
     <ul className="space-y-1.5">
       {guesses.map((g, i) => {
-        const isCorrect =
-          correctAnswer !== undefined &&
-          i === guesses.length - 1 &&
-          g === correctAnswer;
+        const styles = STYLES[g.result];
+        const Icon = styles.Icon;
         return (
           <li
-            key={`${g}-${i}`}
-            className={`flex items-center gap-2.5 rounded-lg border px-3 py-2 text-sm transition ${
-              isCorrect
-                ? "border-[var(--color-gold)]/50 bg-[var(--color-gold)]/10 text-[var(--color-gold)]"
-                : "border-[var(--color-crimson)]/30 bg-[var(--color-crimson)]/10 text-[var(--color-sand)]/80"
-            }`}
+            key={`${g.text}-${i}`}
+            className={`flex items-center gap-2.5 rounded-lg border px-3 py-2 text-sm transition ${styles.row}`}
           >
             <span
-              className={`grid h-5 w-5 place-items-center rounded-full ${
-                isCorrect
-                  ? "bg-[var(--color-gold)]/20"
-                  : "bg-[var(--color-crimson)]/25"
-              }`}
+              className={`grid h-5 w-5 place-items-center rounded-full ${styles.iconBg}`}
             >
-              {isCorrect ? (
-                <Check
-                  className="h-3 w-3 text-[var(--color-gold)]"
-                  strokeWidth={3}
-                />
-              ) : (
-                <X
-                  className="h-3 w-3 text-[var(--color-crimson)]"
-                  strokeWidth={3}
-                />
-              )}
+              <Icon
+                className={`h-3 w-3 ${styles.iconColor}`}
+                strokeWidth={3}
+              />
             </span>
-            <span className="text-[var(--color-sand)]">{g}</span>
+            <span className="flex-1 text-[var(--color-sand)]">{g.text}</span>
+            {styles.tag && (
+              <span className={`text-xs font-medium ${styles.tagColor}`}>
+                {styles.tag}
+              </span>
+            )}
           </li>
         );
       })}
     </ul>
   );
 }
+
+const STYLES: Record<
+  GuessResult,
+  {
+    row: string;
+    iconBg: string;
+    iconColor: string;
+    Icon: typeof Check;
+    tag: string | null;
+    tagColor: string;
+  }
+> = {
+  exact: {
+    row: "border-[var(--color-gold)]/55 bg-[var(--color-gold)]/15",
+    iconBg: "bg-[var(--color-gold)]/25",
+    iconColor: "text-[var(--color-gold)]",
+    Icon: Check,
+    tag: null,
+    tagColor: "",
+  },
+  anime: {
+    row: "border-amber-400/40 bg-amber-400/10",
+    iconBg: "bg-amber-400/25",
+    iconColor: "text-amber-300",
+    Icon: CircleHelp,
+    tag: "Anime correto, opening errada",
+    tagColor: "text-amber-300",
+  },
+  wrong: {
+    row: "border-[var(--color-crimson)]/30 bg-[var(--color-crimson)]/10",
+    iconBg: "bg-[var(--color-crimson)]/25",
+    iconColor: "text-[var(--color-crimson)]",
+    Icon: X,
+    tag: null,
+    tagColor: "",
+  },
+};

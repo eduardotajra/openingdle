@@ -21,7 +21,7 @@ const display = Pirata_One({
 });
 
 export const metadata: Metadata = {
-  title: "Animedle — Adivinhe a abertura de anime",
+  title: "Openingdle — Adivinhe a abertura de anime",
   description:
     "Jogo diário: ouça e veja um trecho de uma abertura de anime e tente adivinhar de qual anime é.",
 };
@@ -78,13 +78,14 @@ export default function RootLayout({
                 />
               </span>
               <span className="font-display text-2xl text-[var(--color-gold)] drop-shadow-[0_1px_0_rgba(0,0,0,0.4)]">
-                Animedle
+                Openingdle
               </span>
             </Link>
             <div className="flex gap-1 text-sm">
               <NavLink href="/">Diário</NavLink>
               <NavLink href="/livre">Livre</NavLink>
               <NavLink href="/fases">Fases</NavLink>
+              <NavLink href="/historico">Histórico</NavLink>
             </div>
           </nav>
           <div className="rope-divider" />

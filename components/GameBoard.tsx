@@ -1,26 +1,27 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import type { Opening } from "@/lib/types";
+import { Eye, Shuffle } from "lucide-react";
+import { OPENINGS } from "@/lib/data";
 import { MAX_ATTEMPTS, clipDuration } from "@/lib/game";
-import { isCorrect } from "@/lib/matching";
-import { ANIME_LIST } from "@/lib/animeList";
+import { evaluateGuess } from "@/lib/matching";
 import {
   loadDailyState,
   saveDailyState,
   loadStats,
   recordResult,
+  recordHistory,
   type GameStatus,
   type Stats,
 } from "@/lib/storage";
-import { Eye, Shuffle } from "lucide-react";
+import type { Opening } from "@/lib/types";
 import OpeningPlayer, { type PlayMode } from "./OpeningPlayer";
 import GuessInput from "./GuessInput";
-import GuessList from "./GuessList";
+import GuessList, { type GuessEntry } from "./GuessList";
 import HintBar from "./HintBar";
 import ResultModal from "./ResultModal";
 
-const SKIP = "(pulou)";
+const SKIP: GuessEntry = { text: "(pulou)", result: "wrong" };
 
 interface Props {
   opening: Opening;
@@ -32,6 +33,8 @@ interface Props {
   puzzle?: number;
   /** modo livre: sortear próxima abertura */
   onNext?: () => void;
+  /** rótulo amigável do modo livre (livre/fases/...) p/ o histórico */
+  freeModeLabel?: string;
   /**
    * Player customizado (ex: modo Fases). Recebe a tentativa atual (nº de erros)
    * e se o jogo acabou. Se omitido, usa o OpeningPlayer padrão.
@@ -46,9 +49,10 @@ export default function GameBoard({
   playMode = "standard",
   puzzle,
   onNext,
+  freeModeLabel,
   renderPlayer,
 }: Props) {
-  const [guesses, setGuesses] = useState<string[]>([]);
+  const [guesses, setGuesses] = useState<GuessEntry[]>([]);
   const [status, setStatus] = useState<GameStatus>("playing");
   const [showModal, setShowModal] = useState(false);
   const [stats, setStats] = useState<Stats | null>(null);
@@ -74,46 +78,58 @@ export default function GameBoard({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode, puzzle, opening.id]);
 
-  const wrongGuesses = status === "won" ? guesses.length - 1 : guesses.length;
+  const wrongGuesses =
+    status === "won" ? guesses.length - 1 : guesses.length;
   const gameOver = status !== "playing";
 
-  function finish(nextStatus: GameStatus, nextGuesses: string[]) {
+  function finish(nextStatus: GameStatus, nextGuesses: GuessEntry[]) {
     setStatus(nextStatus);
     if (mode === "daily" && puzzle !== undefined) {
       saveDailyState({ puzzle, status: nextStatus, guesses: nextGuesses });
       if (!recorded.current) {
         recorded.current = true;
-        const s = recordResult(
-          puzzle,
-          nextStatus === "won",
-          nextGuesses.length,
-        );
+        const s = recordResult(puzzle, nextStatus === "won", nextGuesses.length);
         setStats(s);
       }
+    }
+    // Histórico unificado (diário + livre + fases)
+    if (!recorded.current || mode === "free") {
+      const isWin = nextStatus === "won";
+      recordHistory({
+        timestamp: Date.now(),
+        mode: mode === "daily" ? "daily" : (freeModeLabel ?? "free"),
+        puzzle: mode === "daily" ? puzzle : undefined,
+        animeName: opening.animeName,
+        themeSlug: opening.themeSlug,
+        won: isWin,
+        attempts: nextGuesses.length,
+      });
+      if (mode === "free") recorded.current = true;
     }
     setTimeout(() => setShowModal(true), 600);
   }
 
-  function applyGuess(text: string, correct: boolean) {
+  function applyGuess(entry: GuessEntry) {
     if (gameOver) return;
-    const next = [...guesses, text];
+    const next = [...guesses, entry];
     setGuesses(next);
     if (mode === "daily" && puzzle !== undefined) {
       saveDailyState({ puzzle, status: "playing", guesses: next });
     }
-    if (correct) {
+    if (entry.result === "exact") {
       finish("won", next);
     } else if (next.length >= MAX_ATTEMPTS) {
       finish("lost", next);
     }
   }
 
-  function handleGuess(name: string) {
-    applyGuess(name, isCorrect(name, opening));
+  function handleGuess(label: string) {
+    const result = evaluateGuess(label, opening);
+    applyGuess({ text: label, result });
   }
 
   function handleSkip() {
-    applyGuess(SKIP, false);
+    applyGuess(SKIP);
   }
 
   const attempts = guesses.length;
@@ -137,7 +153,7 @@ export default function GameBoard({
         <>
           <HintBar opening={opening} wrongGuesses={wrongGuesses} />
           <GuessInput
-            animeList={ANIME_LIST}
+            openings={OPENINGS}
             onGuess={handleGuess}
             onSkip={handleSkip}
             disabled={gameOver}
@@ -145,10 +161,7 @@ export default function GameBoard({
         </>
       )}
 
-      <GuessList
-        guesses={guesses}
-        correctAnswer={status === "won" ? guesses[guesses.length - 1] : undefined}
-      />
+      <GuessList guesses={guesses} />
 
       {gameOver && !showModal && (
         <div className="flex flex-col gap-2">
