@@ -9,6 +9,7 @@ import {
 } from "react";
 import {
   AlertCircle,
+  AudioLines,
   Drum,
   Guitar,
   Loader2,
@@ -35,6 +36,10 @@ const STEM_DEFS: {
   { key: "vocals", label: "Vocal", Icon: Mic },
 ];
 
+/** Índice virtual usado quando "música completa" está selecionada. */
+const FULL_INDEX = STEM_DEFS.length; // = 4
+const FULL_LABEL = "Completa";
+
 const VOLUME_KEY = "openingdle:volume";
 
 interface Props {
@@ -46,7 +51,12 @@ interface Props {
   gameOver?: boolean;
 }
 
-export default function StemsPlayer({ entry, attempt, gameOver = false }: Props) {
+export default function StemsPlayer({
+  opening,
+  entry,
+  attempt,
+  gameOver = false,
+}: Props) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   /** Tempo a aplicar assim que a próxima faixa carregar (continuidade ao trocar). */
   const pendingSeek = useRef<number | null>(null);
@@ -66,8 +76,13 @@ export default function StemsPlayer({ entry, attempt, gameOver = false }: Props)
   const unlocked = gameOver
     ? STEM_DEFS.length
     : Math.min(attempt + 1, STEM_DEFS.length);
-  const selectedKey = STEM_DEFS[selected].key;
-  const src = entry.stems[selectedKey];
+  const isFull = selected === FULL_INDEX;
+  const fullAvailable = gameOver && !!opening.audioUrl;
+  // Quando a música completa está selecionada, usamos o .ogg original do
+  // anime (vem da AnimeThemes). As 4 faixas continuam disponíveis.
+  const src = isFull
+    ? (opening.audioUrl ?? "")
+    : entry.stems[STEM_DEFS[selected].key];
 
   const safePlay = useCallback((el: HTMLAudioElement) => {
     const p = el.play();
@@ -124,6 +139,19 @@ export default function StemsPlayer({ entry, attempt, gameOver = false }: Props)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [unlocked]);
 
+  // Quando o jogo acaba, abre direto na música completa (mas só uma vez,
+  // pra não roubar a faixa se o usuário escolher outra depois).
+  const autoSwitchedToFull = useRef(false);
+  useEffect(() => {
+    if (gameOver && fullAvailable && !autoSwitchedToFull.current) {
+      autoSwitchedToFull.current = true;
+      pendingSeek.current = 0; // recomeça do zero pra ouvir tudo
+      pendingPlay.current = false; // não toca automaticamente
+      setSelected(FULL_INDEX);
+    }
+    if (!gameOver) autoSwitchedToFull.current = false;
+  }, [gameOver, fullAvailable]);
+
   const onLoadedMetadata = useCallback(() => {
     const el = audioRef.current;
     if (!el) return;
@@ -149,13 +177,20 @@ export default function StemsPlayer({ entry, attempt, gameOver = false }: Props)
   }, []);
 
   function selectStem(i: number) {
-    if (i >= unlocked) return;
+    // Música completa: disponível só após gameOver. Stems: respeitam unlocked.
+    if (i === FULL_INDEX ? !fullAvailable : i >= unlocked) return;
     if (i === selected) {
       togglePlay();
       return;
     }
-    // continuidade: passa o tempo atual para a próxima faixa
-    pendingSeek.current = audioRef.current?.currentTime ?? null;
+    // Continuidade: ao trocar entre stems, mantém o tempo atual. Mas ao
+    // entrar/sair da música completa, recomeça do zero (durações diferentes).
+    const switchingToFull = i === FULL_INDEX;
+    const switchingFromFull = selected === FULL_INDEX;
+    pendingSeek.current =
+      switchingToFull || switchingFromFull
+        ? 0
+        : (audioRef.current?.currentTime ?? null);
     pendingPlay.current = true;
     setSelected(i);
   }
@@ -238,8 +273,12 @@ export default function StemsPlayer({ entry, attempt, gameOver = false }: Props)
         </div>
       )}
 
-      {/* Seletor de faixas */}
-      <div className="grid grid-cols-4 gap-2">
+      {/* Seletor de faixas: 4 stems + (após o jogo) música completa */}
+      <div
+        className={`grid gap-2 ${
+          fullAvailable ? "grid-cols-5" : "grid-cols-4"
+        }`}
+      >
         {STEM_DEFS.map((s, i) => {
           const isUnlocked = i < unlocked;
           const isActive = i === selected;
@@ -279,22 +318,60 @@ export default function StemsPlayer({ entry, attempt, gameOver = false }: Props)
             </button>
           );
         })}
+        {fullAvailable && (
+          <button
+            onClick={() => selectStem(FULL_INDEX)}
+            className={`group flex flex-col items-center gap-2 rounded-xl border px-2 py-3.5 transition ${
+              isFull
+                ? "border-[var(--color-gold)]/70 bg-gradient-to-br from-[var(--color-gold)]/25 to-[var(--color-crimson)]/15 shadow-lg shadow-[var(--color-gold)]/20"
+                : "border-[var(--color-gold)]/25 bg-gradient-to-br from-[var(--color-gold)]/8 to-transparent hover:border-[var(--color-gold)]/45 hover:from-[var(--color-gold)]/15"
+            }`}
+          >
+            <AudioLines
+              className={`h-6 w-6 transition ${
+                isFull
+                  ? "text-[var(--color-gold)]"
+                  : "text-[var(--color-gold)]/75 group-hover:text-[var(--color-gold)]"
+              }`}
+              strokeWidth={1.75}
+            />
+            <span
+              className={`text-xs font-medium ${
+                isFull ? "text-[var(--color-sand)]" : "text-[var(--color-sand)]/85"
+              }`}
+            >
+              {FULL_LABEL}
+            </span>
+          </button>
+        )}
       </div>
 
       {/* Player da faixa selecionada */}
       <div className="rounded-xl border border-[var(--color-gold)]/20 bg-gradient-to-b from-[var(--color-ocean)]/50 to-[var(--color-ocean-deep)]/80 p-4 shadow-xl">
         <div className="mb-3 flex items-center justify-between text-sm">
           <span className="flex items-center gap-2 font-medium text-[var(--color-sand)]">
-            {(() => {
-              const Icon = STEM_DEFS[selected].Icon;
-              return (
-                <Icon
+            {isFull ? (
+              <>
+                <AudioLines
                   className="h-4 w-4 text-[var(--color-gold)]"
                   strokeWidth={2}
                 />
-              );
-            })()}
-            <span>{STEM_DEFS[selected].label}</span>
+                <span>Música completa</span>
+              </>
+            ) : (
+              <>
+                {(() => {
+                  const Icon = STEM_DEFS[selected].Icon;
+                  return (
+                    <Icon
+                      className="h-4 w-4 text-[var(--color-gold)]"
+                      strokeWidth={2}
+                    />
+                  );
+                })()}
+                <span>{STEM_DEFS[selected].label}</span>
+              </>
+            )}
           </span>
           <span className="font-mono text-xs tabular-nums text-[var(--color-gold)]/70">
             {error ? "—" : `${fmt(elapsed)} / ${duration ? fmt(duration) : "…"}`}
@@ -355,7 +432,7 @@ export default function StemsPlayer({ entry, attempt, gameOver = false }: Props)
               ) : (
                 <>
                   <Play className="h-4 w-4 fill-current" />
-                  <span>Tocar faixa</span>
+                  <span>{isFull ? "Tocar abertura" : "Tocar faixa"}</span>
                 </>
               )}
             </button>
@@ -394,7 +471,9 @@ export default function StemsPlayer({ entry, attempt, gameOver = false }: Props)
       <p className="text-center text-xs text-[var(--color-sand)]/55">
         {unlocked < STEM_DEFS.length
           ? `Erre ou pule para liberar a próxima faixa (${unlocked}/${STEM_DEFS.length}).`
-          : "Todas as faixas liberadas."}
+          : fullAvailable
+            ? "Todas as faixas liberadas — agora pode ouvir a abertura completa."
+            : "Todas as faixas liberadas."}
       </p>
     </div>
   );
