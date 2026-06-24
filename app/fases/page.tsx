@@ -8,16 +8,33 @@ import { randomStemRound, type StemRound } from "@/lib/stems";
 
 export default function FasesPage() {
   const [round, setRound] = useState<StemRound | null>(null);
+  const [nextRound, setNextRound] = useState<StemRound | null>(null);
   const [ready, setReady] = useState(false);
 
   const shuffle = useCallback(() => {
-    setRound(randomStemRound());
-  }, []);
+    setRound((prev) => {
+      if (nextRound && nextRound.opening.id !== prev?.opening.id) {
+        return nextRound;
+      }
+      return randomStemRound();
+    });
+    setNextRound(null);
+  }, [nextRound]);
 
   useEffect(() => {
-    shuffle();
+    setRound(randomStemRound());
     setReady(true);
-  }, [shuffle]);
+  }, []);
+
+  // Pré-carrega a próxima rodada (4 stems) em background.
+  useEffect(() => {
+    if (!round) return;
+    let candidate = randomStemRound();
+    for (let i = 0; i < 5 && candidate && candidate.opening.id === round.opening.id; i++) {
+      candidate = randomStemRound();
+    }
+    setNextRound(candidate);
+  }, [round]);
 
   return (
     <div>
@@ -65,6 +82,15 @@ export default function FasesPage() {
             </code>
             .
           </p>
+        </div>
+      )}
+
+      {/* Pré-fetch dos 4 stems da próxima rodada (CDN do GitHub Releases) */}
+      {nextRound && nextRound.opening.id !== round?.opening.id && (
+        <div aria-hidden className="absolute h-0 w-0 overflow-hidden">
+          {Object.values(nextRound.entry.stems).map((src) => (
+            <audio key={src} src={src} preload="auto" muted />
+          ))}
         </div>
       )}
     </div>

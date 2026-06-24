@@ -153,10 +153,25 @@ function Row({ entry }: { entry: HistoryEntry }) {
 
       <div className="flex-1 min-w-0">
         <div className="truncate text-[var(--color-sand)]">
-          {entry.animeName}{" "}
-          <span className="font-mono text-xs text-[var(--color-gold)]/70">
-            {entry.themeSlug}
-          </span>
+          {entry.animeName}
+          {entry.songTitle?.trim() ? (
+            <>
+              {" "}
+              <span className="italic text-[var(--color-sand)]/70">
+                — {entry.songTitle}
+              </span>{" "}
+              <span className="font-mono text-[10px] uppercase tracking-wider text-[var(--color-gold)]/60">
+                {entry.themeSlug}
+              </span>
+            </>
+          ) : (
+            <>
+              {" "}
+              <span className="font-mono text-xs text-[var(--color-gold)]/70">
+                {entry.themeSlug}
+              </span>
+            </>
+          )}
         </div>
         <div className="flex items-center gap-2 text-[11px] text-[var(--color-sand)]/55">
           <span className="rounded-full bg-[var(--color-ocean-deep)]/60 px-2 py-0.5">

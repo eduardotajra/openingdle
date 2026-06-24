@@ -32,9 +32,7 @@ function levenshtein(a: string, b: string): number {
   return prev[n];
 }
 
-/**
- * Compara duas strings com tolerância a typo (1 letra de erro se >=5 chars).
- */
+/** Igualdade tolerante: idêntico ou 1 letra de diferença em palavras de 5+. */
 function looseEq(a: string, b: string): boolean {
   if (a === b) return true;
   const minLen = Math.min(a.length, b.length);
@@ -46,62 +44,103 @@ export type GuessResult =
   | "anime" // anime correto, opening errada
   | "wrong"; // não bateu nada
 
-/**
- * Sugestão de autocomplete: cada abertura individual ("Naruto OP1", "Naruto
- * OP3"…). O usuário escolhe (anime, opening) na mesma string.
- */
+/** Sugestão de autocomplete: uma entrada por opening do dataset. */
 export interface OpeningSuggestion {
-  /** texto exibido e usado como guess, ex: "Naruto OP1" */
+  /** texto exibido e usado como guess. Ex: "Naruto - Rocks" */
   label: string;
   /** opening por trás dessa sugestão */
   opening: Opening;
 }
 
-/**
- * Constrói o pool de sugestões a partir de todas as aberturas (uma entrada
- * por opening). Pode ser chamado uma vez e reusado.
- */
+/** Nome da música canônico para uso no label. Fallback para themeSlug. */
+function displaySongTitle(o: Opening): string {
+  const t = (o.songTitle ?? "").trim();
+  return t.length > 0 ? t : o.themeSlug;
+}
+
+/** Constrói o pool de sugestões — uma entrada por opening. */
 export function buildSuggestionPool(openings: Opening[]): OpeningSuggestion[] {
   return openings.map((o) => ({
-    label: `${o.animeName} ${o.themeSlug}`,
+    label: `${o.animeName} - ${displaySongTitle(o)}`,
     opening: o,
   }));
 }
 
 /**
- * Avalia um palpite contra a abertura correta. Aceita tanto:
- *   - "Naruto OP1"   → compara anime + slug
- *   - "Naruto"        → só anime; vira "anime" se acertar o anime e
- *                       a opening jogada for outra, senão "wrong"
+ * Avalia um palpite. Aceita várias formas:
+ *   - "Naruto - Rocks" / "Naruto Rocks"         → compara anime + música
+ *   - "Naruto OP1" / "Naruto opening 1"          → compara anime + slug
+ *   - "Naruto"                                    → só anime → "anime"
+ *
+ * Retorna "exact" se o anime e a opening (música OU slug) batem.
+ * "anime" se acerta o anime mas a opening jogada é outra.
+ * "wrong" se nem o anime bate.
  */
 export function evaluateGuess(guess: string, correct: Opening): GuessResult {
   const g = normalize(guess);
   if (!g) return "wrong";
 
-  // Extrai o slug do final do palpite, se houver (op1, op 1, opening 1…)
-  const slugMatch = g.match(/\b(op|opening|ed|ending)\s*(\d+)\s*$/);
-  const guessedSlug = slugMatch
-    ? `${slugMatch[1] === "ed" || slugMatch[1] === "ending" ? "ED" : "OP"}${slugMatch[2]}`
-    : null;
-  const guessAnime = slugMatch
-    ? g.slice(0, slugMatch.index).trim()
-    : g;
-
+  // Lista de aliases do anime correto (já normalizada).
   const animeNames = [correct.animeName, ...correct.aliases].map(normalize);
-  const animeHit = animeNames.some((n) => looseEq(n, guessAnime));
 
-  if (!animeHit) return "wrong";
+  // Encontra qual candidato de anime cabe no início do palpite (maior match
+  // primeiro, para não cortar prefixos curtos por engano).
+  const candidates = animeNames
+    .slice()
+    .sort((a, b) => b.length - a.length);
+  let animeMatch: string | null = null;
+  let rest = "";
+  for (const name of candidates) {
+    if (g === name) {
+      animeMatch = name;
+      rest = "";
+      break;
+    }
+    if (g.startsWith(name + " ")) {
+      animeMatch = name;
+      rest = g.slice(name.length + 1).trim();
+      break;
+    }
+  }
 
-  // Se a pessoa especificou OP/ED, exige bater. Senão, "anime" (sem opening).
-  if (guessedSlug) {
+  // Fallback: aceita typo no nome do anime quando o palpite tem só uma "parte"
+  // (sem música). Casa "Naruto Shippudden" → "Naruto Shippuuden".
+  if (!animeMatch) {
+    for (const name of candidates) {
+      if (looseEq(name, g)) {
+        animeMatch = name;
+        rest = "";
+        break;
+      }
+    }
+  }
+
+  if (!animeMatch) return "wrong";
+
+  // Sem "resto" → só o anime: anime certo, opening não especificada.
+  if (!rest) return "anime";
+
+  // Resto pode ser: slug (OP1/ED2/opening 1) ou nome da música.
+  // (1) Slug?
+  const slugMatch = rest.match(/^(op|opening|ed|ending)\s*(\d+)$/);
+  if (slugMatch) {
+    const kind =
+      slugMatch[1] === "ed" || slugMatch[1] === "ending" ? "ED" : "OP";
+    const guessedSlug = `${kind}${slugMatch[2]}`;
     return normalize(guessedSlug) === normalize(correct.themeSlug)
       ? "exact"
       : "anime";
   }
+
+  // (2) Nome da música?
+  const song = normalize(correct.songTitle ?? "");
+  if (song && looseEq(song, rest)) return "exact";
+
+  // Não bateu nem slug, nem música — anime certo, opening errada.
   return "anime";
 }
 
-/** Sugestões de autocomplete para um query (busca por anime). */
+/** Sugestões de autocomplete. Busca por anime ou nome da música. */
 export function searchSuggestions(
   query: string,
   pool: OpeningSuggestion[],
@@ -114,12 +153,19 @@ export function searchSuggestions(
   for (const item of pool) {
     const labelNorm = normalize(item.label);
     const animeNorm = normalize(item.opening.animeName);
+    const songNorm = normalize(item.opening.songTitle ?? "");
     let best = Infinity;
-    if (labelNorm === q) best = 0;
+    if (labelNorm === q || songNorm === q) best = 0;
     else if (animeNorm === q) best = 1;
     else if (animeNorm.startsWith(q)) best = 2;
-    else if (labelNorm.startsWith(q)) best = 3;
-    else if (animeNorm.includes(q) || labelNorm.includes(q)) best = 4;
+    else if (songNorm && songNorm.startsWith(q)) best = 3;
+    else if (labelNorm.startsWith(q)) best = 4;
+    else if (
+      animeNorm.includes(q) ||
+      labelNorm.includes(q) ||
+      (songNorm && songNorm.includes(q))
+    )
+      best = 5;
     if (best < Infinity) {
       scored.push({ item, score: best, tie: item.label });
     }

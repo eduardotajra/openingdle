@@ -72,7 +72,7 @@ export default function GuessInput({
             type="text"
             value={text}
             disabled={disabled}
-            placeholder="Ex: Naruto OP1"
+            placeholder="Ex: Naruto - Rocks"
             autoComplete="off"
             onChange={(e) => {
               setText(e.target.value);
@@ -86,28 +86,38 @@ export default function GuessInput({
           />
           {open && suggestions.length > 0 && (
             <ul className="absolute bottom-full z-10 mb-1 max-h-64 w-full overflow-auto rounded-lg border border-[var(--color-gold)]/25 bg-[var(--color-ocean-deep)]/95 shadow-2xl backdrop-blur">
-              {suggestions.map((s, i) => (
-                <li key={s.opening.id}>
-                  <button
-                    type="button"
-                    onMouseDown={(e) => {
-                      e.preventDefault();
-                      submit(s.label);
-                    }}
-                    onMouseEnter={() => setActive(i)}
-                    className={`block w-full px-4 py-2 text-left text-sm transition ${
-                      i === active
-                        ? "bg-[var(--color-gold)]/15 text-[var(--color-gold)]"
-                        : "text-[var(--color-sand)]/80 hover:bg-[var(--color-ocean)]/40"
-                    }`}
-                  >
-                    <span>{s.opening.animeName}</span>
-                    <span className="ml-2 font-mono text-xs text-[var(--color-gold)]/70">
-                      {s.opening.themeSlug}
-                    </span>
-                  </button>
-                </li>
-              ))}
+              {suggestions.map((s, i) => {
+                const song = s.opening.songTitle?.trim();
+                return (
+                  <li key={s.opening.id}>
+                    <button
+                      type="button"
+                      onMouseDown={(e) => {
+                        e.preventDefault();
+                        submit(s.label);
+                      }}
+                      onMouseEnter={() => setActive(i)}
+                      className={`block w-full px-4 py-2 text-left text-sm transition ${
+                        i === active
+                          ? "bg-[var(--color-gold)]/15 text-[var(--color-gold)]"
+                          : "text-[var(--color-sand)]/80 hover:bg-[var(--color-ocean)]/40"
+                      }`}
+                    >
+                      <div className="flex items-baseline gap-2">
+                        <span className="truncate">{s.opening.animeName}</span>
+                        <span className="ml-auto shrink-0 font-mono text-[10px] uppercase tracking-wider text-[var(--color-gold)]/55">
+                          {s.opening.themeSlug}
+                        </span>
+                      </div>
+                      {song && (
+                        <div className="mt-0.5 truncate text-xs italic text-[var(--color-sand)]/55">
+                          {song}
+                        </div>
+                      )}
+                    </button>
+                  </li>
+                );
+              })}
             </ul>
           )}
         </div>

@@ -84,6 +84,7 @@ export default function GameBoard({
             puzzle,
             animeName: opening.animeName,
             themeSlug: opening.themeSlug,
+            songTitle: opening.songTitle,
             won: saved.status === "won",
             attempts: saved.guesses.length,
           });

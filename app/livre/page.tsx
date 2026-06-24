@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Anchor, Film, Headphones, Image, Map, Video } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import GameBoard from "@/components/GameBoard";
@@ -19,15 +19,38 @@ export default function FreePage() {
   const [opening, setOpening] = useState<Opening | null>(null);
   const [startFraction, setStartFraction] = useState(0);
   const [playMode, setPlayMode] = useState<PlayMode>("standard");
+  /** Próxima abertura, sorteada cedo e pré-carregada em background. */
+  const [nextOpening, setNextOpening] = useState<Opening | null>(null);
 
   const shuffle = useCallback(() => {
+    setOpening((prev) => {
+      // Se já temos uma "próxima" pré-carregada, usa ela direto.
+      if (nextOpening && nextOpening.id !== prev?.id) {
+        return nextOpening;
+      }
+      return randomOpening();
+    });
+    setStartFraction(Math.random());
+    // Sorteia a próxima depois, no useEffect [opening].
+    setNextOpening(null);
+  }, [nextOpening]);
+
+  // Sorteia a primeira opening no client.
+  useEffect(() => {
     setOpening(randomOpening());
     setStartFraction(Math.random());
   }, []);
 
+  // Quando a opening atual muda, sorteia uma "próxima" e pré-fetcha.
   useEffect(() => {
-    shuffle();
-  }, [shuffle]);
+    if (!opening) return;
+    let candidate = randomOpening();
+    // Evita repetir a atual no pré-fetch.
+    for (let i = 0; i < 5 && candidate.id === opening.id; i++) {
+      candidate = randomOpening();
+    }
+    setNextOpening(candidate);
+  }, [opening]);
 
   function changeMode(m: PlayMode) {
     setPlayMode(m);
@@ -103,6 +126,46 @@ export default function FreePage() {
           <Anchor className="h-4 w-4" />
           Içando velas…
         </p>
+      )}
+
+      {/* Pré-fetch invisível da próxima abertura. Browser começa a baixar em
+          background; quando o usuário clica em "Jogar outra", o vídeo já está
+          em cache (CDN da AnimeThemes é lento). */}
+      {nextOpening && nextOpening.id !== opening?.id && (
+        <PreloadMedia opening={nextOpening} playMode={playMode} />
+      )}
+    </div>
+  );
+}
+
+/** Componente invisível que solicita os bytes iniciais do próximo media. */
+function PreloadMedia({
+  opening,
+  playMode,
+}: {
+  opening: Opening;
+  playMode: PlayMode;
+}) {
+  const ref = useRef<HTMLMediaElement | null>(null);
+  // Se o modo é "apenas áudio", pré-carrega o .ogg (mais leve).
+  const useAudio = playMode === "audio" && !!opening.audioUrl;
+  return (
+    <div aria-hidden className="absolute h-0 w-0 overflow-hidden">
+      {useAudio ? (
+        <audio
+          ref={ref as React.RefObject<HTMLAudioElement>}
+          src={opening.audioUrl ?? undefined}
+          preload="auto"
+          muted
+        />
+      ) : (
+        <video
+          ref={ref as React.RefObject<HTMLVideoElement>}
+          src={opening.videoUrl}
+          preload="auto"
+          muted
+          playsInline
+        />
       )}
     </div>
   );

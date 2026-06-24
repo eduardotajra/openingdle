@@ -109,14 +109,16 @@ async function fetchAnime(title: string): Promise<ApiAnime | null> {
 
 /**
  * Escolhe o encode mais leve aceitável para carregar rápido: a MENOR resolução
- * que ainda seja >= 480p (e, empatando, o menor arquivo, preferindo sem overlap).
- * Se nenhum chega a 480p, usa a maior resolução disponível.
+ * que ainda seja >= 360p (e, empatando, o menor arquivo, preferindo sem overlap).
+ * Se nenhum chega a 360p, usa a maior resolução disponível.
+ * (Threshold baixo porque o CDN da AnimeThemes é lento — vale priorizar
+ * tamanho menor; em telas pequenas 360p ainda fica aceitável para um clipe.)
  */
 function pickVideo(entry: ApiEntry): ApiVideo | null {
   const videos = (entry.videos ?? []).filter((v) => v.link);
   if (videos.length === 0) return null;
 
-  const decent = videos.filter((v) => (v.resolution ?? 0) >= 480);
+  const decent = videos.filter((v) => (v.resolution ?? 0) >= 360);
   if (decent.length > 0) {
     decent.sort((a, b) => {
       const ra = a.resolution ?? 9999;

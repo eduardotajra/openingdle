@@ -5338,5 +5338,3651 @@
     "songTitle": "Hyadain no Joujou Yuujou",
     "videoUrl": "https://v.animethemes.moe/Nichijou-OP2.webm",
     "audioUrl": "https://a.animethemes.moe/Nichijou-OP2.ogg"
+  },
+  {
+    "id": "mob-psycho-100-iii-op1",
+    "animeName": "Mob Psycho 100 III",
+    "aliases": [
+      "Mob Psycho 100 III",
+      "Mob Psycho 100 Season 3"
+    ],
+    "year": 2022,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "1",
+    "videoUrl": "https://v.animethemes.moe/MobPsycho100S3-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/MobPsycho100S3-OP1.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-op1",
+    "animeName": "Boku no Hero Academia",
+    "aliases": [
+      "Boku no Hero Academia",
+      "My Hero Academia",
+      "僕のヒーローアカデミア"
+    ],
+    "year": 2016,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "The Day",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademia-OP1-NCBD1080.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademia-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-3rd-season-op1",
+    "animeName": "Boku no Hero Academia 3rd Season",
+    "aliases": [
+      "Boku no Hero Academia 3rd Season",
+      "My Hero Academia 3",
+      "My Hero Academia Season 3",
+      "僕のヒーローアカデミア３"
+    ],
+    "year": 2018,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "ODD FUTURE",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademiaS3-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademiaS3-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-3rd-season-op2",
+    "animeName": "Boku no Hero Academia 3rd Season",
+    "aliases": [
+      "Boku no Hero Academia 3rd Season",
+      "My Hero Academia 3",
+      "My Hero Academia Season 3",
+      "僕のヒーローアカデミア３"
+    ],
+    "year": 2018,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Make My Story",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademiaS3-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademiaS3-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-4th-season-op1",
+    "animeName": "Boku no Hero Academia 4th Season",
+    "aliases": [
+      "Boku no Hero Academia 4th Season",
+      "My Hero Academia Season 4",
+      "僕のヒーローアカデミア４"
+    ],
+    "year": 2019,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Polaris",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademiaS4-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademiaS4-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-4th-season-op2",
+    "animeName": "Boku no Hero Academia 4th Season",
+    "aliases": [
+      "Boku no Hero Academia 4th Season",
+      "My Hero Academia Season 4",
+      "僕のヒーローアカデミア４"
+    ],
+    "year": 2019,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP2",
+    "songTitle": "Star Marker",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademiaS4-OP2-NCDVD480.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademiaS4-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-5th-season-op1",
+    "animeName": "Boku no Hero Academia 5th Season",
+    "aliases": [
+      "Boku no Hero Academia 5th Season",
+      "My Hero Academia 5",
+      "My Hero Academia Season 5",
+      "僕のヒーローアカデミア５"
+    ],
+    "year": 2021,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "No.1",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademiaS5-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademiaS5-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-5th-season-op2",
+    "animeName": "Boku no Hero Academia 5th Season",
+    "aliases": [
+      "Boku no Hero Academia 5th Season",
+      "My Hero Academia 5",
+      "My Hero Academia Season 5",
+      "僕のヒーローアカデミア５"
+    ],
+    "year": 2021,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Merry-Go-Round",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademiaS5-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademiaS5-OP2.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-6th-season-op1",
+    "animeName": "Boku no Hero Academia 6th Season",
+    "aliases": [
+      "Boku no Hero Academia 6th Season",
+      "My Hero Academia Season 6",
+      "僕のヒーローアカデミア６"
+    ],
+    "year": 2022,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Hitamuki",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademiaS6-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademiaS6-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-6th-season-op2",
+    "animeName": "Boku no Hero Academia 6th Season",
+    "aliases": [
+      "Boku no Hero Academia 6th Season",
+      "My Hero Academia Season 6",
+      "僕のヒーローアカデミア６"
+    ],
+    "year": 2022,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Bokura no",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademiaS6-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademiaS6-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-7th-season-op1",
+    "animeName": "Boku no Hero Academia 7th Season",
+    "aliases": [
+      "Boku no Hero Academia 7th Season",
+      "My Hero Academia Season 7",
+      "僕のヒーローアカデミア 7"
+    ],
+    "year": 2024,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Ta ga Tame",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademiaS7-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademiaS7-OP1.ogg"
+  },
+  {
+    "id": "boku-no-hero-academia-7th-season-op2",
+    "animeName": "Boku no Hero Academia 7th Season",
+    "aliases": [
+      "Boku no Hero Academia 7th Season",
+      "My Hero Academia Season 7",
+      "僕のヒーローアカデミア 7"
+    ],
+    "year": 2024,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Curtain Call",
+    "videoUrl": "https://v.animethemes.moe/BokuNoHeroAcademiaS7-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/BokuNoHeroAcademiaS7-OP2.ogg"
+  },
+  {
+    "id": "bleach-sennen-kessen-hen-op1",
+    "animeName": "Bleach: Sennen Kessen-hen",
+    "aliases": [
+      "Bleach: Sennen Kessen-hen",
+      "Bleach: Thousand-Year Blood War",
+      "BLEACH: Thousand-Year Blood War",
+      "BLEACH 千年血戦篇"
+    ],
+    "year": 2022,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Scar",
+    "videoUrl": "https://v.animethemes.moe/Bleach2022-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Bleach2022-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "tokyo-revengers-seiya-kessen-hen-op1",
+    "animeName": "Tokyo Revengers: Seiya Kessen-hen",
+    "aliases": [
+      "Tokyo Revengers: Seiya Kessen-hen",
+      "Tokyo Revengers: Christmas Showdown",
+      "Tokyo Revengers Season 2",
+      "東京リベンジャーズ 聖夜決戦編"
+    ],
+    "year": 2023,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "White Noise",
+    "videoUrl": "https://v.animethemes.moe/TokyoRevengersS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/TokyoRevengersS2-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "tokyo-revengers-tenjiku-hen-op1",
+    "animeName": "Tokyo Revengers: Tenjiku-hen",
+    "aliases": [
+      "Tokyo Revengers: Tenjiku-hen",
+      "Tokyo Revengers Season 3",
+      "Tokyo Revengers Season 2 Part 2",
+      "東京リベンジャーズ 天竺編"
+    ],
+    "year": 2023,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "White Noise",
+    "videoUrl": "https://v.animethemes.moe/TokyoRevengersS3-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/TokyoRevengersS3-OP1.ogg"
+  },
+  {
+    "id": "tokyo-ghoul-a-op1",
+    "animeName": "Tokyo Ghoul √A",
+    "aliases": [
+      "Tokyo Ghoul √A",
+      "Tokyo Ghoul Root A",
+      "Tokyo Ghoul 2nd Season",
+      "Tokyo Ghoul Second Season"
+    ],
+    "year": 2015,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Munou",
+    "videoUrl": "https://v.animethemes.moe/TokyoGhoulRootA-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/TokyoGhoulRootA-OP1.ogg"
+  },
+  {
+    "id": "tokyo-ghoul-re-op1",
+    "animeName": "Tokyo Ghoul:re",
+    "aliases": [
+      "Tokyo Ghoul:re",
+      "Tokyo Kushu:re",
+      "Toukyou Kuushu:re"
+    ],
+    "year": 2018,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "asphyxia",
+    "videoUrl": "https://v.animethemes.moe/TokyoGhoulRE-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/TokyoGhoulRE-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "kimetsu-no-yaiba-mugen-ressha-hen-op1",
+    "animeName": "Kimetsu no Yaiba: Mugen Ressha-hen",
+    "aliases": [
+      "Kimetsu no Yaiba: Mugen Ressha-hen",
+      "Demon Slayer: Mugen Train",
+      "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+      "鬼滅の刃 無限列車編 (TV)"
+    ],
+    "year": 2021,
+    "season": "Fall",
+    "studio": "ufotable",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Akeboshi",
+    "videoUrl": "https://v.animethemes.moe/KimetsuNoYaibaMugenResshaTV-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KimetsuNoYaibaMugenResshaTV-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "kimetsu-no-yaiba-yuukaku-hen-op1",
+    "animeName": "Kimetsu no Yaiba: Yuukaku-hen",
+    "aliases": [
+      "Kimetsu no Yaiba: Yuukaku-hen",
+      "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+      "鬼滅の刃 遊郭編"
+    ],
+    "year": 2022,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Zankyou Zanka",
+    "videoUrl": "https://v.animethemes.moe/KimetsuNoYaibaYuukakuHen-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KimetsuNoYaibaYuukakuHen-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "kimetsu-no-yaiba-katanakaji-no-sato-hen-op1",
+    "animeName": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+    "aliases": [
+      "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+      "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "鬼滅の刃 刀鍛冶の里編"
+    ],
+    "year": 2023,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Kizuna no Kiseki",
+    "videoUrl": "https://v.animethemes.moe/KimetsuNoYaibaKatanakajiNoSatoHen-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KimetsuNoYaibaKatanakajiNoSatoHen-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "kimetsu-no-yaiba-hashira-geiko-hen-op1",
+    "animeName": "Kimetsu no Yaiba: Hashira Geiko-hen",
+    "aliases": [
+      "Kimetsu no Yaiba: Hashira Geiko-hen",
+      "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
+      "鬼滅の刃 柱稽古編"
+    ],
+    "year": 2024,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Mugen",
+    "videoUrl": "https://v.animethemes.moe/KimetsuNoYaibaHashiraGeikoHen-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KimetsuNoYaibaHashiraGeikoHen-OP1.ogg"
+  },
+  {
+    "id": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op1",
+    "animeName": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+    "aliases": [
+      "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+      "Re:ZERO -Starting Life in Another World- Season 2",
+      "Re:ゼロから始める異世界生活 2nd Season"
+    ],
+    "year": 2020,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Realize",
+    "videoUrl": "https://v.animethemes.moe/ReZeroS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/ReZeroS2-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "re-zero-kara-hajimeru-isekai-seikatsu-3rd-season-op1",
+    "animeName": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+    "aliases": [
+      "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+      "Re:ZERO -Starting Life in Another World- Season 3",
+      "Re:ゼロから始める異世界生活 3rd season"
+    ],
+    "year": 2024,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Reweave",
+    "videoUrl": "https://v.animethemes.moe/ReZeroS3-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/ReZeroS3-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "mushoku-tensei-isekai-ittara-honki-dasu-op1",
+    "animeName": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "aliases": [
+      "Mushoku Tensei: Isekai Ittara Honki Dasu",
+      "Mushoku Tensei: Jobless Reincarnation",
+      "無職転生 ～異世界行ったら本気だす～"
+    ],
+    "year": 2021,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Tabibito no Uta",
+    "videoUrl": "https://v.animethemes.moe/MushokuTensei-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/MushokuTensei-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "mushoku-tensei-isekai-ittara-honki-dasu-op2",
+    "animeName": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "aliases": [
+      "Mushoku Tensei: Isekai Ittara Honki Dasu",
+      "Mushoku Tensei: Jobless Reincarnation",
+      "無職転生 ～異世界行ったら本気だす～"
+    ],
+    "year": 2021,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Mezame no Uta",
+    "videoUrl": "https://v.animethemes.moe/MushokuTensei-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/MushokuTensei-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "spy-x-family-season-2-op1",
+    "animeName": "Spy x Family Season 2",
+    "aliases": [
+      "Spy x Family Season 2",
+      "SPY x FAMILY Season 2",
+      "SPY×FAMILY Season 2"
+    ],
+    "year": 2023,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Kura Kura",
+    "videoUrl": "https://v.animethemes.moe/SpyXFamilyS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/SpyXFamilyS2-OP1.ogg"
+  },
+  {
+    "id": "jujutsu-kaisen-2nd-season-op1",
+    "animeName": "Jujutsu Kaisen 2nd Season",
+    "aliases": [
+      "Jujutsu Kaisen 2nd Season",
+      "JJK 2",
+      "Sorcery Fight 2",
+      "JUJUTSU KAISEN Season 2",
+      "呪術廻戦 第2期"
+    ],
+    "year": 2023,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Ao no Sumika",
+    "videoUrl": "https://v.animethemes.moe/JujutsuKaisenS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/JujutsuKaisenS2-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "jujutsu-kaisen-2nd-season-op2",
+    "animeName": "Jujutsu Kaisen 2nd Season",
+    "aliases": [
+      "Jujutsu Kaisen 2nd Season",
+      "JJK 2",
+      "Sorcery Fight 2",
+      "JUJUTSU KAISEN Season 2",
+      "呪術廻戦 第2期"
+    ],
+    "year": 2023,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "SPECIALZ",
+    "videoUrl": "https://v.animethemes.moe/JujutsuKaisenS2-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/JujutsuKaisenS2-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "vinland-saga-season-2-op1",
+    "animeName": "Vinland Saga Season 2",
+    "aliases": [
+      "Vinland Saga Season 2"
+    ],
+    "year": 2023,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "River",
+    "videoUrl": "https://v.animethemes.moe/VinlandSagaS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/VinlandSagaS2-OP1.ogg"
+  },
+  {
+    "id": "vinland-saga-season-2-op2",
+    "animeName": "Vinland Saga Season 2",
+    "aliases": [
+      "Vinland Saga Season 2"
+    ],
+    "year": 2023,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Paradox",
+    "videoUrl": "https://v.animethemes.moe/VinlandSagaS2-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/VinlandSagaS2-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "made-in-abyss-retsujitsu-no-ougonkyou-op2",
+    "animeName": "Made in Abyss: Retsujitsu no Ougonkyou",
+    "aliases": [
+      "Made in Abyss: Retsujitsu no Ougonkyou",
+      "Made in Abyss: The Golden City of the Scorching Sun",
+      "Made in Abyss 2nd Season",
+      "メイドインアビス 烈日の黄金郷"
+    ],
+    "year": 2022,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Katachi",
+    "videoUrl": "https://v.animethemes.moe/MadeInAbyssS2-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/MadeInAbyssS2-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "made-in-abyss-retsujitsu-no-ougonkyou-op1",
+    "animeName": "Made in Abyss: Retsujitsu no Ougonkyou",
+    "aliases": [
+      "Made in Abyss: Retsujitsu no Ougonkyou",
+      "Made in Abyss: The Golden City of the Scorching Sun",
+      "Made in Abyss 2nd Season",
+      "メイドインアビス 烈日の黄金郷"
+    ],
+    "year": 2022,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "GRAVITY",
+    "videoUrl": "https://v.animethemes.moe/MadeInAbyssS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/MadeInAbyssS2-OP1.ogg"
+  },
+  {
+    "id": "kono-subarashii-sekai-ni-shukufuku-wo-3-op1",
+    "animeName": "Kono Subarashii Sekai ni Shukufuku wo! 3",
+    "aliases": [
+      "Kono Subarashii Sekai ni Shukufuku wo! 3",
+      "Konosuba 3",
+      "KONOSUBA -God's Blessing on This Wonderful World! 3",
+      "この素晴らしい世界に祝福を! 3"
+    ],
+    "year": 2024,
+    "season": "Spring",
+    "studio": "Drive",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Growing Up",
+    "videoUrl": "https://v.animethemes.moe/KonosubaS3-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KonosubaS3-OP1.ogg"
+  },
+  {
+    "id": "komi-san-wa-comyushou-desu-op1",
+    "animeName": "Komi-san wa, Comyushou desu.",
+    "aliases": [
+      "Komi-san wa, Comyushou desu.",
+      "Komi-san wa Comyushou desu",
+      "Komi Can't Communicate",
+      "Komi Can’t Communicate",
+      "古見さんは、コミュ症です。"
+    ],
+    "year": 2021,
+    "season": "Fall",
+    "studio": "OLM",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Cinderella",
+    "videoUrl": "https://v.animethemes.moe/KomiSanWaKomyushouDesu-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KomiSanWaKomyushouDesu-OP1.ogg"
+  },
+  {
+    "id": "komi-san-wa-comyushou-desu-2nd-season-op1",
+    "animeName": "Komi-san wa, Comyushou desu. 2nd Season",
+    "aliases": [
+      "Komi-san wa, Comyushou desu. 2nd Season",
+      "Komi-san wa Comyushou desu 2nd Season",
+      "Komi Can't Communicate, Komi-san wa",
+      "Communication Shougai desu. 2",
+      "Komi Can't Communicate Part 2",
+      "古見さんは、コミュ症です。2"
+    ],
+    "year": 2022,
+    "season": "Spring",
+    "studio": "OLM",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Ao 100 Shoku",
+    "videoUrl": "https://v.animethemes.moe/KomiSanWaKomyushouDesuS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KomiSanWaKomyushouDesuS2-OP1.ogg"
+  },
+  {
+    "id": "chuunibyou-demo-koi-ga-shitai-op1",
+    "animeName": "Chuunibyou demo Koi ga Shitai!",
+    "aliases": [
+      "Chuunibyou demo Koi ga Shitai!",
+      "Love, Chunibyo & Other Delusions!",
+      "Chu-2 Byo demo Koi ga Shitai!",
+      "Regardless of My Adolescent Delusions of Grandeur, I Want a Date!",
+      "Love, Chunibyo & Other Delusions",
+      "中二病でも恋がしたい!"
+    ],
+    "year": 2012,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Sparkling Daydream",
+    "videoUrl": "https://v.animethemes.moe/Chuunibyou-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Chuunibyou-OP1.ogg"
+  },
+  {
+    "id": "yahari-ore-no-seishun-love-comedy-wa-machigatteiru-kan-dakara-shishunki-wa-owarazu-ni-seishun-wa-tsuzuiteiku-op1",
+    "animeName": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan: Dakara, Shishunki wa Owarazu ni, Seishun wa Tsuzuiteiku.",
+    "aliases": [
+      "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan: Dakara, Shishunki wa Owarazu ni, Seishun wa Tsuzuiteiku.",
+      "Oregairu",
+      "Oregairu 3 OVA",
+      "My Teen Romantic Comedy SNAFU 3 OVA",
+      "My Teen Romantic Comedy SNAFU Climax! OVA"
+    ],
+    "year": 2023,
+    "season": "Spring",
+    "studio": "feel.",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Megumi no Ame",
+    "videoUrl": "https://v.animethemes.moe/OreGairuS3-OP1v4.webm",
+    "audioUrl": "https://a.animethemes.moe/OreGairuS3-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "sakurasou-no-pet-na-kanojo-op1",
+    "animeName": "Sakurasou no Pet na Kanojo",
+    "aliases": [
+      "Sakurasou no Pet na Kanojo",
+      "The Pet Girl of Sakurasou",
+      "Sakura-sou no Pet na Kanojo",
+      "さくら荘のペットな彼女"
+    ],
+    "year": 2012,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Kimi ga Yume wo Tsuretekita",
+    "videoUrl": "https://v.animethemes.moe/Sakurasou-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Sakurasou-OP1.ogg"
+  },
+  {
+    "id": "sakurasou-no-pet-na-kanojo-op2",
+    "animeName": "Sakurasou no Pet na Kanojo",
+    "aliases": [
+      "Sakurasou no Pet na Kanojo",
+      "The Pet Girl of Sakurasou",
+      "Sakura-sou no Pet na Kanojo",
+      "さくら荘のペットな彼女"
+    ],
+    "year": 2012,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "Yume no Tsuzuki",
+    "videoUrl": "https://v.animethemes.moe/Sakurasou-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/Sakurasou-OP2.ogg"
+  },
+  {
+    "id": "seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-op1",
+    "animeName": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+    "aliases": [
+      "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+      "Bunny Girl Senpai",
+      "Rascal Does Not Dream of Bunny Girl Senpai",
+      "Ao Buta",
+      "青春ブタ野郎はバニーガール先輩の夢を見ない"
+    ],
+    "year": 2018,
+    "season": "Fall",
+    "studio": "CloverWorks",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Kimi no Sei",
+    "videoUrl": "https://v.animethemes.moe/Aobuta-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Aobuta-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "date-a-live-iv-op1",
+    "animeName": "Date A Live IV",
+    "aliases": [
+      "Date A Live IV",
+      "Date a Live",
+      "Date A Live 4",
+      "Date A Live Fourth Season",
+      "DAL 4"
+    ],
+    "year": 2022,
+    "season": "Spring",
+    "studio": "GEEK TOYS",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "OveR",
+    "videoUrl": "https://v.animethemes.moe/DateALiveS4-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/DateALiveS4-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "kore-wa-zombie-desu-ka-of-the-dead-op1",
+    "animeName": "Kore wa Zombie desu ka? OF THE DEAD",
+    "aliases": [
+      "Kore wa Zombie desu ka? OF THE DEAD",
+      "Highschool of the Dead",
+      "Is this A Zombie? of the Dead",
+      "Kore wa Zombie Desu ka? 2",
+      "Kore wa Zombie Desu ka? Jigokuhen",
+      "これはゾンビですか？オブ・ザ・デッド"
+    ],
+    "year": 2012,
+    "season": "Spring",
+    "studio": "Studio Deen",
+    "resolution": 728,
+    "themeSlug": "OP1",
+    "songTitle": "*** Passionate",
+    "videoUrl": "https://v.animethemes.moe/KoreWaZombieDesuKaS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KoreWaZombieDesuKaS2-OP1.ogg"
+  },
+  {
+    "id": "high-school-dxd-born-op1",
+    "animeName": "High School DxD BorN",
+    "aliases": [
+      "High School DxD BorN",
+      "High School DxD",
+      "High School DxD Third Season",
+      "High School DxD 3rd Season",
+      "Highschool DxD BorN"
+    ],
+    "year": 2015,
+    "season": "Spring",
+    "studio": "TNK",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "BLESS YoUr NAME",
+    "videoUrl": "https://v.animethemes.moe/HighSchoolDxDBorN-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/HighSchoolDxDBorN-OP1.ogg"
+  },
+  {
+    "id": "mahou-shoujo-madoka-magica-op1",
+    "animeName": "Mahou Shoujo Madoka★Magica",
+    "aliases": [
+      "Mahou Shoujo Madoka★Magica",
+      "Puella Magi Madoka Magica",
+      "Magical Girl Madoka Magica",
+      "魔法少女まどか☆マギカ"
+    ],
+    "year": 2011,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Connect",
+    "videoUrl": "https://v.animethemes.moe/MadokaMagica-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/MadokaMagica-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "fate-zero-op1",
+    "animeName": "Fate/Zero",
+    "aliases": [
+      "Fate/Zero"
+    ],
+    "year": 2011,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "oath sign",
+    "videoUrl": "https://v.animethemes.moe/FateZero-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/FateZero-OP1.ogg"
+  },
+  {
+    "id": "fate-stay-night-unlimited-blade-works-tv-op1",
+    "animeName": "Fate/stay night: Unlimited Blade Works (TV)",
+    "aliases": [
+      "Fate/stay night: Unlimited Blade Works (TV)",
+      "Fate/stay night: Unlimited Blade Works",
+      "Fate/stay night (2014)",
+      "Fate - Stay Night",
+      "Fate/stay night [Unlimited Blade Works]"
+    ],
+    "year": 2014,
+    "season": "Fall",
+    "studio": "ufotable",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "ideal white",
+    "videoUrl": "https://v.animethemes.moe/FateStayNightUBW-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/FateStayNightUBW-OP1.ogg"
+  },
+  {
+    "id": "hanamonogatari-op1",
+    "animeName": "Hanamonogatari",
+    "aliases": [
+      "Hanamonogatari",
+      "Monogatari",
+      "Monogatari Series: Second Season +α"
+    ],
+    "year": 2014,
+    "season": "Summer",
+    "studio": "Shaft",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "the last day of my adolescence",
+    "videoUrl": "https://v.animethemes.moe/Hanamonogatari-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Hanamonogatari-OP1.ogg"
+  },
+  {
+    "id": "bakemonogatari-op1",
+    "animeName": "Bakemonogatari",
+    "aliases": [
+      "Bakemonogatari",
+      "Monstory"
+    ],
+    "year": 2009,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "staple stable",
+    "videoUrl": "https://v.animethemes.moe/Bakemonogatari-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Bakemonogatari-OP1.ogg"
+  },
+  {
+    "id": "bakemonogatari-op2",
+    "animeName": "Bakemonogatari",
+    "aliases": [
+      "Bakemonogatari",
+      "Monstory"
+    ],
+    "year": 2009,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "Kaerimichi",
+    "videoUrl": "https://v.animethemes.moe/Bakemonogatari-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/Bakemonogatari-OP2.ogg"
+  },
+  {
+    "id": "bakemonogatari-op3",
+    "animeName": "Bakemonogatari",
+    "aliases": [
+      "Bakemonogatari",
+      "Monstory"
+    ],
+    "year": 2009,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP3",
+    "songTitle": "Ambivalent World",
+    "videoUrl": "https://v.animethemes.moe/Bakemonogatari-OP3.webm",
+    "audioUrl": "https://a.animethemes.moe/Bakemonogatari-OP3.ogg"
+  },
+  {
+    "id": "bakemonogatari-op4",
+    "animeName": "Bakemonogatari",
+    "aliases": [
+      "Bakemonogatari",
+      "Monstory"
+    ],
+    "year": 2009,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP4",
+    "songTitle": "Ren'ai Circulation",
+    "videoUrl": "https://v.animethemes.moe/Bakemonogatari-OP4.webm",
+    "audioUrl": "https://a.animethemes.moe/Bakemonogatari-OP4.ogg"
+  },
+  {
+    "id": "hyouka-op1",
+    "animeName": "Hyouka",
+    "aliases": [
+      "Hyouka",
+      "Hyou-ka",
+      "Hyouka: You can't escape",
+      "Hyou-ka: You can't escape",
+      "Hyoka"
+    ],
+    "year": 2012,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Yasashisa no Riyuu",
+    "videoUrl": "https://v.animethemes.moe/Hyouka-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Hyouka-OP1.ogg"
+  },
+  {
+    "id": "hyouka-op2",
+    "animeName": "Hyouka",
+    "aliases": [
+      "Hyouka",
+      "Hyou-ka",
+      "Hyouka: You can't escape",
+      "Hyou-ka: You can't escape",
+      "Hyoka"
+    ],
+    "year": 2012,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "Mikansei Stride",
+    "videoUrl": "https://v.animethemes.moe/Hyouka-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/Hyouka-OP2.ogg"
+  },
+  {
+    "id": "nhk-ni-youkoso-op1",
+    "animeName": "NHK ni Youkoso!",
+    "aliases": [
+      "NHK ni Youkoso!",
+      "Welcome to the NHK",
+      "Welcome to the N.H.K.",
+      "Welcome to the N-H-K",
+      "N・H・Kにようこそ！"
+    ],
+    "year": 2006,
+    "season": "Summer",
+    "studio": "Gonzo",
+    "resolution": 480,
+    "themeSlug": "OP1",
+    "songTitle": "Puzzle",
+    "videoUrl": "https://v.animethemes.moe/NHKNiYoukoso-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/NHKNiYoukoso-OP1.ogg"
+  },
+  {
+    "id": "nhk-ni-youkoso-op2",
+    "animeName": "NHK ni Youkoso!",
+    "aliases": [
+      "NHK ni Youkoso!",
+      "Welcome to the NHK",
+      "Welcome to the N.H.K.",
+      "Welcome to the N-H-K",
+      "N・H・Kにようこそ！"
+    ],
+    "year": 2006,
+    "season": "Summer",
+    "studio": "Gonzo",
+    "resolution": 480,
+    "themeSlug": "OP2",
+    "songTitle": "Puzzle -extra hot mix-",
+    "videoUrl": "https://v.animethemes.moe/NHKNiYoukoso-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/NHKNiYoukoso-OP2.ogg"
+  },
+  {
+    "id": "mushishi-op1",
+    "animeName": "Mushishi",
+    "aliases": [
+      "Mushishi",
+      "Mushi-Shi",
+      "MUSHI-SHI",
+      "蟲師"
+    ],
+    "year": 2005,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "The Sore Feet Song",
+    "videoUrl": "https://v.animethemes.moe/Mushishi-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Mushishi-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "monster-op1",
+    "animeName": "Monster",
+    "aliases": [
+      "Monster"
+    ],
+    "year": 2004,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP1",
+    "songTitle": "GRAIN",
+    "videoUrl": "https://v.animethemes.moe/Monster-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Monster-OP1-NCDVD480.ogg"
+  },
+  {
+    "id": "banana-fish-op1",
+    "animeName": "Banana Fish",
+    "aliases": [
+      "Banana Fish",
+      "BANANA FISH"
+    ],
+    "year": 2018,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "found & lost",
+    "videoUrl": "https://v.animethemes.moe/BananaFish-OP1-Lyrics.webm",
+    "audioUrl": "https://a.animethemes.moe/BananaFish-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "banana-fish-op2",
+    "animeName": "Banana Fish",
+    "aliases": [
+      "Banana Fish",
+      "BANANA FISH"
+    ],
+    "year": 2018,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "FREEDOM",
+    "videoUrl": "https://v.animethemes.moe/BananaFish-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/BananaFish-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "death-parade-op1",
+    "animeName": "Death Parade",
+    "aliases": [
+      "Death Parade"
+    ],
+    "year": 2015,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Flyers",
+    "videoUrl": "https://v.animethemes.moe/DeathParade-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/DeathParade-OP1.ogg"
+  },
+  {
+    "id": "samurai-champloo-op1",
+    "animeName": "Samurai Champloo",
+    "aliases": [
+      "Samurai Champloo"
+    ],
+    "year": 2004,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Battlecry",
+    "videoUrl": "https://v.animethemes.moe/SamuraiChamploo-OP1-NCBD1080.webm",
+    "audioUrl": "https://a.animethemes.moe/SamuraiChamploo-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "eureka-seven-op1",
+    "animeName": "Eureka Seven",
+    "aliases": [
+      "Eureka Seven",
+      "Koukyoushihen",
+      "Koukyou Shihen Eureka Seven",
+      "Eureka 7",
+      "Eureka Seven Psalms of Planets"
+    ],
+    "year": 2005,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "DAYS",
+    "videoUrl": "https://v.animethemes.moe/EurekaSeven-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/EurekaSeven-OP1.ogg"
+  },
+  {
+    "id": "eureka-seven-op2",
+    "animeName": "Eureka Seven",
+    "aliases": [
+      "Eureka Seven",
+      "Koukyoushihen",
+      "Koukyou Shihen Eureka Seven",
+      "Eureka 7",
+      "Eureka Seven Psalms of Planets"
+    ],
+    "year": 2005,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "Shounen Heart",
+    "videoUrl": "https://v.animethemes.moe/EurekaSeven-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/EurekaSeven-OP2.ogg"
+  },
+  {
+    "id": "eureka-seven-op3",
+    "animeName": "Eureka Seven",
+    "aliases": [
+      "Eureka Seven",
+      "Koukyoushihen",
+      "Koukyou Shihen Eureka Seven",
+      "Eureka 7",
+      "Eureka Seven Psalms of Planets"
+    ],
+    "year": 2005,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP3",
+    "songTitle": "Taiyou no Mannaka he",
+    "videoUrl": "https://v.animethemes.moe/EurekaSeven-OP3.webm",
+    "audioUrl": "https://a.animethemes.moe/EurekaSeven-OP3.ogg"
+  },
+  {
+    "id": "eureka-seven-op4",
+    "animeName": "Eureka Seven",
+    "aliases": [
+      "Eureka Seven",
+      "Koukyoushihen",
+      "Koukyou Shihen Eureka Seven",
+      "Eureka 7",
+      "Eureka Seven Psalms of Planets"
+    ],
+    "year": 2005,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP4",
+    "songTitle": "Sakura",
+    "videoUrl": "https://v.animethemes.moe/EurekaSeven-OP4.webm",
+    "audioUrl": "https://a.animethemes.moe/EurekaSeven-OP4.ogg"
+  },
+  {
+    "id": "86-2nd-season-op1",
+    "animeName": "86 2nd Season",
+    "aliases": [
+      "86 2nd Season",
+      "86 Eighty-Six",
+      "86 EIGHTY-SIX",
+      "86 Part 2",
+      "86 Eighty-Six Part 2",
+      "86 EIGHTY-SIX Part 2",
+      "86－エイティシックス－ 第2クール"
+    ],
+    "year": 2021,
+    "season": "Fall",
+    "studio": "A-1 Pictures",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Kyoukaisen",
+    "videoUrl": "https://v.animethemes.moe/86S2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/86S2-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "91-days-op1",
+    "animeName": "91 Days",
+    "aliases": [
+      "91 Days",
+      "91Days"
+    ],
+    "year": 2016,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Signal",
+    "videoUrl": "https://v.animethemes.moe/91Days-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/91Days-OP1.ogg"
+  },
+  {
+    "id": "re-creators-op1",
+    "animeName": "Re:Creators",
+    "aliases": [
+      "Re:Creators",
+      "Re:CREATORS"
+    ],
+    "year": 2017,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "gravityWall",
+    "videoUrl": "https://v.animethemes.moe/ReCreators-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/ReCreators-OP1.ogg"
+  },
+  {
+    "id": "re-creators-op2",
+    "animeName": "Re:Creators",
+    "aliases": [
+      "Re:Creators",
+      "Re:CREATORS"
+    ],
+    "year": 2017,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "sh0ut",
+    "videoUrl": "https://v.animethemes.moe/ReCreators-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/ReCreators-OP2.ogg"
+  },
+  {
+    "id": "nana-op1",
+    "animeName": "Nana",
+    "aliases": [
+      "Nana",
+      "NANA",
+      "NANA-ナナ-"
+    ],
+    "year": 2006,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 576,
+    "themeSlug": "OP1",
+    "songTitle": "Rose",
+    "videoUrl": "https://v.animethemes.moe/Nana-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Nana-OP1.ogg"
+  },
+  {
+    "id": "nana-op2",
+    "animeName": "Nana",
+    "aliases": [
+      "Nana",
+      "NANA",
+      "NANA-ナナ-"
+    ],
+    "year": 2006,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 576,
+    "themeSlug": "OP2",
+    "songTitle": "Wish",
+    "videoUrl": "https://v.animethemes.moe/Nana-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/Nana-OP2.ogg"
+  },
+  {
+    "id": "nana-op3",
+    "animeName": "Nana",
+    "aliases": [
+      "Nana",
+      "NANA",
+      "NANA-ナナ-"
+    ],
+    "year": 2006,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 576,
+    "themeSlug": "OP3",
+    "songTitle": "Lucy",
+    "videoUrl": "https://v.animethemes.moe/Nana-OP3.webm",
+    "audioUrl": "https://a.animethemes.moe/Nana-OP3.ogg"
+  },
+  {
+    "id": "beck-op1",
+    "animeName": "Beck",
+    "aliases": [
+      "Beck",
+      "Beck: Mongolian Chop Squad",
+      "BECK"
+    ],
+    "year": 2004,
+    "season": "Fall",
+    "studio": "Madhouse",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Hit in the USA",
+    "videoUrl": "https://v.animethemes.moe/Beck-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Beck-OP1.ogg"
+  },
+  {
+    "id": "hachimitsu-to-clover-ii-op1",
+    "animeName": "Hachimitsu to Clover II",
+    "aliases": [
+      "Hachimitsu to Clover II",
+      "Honey and Clover",
+      "Honey and Clover II",
+      "Honey and Clover 2",
+      "Honey & Clover II",
+      "ハチミツとクローバー II"
+    ],
+    "year": 2006,
+    "season": "Summer",
+    "studio": "J.C.Staff",
+    "resolution": 576,
+    "themeSlug": "OP1",
+    "songTitle": "Fugainaiya",
+    "videoUrl": "https://v.animethemes.moe/HachimitsuToCloverS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/HachimitsuToCloverS2-OP1.ogg"
+  },
+  {
+    "id": "saint-seiya-op1",
+    "animeName": "Saint Seiya",
+    "aliases": [
+      "Saint Seiya",
+      "Knights of the Zodiac",
+      "Zodiac Knights",
+      "Saint Seiya: Knights of the Zodiac",
+      "聖闘士星矢"
+    ],
+    "year": 1986,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP1",
+    "songTitle": "Pegasus Gensou",
+    "videoUrl": "https://v.animethemes.moe/SaintSeiya-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/SaintSeiya-OP1.ogg"
+  },
+  {
+    "id": "saint-seiya-op2",
+    "animeName": "Saint Seiya",
+    "aliases": [
+      "Saint Seiya",
+      "Knights of the Zodiac",
+      "Zodiac Knights",
+      "Saint Seiya: Knights of the Zodiac",
+      "聖闘士星矢"
+    ],
+    "year": 1986,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP2",
+    "songTitle": "Saint Shinwa",
+    "videoUrl": "https://v.animethemes.moe/SaintSeiya-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/SaintSeiya-OP2.ogg"
+  },
+  {
+    "id": "slam-dunk-op1",
+    "animeName": "Slam Dunk",
+    "aliases": [
+      "Slam Dunk"
+    ],
+    "year": 1993,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Kimi ga Suki da to Sakebitai",
+    "videoUrl": "https://v.animethemes.moe/SlamDunk-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/SlamDunk-OP1.ogg"
+  },
+  {
+    "id": "slam-dunk-op2",
+    "animeName": "Slam Dunk",
+    "aliases": [
+      "Slam Dunk"
+    ],
+    "year": 1993,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "Zettai ni Daremo",
+    "videoUrl": "https://v.animethemes.moe/SlamDunk-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/SlamDunk-OP2.ogg"
+  },
+  {
+    "id": "ranma-ova-op1",
+    "animeName": "Ranma ½ OVA",
+    "aliases": [
+      "Ranma ½ OVA",
+      "Ranma 1/2",
+      "Ranma 1/2 OVA",
+      "Ranma ½ (OVA)",
+      "Ranma 1/2 (OVA)"
+    ],
+    "year": 1993,
+    "season": "Fall",
+    "studio": "Studio Deen",
+    "resolution": 480,
+    "themeSlug": "OP1",
+    "songTitle": "Love! Panic",
+    "videoUrl": "https://v.animethemes.moe/RanmaOVA-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/RanmaOVA-OP1.ogg"
+  },
+  {
+    "id": "bishoujo-senshi-sailor-moon-crystal-season-iii-op1",
+    "animeName": "Bishoujo Senshi Sailor Moon Crystal Season III",
+    "aliases": [
+      "Bishoujo Senshi Sailor Moon Crystal Season III",
+      "Sailor Moon Crystal",
+      "Pretty Guardian Sailor Moon Crystal Season III",
+      "Bishoujo Senshi Sailor Moon Crystal: Death Busters-hen",
+      "Pretty Guardian Sailor Moon Crystal: Death Busters",
+      "Sailor Moon Crystal Season 3",
+      "美少女戦士セーラームーン Crystal「デス・バスターズ編」"
+    ],
+    "year": 2016,
+    "season": "Spring",
+    "studio": "Toei Animation",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "New Moon ni Koishite",
+    "videoUrl": "https://v.animethemes.moe/SailorMoonCrystalS3-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/SailorMoonCrystalS3-OP1.ogg"
+  },
+  {
+    "id": "bishoujo-senshi-sailor-moon-crystal-season-iii-op2",
+    "animeName": "Bishoujo Senshi Sailor Moon Crystal Season III",
+    "aliases": [
+      "Bishoujo Senshi Sailor Moon Crystal Season III",
+      "Sailor Moon Crystal",
+      "Pretty Guardian Sailor Moon Crystal Season III",
+      "Bishoujo Senshi Sailor Moon Crystal: Death Busters-hen",
+      "Pretty Guardian Sailor Moon Crystal: Death Busters",
+      "Sailor Moon Crystal Season 3",
+      "美少女戦士セーラームーン Crystal「デス・バスターズ編」"
+    ],
+    "year": 2016,
+    "season": "Spring",
+    "studio": "Toei Animation",
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "New Moon ni Koishite",
+    "videoUrl": "https://v.animethemes.moe/SailorMoonCrystalS3-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/SailorMoonCrystalS3-OP2.ogg"
+  },
+  {
+    "id": "bishoujo-senshi-sailor-moon-crystal-season-iii-op3",
+    "animeName": "Bishoujo Senshi Sailor Moon Crystal Season III",
+    "aliases": [
+      "Bishoujo Senshi Sailor Moon Crystal Season III",
+      "Sailor Moon Crystal",
+      "Pretty Guardian Sailor Moon Crystal Season III",
+      "Bishoujo Senshi Sailor Moon Crystal: Death Busters-hen",
+      "Pretty Guardian Sailor Moon Crystal: Death Busters",
+      "Sailor Moon Crystal Season 3",
+      "美少女戦士セーラームーン Crystal「デス・バスターズ編」"
+    ],
+    "year": 2016,
+    "season": "Spring",
+    "studio": "Toei Animation",
+    "resolution": 1080,
+    "themeSlug": "OP3",
+    "songTitle": "New Moon ni Koishite",
+    "videoUrl": "https://v.animethemes.moe/SailorMoonCrystalS3-OP3.webm",
+    "audioUrl": "https://a.animethemes.moe/SailorMoonCrystalS3-OP3.ogg"
+  },
+  {
+    "id": "akudama-drive-op1",
+    "animeName": "Akudama Drive",
+    "aliases": [
+      "Akudama Drive"
+    ],
+    "year": 2020,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "STEAL!!",
+    "videoUrl": "https://v.animethemes.moe/AkudamaDrive-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/AkudamaDrive-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "dorohedoro-op1",
+    "animeName": "Dorohedoro",
+    "aliases": [
+      "Dorohedoro"
+    ],
+    "year": 2020,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Welcome to Chaos",
+    "videoUrl": "https://v.animethemes.moe/Dorohedoro-OP1-NCBD1080.webm",
+    "audioUrl": "https://a.animethemes.moe/Dorohedoro-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "beastars-2nd-season-op1",
+    "animeName": "Beastars 2nd Season",
+    "aliases": [
+      "Beastars 2nd Season",
+      "BEASTARS Season 2",
+      "BEASTARS 2"
+    ],
+    "year": 2021,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Kaibutsu",
+    "videoUrl": "https://v.animethemes.moe/BeastarsS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/BeastarsS2-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "sk-op1",
+    "animeName": "SK∞",
+    "aliases": [
+      "SK∞",
+      "SK8 the Infinity",
+      "SK∞ エスケーエイト"
+    ],
+    "year": 2021,
+    "season": "Winter",
+    "studio": "Bones",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Paradise",
+    "videoUrl": "https://v.animethemes.moe/SK8-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/SK8-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "higurashi-no-naku-koro-ni-op1",
+    "animeName": "Higurashi no Naku Koro ni",
+    "aliases": [
+      "Higurashi no Naku Koro ni",
+      "When They Cry",
+      "When the Cicadas Cry",
+      "The Moment the Cicadas Cry",
+      "ひぐらしのなく頃に"
+    ],
+    "year": 2006,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Higurashi no Naku Koro ni",
+    "videoUrl": "https://v.animethemes.moe/Higurashi-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Higurashi-OP1.ogg"
+  },
+  {
+    "id": "umineko-no-naku-koro-ni-op1",
+    "animeName": "Umineko no Naku Koro ni",
+    "aliases": [
+      "Umineko no Naku Koro ni",
+      "Umineko: When They Cry",
+      "When They Cry 3",
+      "When the Seagulls Cry",
+      "When They Cry: Seagulls",
+      "うみねこのなく頃に"
+    ],
+    "year": 2009,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "One-winged Bird",
+    "videoUrl": "https://v.animethemes.moe/Umineko-OP1-NCBD.webm",
+    "audioUrl": "https://a.animethemes.moe/Umineko-OP1-NCBD.ogg"
+  },
+  {
+    "id": "kakegurui-op1",
+    "animeName": "Kakegurui",
+    "aliases": [
+      "Kakegurui",
+      "Kakegurui - Compulsive Gambler",
+      "Kake gurui"
+    ],
+    "year": 2017,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Deal with the devil",
+    "videoUrl": "https://v.animethemes.moe/Kakegurui-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Kakegurui-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "akagami-no-shirayuki-hime-op1",
+    "animeName": "Akagami no Shirayuki-hime",
+    "aliases": [
+      "Akagami no Shirayuki-hime",
+      "Snow White with the Red Hair",
+      "Akagami no Shirayukihime",
+      "赤髪の白雪姫"
+    ],
+    "year": 2015,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Yasashii Kibou",
+    "videoUrl": "https://v.animethemes.moe/AkagamiNoShirayukiHime-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/AkagamiNoShirayukiHime-OP1.ogg"
+  },
+  {
+    "id": "akagami-no-shirayuki-hime-2nd-season-op1",
+    "animeName": "Akagami no Shirayuki-hime 2nd Season",
+    "aliases": [
+      "Akagami no Shirayuki-hime 2nd Season",
+      "Snow White with the Red Hair",
+      "Snow White with the Red Hair 2",
+      "Akagami no Shirayukihime 2nd Season",
+      "Snow White with the Red Hair Season 2",
+      "赤髪の白雪姫 2ndシーズン"
+    ],
+    "year": 2016,
+    "season": "Winter",
+    "studio": "Bones",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Sono Koe ga Chizu ni Nar",
+    "videoUrl": "https://v.animethemes.moe/AkagamiNoShirayukiHimeS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/AkagamiNoShirayukiHimeS2-OP1.ogg"
+  },
+  {
+    "id": "yamada-kun-to-7-nin-no-majo-tv-op1",
+    "animeName": "Yamada-kun to 7-nin no Majo (TV)",
+    "aliases": [
+      "Yamada-kun to 7-nin no Majo (TV)",
+      "Yamada-kun to 7-nin no Majo",
+      "Yamada and the 7 Witches",
+      "Yamada-kun to Nananin no Majo",
+      "Yamada-kun and the 7 Witches",
+      "Yamada and the Seven Witches",
+      "山田くんと7人の魔女"
+    ],
+    "year": 2015,
+    "season": "Spring",
+    "studio": "LIDENFILMS",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Kuchizuke Diamond",
+    "videoUrl": "https://v.animethemes.moe/YamadaKun-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/YamadaKun-OP1.ogg"
+  },
+  {
+    "id": "tonari-no-kaibutsu-kun-op1",
+    "animeName": "Tonari no Kaibutsu-kun",
+    "aliases": [
+      "Tonari no Kaibutsu-kun",
+      "My Little Monster",
+      "Tonari no Kaibutsukun",
+      "The Monster Next Door",
+      "My Neighbor Monster-kun",
+      "となりの怪物くん"
+    ],
+    "year": 2012,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Q&A Recital!",
+    "videoUrl": "https://v.animethemes.moe/TonariNoKaibutsuKun-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/TonariNoKaibutsuKun-OP1.ogg"
+  },
+  {
+    "id": "lovely-complex-op1",
+    "animeName": "Lovely Complex",
+    "aliases": [
+      "Lovely Complex",
+      "Love★Com",
+      "Love Com"
+    ],
+    "year": 2007,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP1",
+    "songTitle": "Kimi + Boku = Love?",
+    "videoUrl": "https://v.animethemes.moe/LovelyComplex-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/LovelyComplex-OP1.ogg"
+  },
+  {
+    "id": "lovely-complex-op2",
+    "animeName": "Lovely Complex",
+    "aliases": [
+      "Lovely Complex",
+      "Love★Com",
+      "Love Com"
+    ],
+    "year": 2007,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP2",
+    "songTitle": "Hey! Say!",
+    "videoUrl": "https://v.animethemes.moe/LovelyComplex-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/LovelyComplex-OP2.ogg"
+  },
+  {
+    "id": "kaichou-wa-maid-sama-op1",
+    "animeName": "Kaichou wa Maid-sama!",
+    "aliases": [
+      "Kaichou wa Maid-sama!",
+      "Maid Sama!",
+      "Maid-Sama!",
+      "Kaicho wa Maidsama",
+      "Kaichou wa Meido Sama",
+      "Class President is a Maid!",
+      "会長はメイド様!"
+    ],
+    "year": 2010,
+    "season": "Spring",
+    "studio": "J.C.Staff",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "My Secret",
+    "videoUrl": "https://v.animethemes.moe/KaichouWaMaidSama-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KaichouWaMaidSama-OP1.ogg"
+  },
+  {
+    "id": "ouran-koukou-host-club-op1",
+    "animeName": "Ouran Koukou Host Club",
+    "aliases": [
+      "Ouran Koukou Host Club",
+      "Ouran High School Host Club",
+      "Ohran Koko Host Club",
+      "Ouran Koukou Hosutobu",
+      "Ouran Koukou Host Bu",
+      "OHSHC",
+      "桜蘭高校ホスト部"
+    ],
+    "year": 2006,
+    "season": "Spring",
+    "studio": "Bones",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Sakura Kiss",
+    "videoUrl": "https://v.animethemes.moe/OuranKoukouHostClub-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/OuranKoukouHostClub-OP1.ogg"
+  },
+  {
+    "id": "ouran-koukou-host-club-op1-en",
+    "animeName": "Ouran Koukou Host Club",
+    "aliases": [
+      "Ouran Koukou Host Club",
+      "Ouran High School Host Club",
+      "Ohran Koko Host Club",
+      "Ouran Koukou Hosutobu",
+      "Ouran Koukou Host Bu",
+      "OHSHC",
+      "桜蘭高校ホスト部"
+    ],
+    "year": 2006,
+    "season": "Spring",
+    "studio": "Bones",
+    "resolution": 1080,
+    "themeSlug": "OP1-EN",
+    "songTitle": "Sakura Kiss",
+    "videoUrl": "https://v.animethemes.moe/OuranKoukouHostClub-OP1-EN.webm",
+    "audioUrl": "https://a.animethemes.moe/OuranKoukouHostClub-OP1-EN.ogg"
+  },
+  {
+    "id": "fruits-basket-op1",
+    "animeName": "Fruits Basket",
+    "aliases": [
+      "Fruits Basket",
+      "Furuba"
+    ],
+    "year": 2001,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "For Fruits Basket",
+    "videoUrl": "https://v.animethemes.moe/FruitsBasket-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/FruitsBasket-OP1.ogg"
+  },
+  {
+    "id": "skip-beat-op1",
+    "animeName": "Skip Beat!",
+    "aliases": [
+      "Skip Beat!"
+    ],
+    "year": 2008,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Dream Star",
+    "videoUrl": "https://v.animethemes.moe/SkipBeat-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/SkipBeat-OP1.ogg"
+  },
+  {
+    "id": "skip-beat-op2",
+    "animeName": "Skip Beat!",
+    "aliases": [
+      "Skip Beat!"
+    ],
+    "year": 2008,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Renaissance",
+    "videoUrl": "https://v.animethemes.moe/SkipBeat-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/SkipBeat-OP2.ogg"
+  },
+  {
+    "id": "mahoutsukai-no-yome-op1",
+    "animeName": "Mahoutsukai no Yome",
+    "aliases": [
+      "Mahoutsukai no Yome",
+      "The Ancient Magus' Bride",
+      "The Magician's Bride",
+      "魔法使いの嫁"
+    ],
+    "year": 2017,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Here",
+    "videoUrl": "https://v.animethemes.moe/MahoutsukaiNoYome-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/MahoutsukaiNoYome-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "mahoutsukai-no-yome-op2",
+    "animeName": "Mahoutsukai no Yome",
+    "aliases": [
+      "Mahoutsukai no Yome",
+      "The Ancient Magus' Bride",
+      "The Magician's Bride",
+      "魔法使いの嫁"
+    ],
+    "year": 2017,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "You",
+    "videoUrl": "https://v.animethemes.moe/MahoutsukaiNoYome-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/MahoutsukaiNoYome-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "tenkuu-no-shiro-laputa-op1",
+    "animeName": "Tenkuu no Shiro Laputa",
+    "aliases": [
+      "Tenkuu no Shiro Laputa",
+      "Howl no Ugoku Shiro",
+      "Castle in the Sky",
+      "Tenkuu no Shiro Rapyuta",
+      "天空の城ラピュタ"
+    ],
+    "year": 1986,
+    "season": "Summer",
+    "studio": "Studio Ghibli",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Sora kara Futtekita Shoujo",
+    "videoUrl": "https://v.animethemes.moe/TenkuuNoShiroLaputa-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/TenkuuNoShiroLaputa-OP1.ogg"
+  },
+  {
+    "id": "detective-conan-op1",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP1",
+    "songTitle": "Mune ga Dokidoki",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP1-NCDVD480.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP1-NCDVD480.ogg"
+  },
+  {
+    "id": "detective-conan-op2",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 624,
+    "themeSlug": "OP2",
+    "songTitle": "Feel Your Heart",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP2.ogg"
+  },
+  {
+    "id": "detective-conan-op3",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP3",
+    "songTitle": "Nazo",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP3-NCDVD480.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP3-NCDVD480.ogg"
+  },
+  {
+    "id": "detective-conan-op4",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP4",
+    "songTitle": "Unmei no Roulette Mawashite",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP4-NCDVD480.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP4-NCDVD480.ogg"
+  },
+  {
+    "id": "detective-conan-op5",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP5",
+    "songTitle": "Truth",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP5-NCDVD480.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP5-NCDVD480.ogg"
+  },
+  {
+    "id": "detective-conan-op6",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP6",
+    "songTitle": "Girigiri Chop",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP6-NCDVD480.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP6-NCDVD480.ogg"
+  },
+  {
+    "id": "detective-conan-op7",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP7",
+    "songTitle": "Mysterious Eyes",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP7-NCDVD480.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP7-NCDVD480.ogg"
+  },
+  {
+    "id": "detective-conan-op8",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP8",
+    "songTitle": "Koi wa Thrill, Shock, Suspense",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP8-NCDVD480.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP8-NCDVD480.ogg"
+  },
+  {
+    "id": "detective-conan-op9",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP9",
+    "songTitle": "Destiny",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP9-NCDVD480.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP9-NCDVD480.ogg"
+  },
+  {
+    "id": "detective-conan-op10",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP10",
+    "songTitle": "Winter Bells",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP10.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP10.ogg"
+  },
+  {
+    "id": "detective-conan-op11",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP11",
+    "songTitle": "I can't stop my love for you♥",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP11.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP11.ogg"
+  },
+  {
+    "id": "detective-conan-op12",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP12",
+    "songTitle": "Kaze no Lalala",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP12.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP12.ogg"
+  },
+  {
+    "id": "detective-conan-op13",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP13",
+    "songTitle": "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP13.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP13.ogg"
+  },
+  {
+    "id": "detective-conan-op14",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP14",
+    "songTitle": "Start",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP14.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP14.ogg"
+  },
+  {
+    "id": "detective-conan-op15",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP15",
+    "songTitle": "Hoshi no Kagayakiyo",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP15.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP15.ogg"
+  },
+  {
+    "id": "detective-conan-op16",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP16",
+    "songTitle": "Growing of My heart",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP16.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP16.ogg"
+  },
+  {
+    "id": "detective-conan-op17",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP17",
+    "songTitle": "Shoudou",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP17.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP17.ogg"
+  },
+  {
+    "id": "detective-conan-op18",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP18",
+    "songTitle": "100 Mono Tobira",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP18.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP18.ogg"
+  },
+  {
+    "id": "detective-conan-op19",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP19",
+    "songTitle": "Kumo ni Notte",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP19.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP19.ogg"
+  },
+  {
+    "id": "detective-conan-op20",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP20",
+    "songTitle": "Namida no Yesterday",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP20.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP20.ogg"
+  },
+  {
+    "id": "detective-conan-op21",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP21",
+    "songTitle": "Glorious Mind",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP21.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP21.ogg"
+  },
+  {
+    "id": "detective-conan-op22",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP22",
+    "songTitle": "Ai wa Kurayami no Naka de",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP22.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP22.ogg"
+  },
+  {
+    "id": "detective-conan-op23",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP23",
+    "songTitle": "Ichibyou goto ni Love for you",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP23.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP23.ogg"
+  },
+  {
+    "id": "detective-conan-op24",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP24",
+    "songTitle": "MYSTERIOUS",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP24.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP24.ogg"
+  },
+  {
+    "id": "detective-conan-op25",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP25",
+    "songTitle": "Revive",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP25.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP25.ogg"
+  },
+  {
+    "id": "detective-conan-op26",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP26",
+    "songTitle": "Everlasting Luv",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP26.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP26.ogg"
+  },
+  {
+    "id": "detective-conan-op27",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP27",
+    "songTitle": "MAGIC",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP27.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP27.ogg"
+  },
+  {
+    "id": "detective-conan-op28",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP28",
+    "songTitle": "As the Dew",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP28.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP28.ogg"
+  },
+  {
+    "id": "detective-conan-op29",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP29",
+    "songTitle": "SUMMER TIME GONE",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP29.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP29.ogg"
+  },
+  {
+    "id": "detective-conan-op30",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP30",
+    "songTitle": "tear drops",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP30.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP30.ogg"
+  },
+  {
+    "id": "detective-conan-op31",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP31",
+    "songTitle": "Don't Wanna Lie",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP31.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP31.ogg"
+  },
+  {
+    "id": "detective-conan-op32",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP32",
+    "songTitle": "Misty Mystery",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP32.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP32.ogg"
+  },
+  {
+    "id": "detective-conan-op33",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP33",
+    "songTitle": "Miss Mystery",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP33.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP33.ogg"
+  },
+  {
+    "id": "detective-conan-op34",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP34",
+    "songTitle": "Kimi no Namida ni Konna ni Koi Shiteru",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP34.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP34.ogg"
+  },
+  {
+    "id": "detective-conan-op35",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP35",
+    "songTitle": "TRY AGAIN",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP35.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP35.ogg"
+  },
+  {
+    "id": "detective-conan-op36",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP36",
+    "songTitle": "Q&A",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP36.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP36.ogg"
+  },
+  {
+    "id": "detective-conan-op37",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP37",
+    "songTitle": "Butterfly Core",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP37.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP37.ogg"
+  },
+  {
+    "id": "detective-conan-op38",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 480,
+    "themeSlug": "OP38",
+    "songTitle": "Greed",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP38.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP38.ogg"
+  },
+  {
+    "id": "detective-conan-op39",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP39",
+    "songTitle": "Dynamite",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP39.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP39.ogg"
+  },
+  {
+    "id": "detective-conan-op42",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP42",
+    "songTitle": "Hane",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP42.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP42.ogg"
+  },
+  {
+    "id": "detective-conan-op46",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP46",
+    "songTitle": "Everything OK!!",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP46.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP46.ogg"
+  },
+  {
+    "id": "detective-conan-op47",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP47",
+    "songTitle": "Countdown",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP47.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP47.ogg"
+  },
+  {
+    "id": "detective-conan-op48",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP48",
+    "songTitle": "Timeline",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP48.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP48.ogg"
+  },
+  {
+    "id": "detective-conan-op49",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP49",
+    "songTitle": "Barairo no Jinsei",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP49.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP49.ogg"
+  },
+  {
+    "id": "detective-conan-op50",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP50",
+    "songTitle": "ANSWER",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP50.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP50.ogg"
+  },
+  {
+    "id": "detective-conan-op51",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP51",
+    "songTitle": "Makka na Lip",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP51.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP51.ogg"
+  },
+  {
+    "id": "detective-conan-op52",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP52",
+    "songTitle": "JUST BELIEVE YOU",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP52.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP52.ogg"
+  },
+  {
+    "id": "detective-conan-op53",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP53",
+    "songTitle": "ZERO kara Hajimete",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP53.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP53.ogg"
+  },
+  {
+    "id": "detective-conan-op54",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP54",
+    "songTitle": "YURA YURA",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP54.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP54.ogg"
+  },
+  {
+    "id": "detective-conan-op55",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP55",
+    "songTitle": "SLEEPLESS",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP55.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP55.ogg"
+  },
+  {
+    "id": "detective-conan-op56",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP56",
+    "songTitle": "SPARKLE",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP56.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP56.ogg"
+  },
+  {
+    "id": "detective-conan-op57",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP57",
+    "songTitle": "RAISE INSIGHT",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP57.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP57.ogg"
+  },
+  {
+    "id": "detective-conan-op58",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP58",
+    "songTitle": "Unraveling Love ~Sukoshi no Yuuki~",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP58.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP58.ogg"
+  },
+  {
+    "id": "detective-conan-op59",
+    "animeName": "Detective Conan",
+    "aliases": [
+      "Detective Conan",
+      "Case Closed",
+      "Meitantei Conan",
+      "名探偵コナン"
+    ],
+    "year": 1996,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP59",
+    "songTitle": "But No Love",
+    "videoUrl": "https://v.animethemes.moe/DetectiveConan-OP59.webm",
+    "audioUrl": "https://a.animethemes.moe/DetectiveConan-OP59.ogg"
+  },
+  {
+    "id": "cardcaptor-sakura-clear-card-hen-op1",
+    "animeName": "Cardcaptor Sakura: Clear Card-hen",
+    "aliases": [
+      "Cardcaptor Sakura: Clear Card-hen",
+      "Cardcaptor Sakura: Clear Card",
+      "Cardcaptor Sakura: Clear Card Arc",
+      "カードキャプターさくら クリアカード編"
+    ],
+    "year": 2018,
+    "season": "Winter",
+    "studio": "Madhouse",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "CLEAR",
+    "videoUrl": "https://v.animethemes.moe/CardcaptorSakuraClearCardHen-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/CardcaptorSakuraClearCardHen-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "cardcaptor-sakura-clear-card-hen-op2",
+    "animeName": "Cardcaptor Sakura: Clear Card-hen",
+    "aliases": [
+      "Cardcaptor Sakura: Clear Card-hen",
+      "Cardcaptor Sakura: Clear Card",
+      "Cardcaptor Sakura: Clear Card Arc",
+      "カードキャプターさくら クリアカード編"
+    ],
+    "year": 2018,
+    "season": "Winter",
+    "studio": "Madhouse",
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Rocket Beat",
+    "videoUrl": "https://v.animethemes.moe/CardcaptorSakuraClearCardHen-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/CardcaptorSakuraClearCardHen-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "free-op1",
+    "animeName": "Free!",
+    "aliases": [
+      "Free!",
+      "Free! - Iwatobi Swim Club",
+      "Free! -Iwatobi Swim Club-"
+    ],
+    "year": 2013,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Rage on",
+    "videoUrl": "https://v.animethemes.moe/Free-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Free-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "haikyuu-second-season-op1",
+    "animeName": "Haikyuu!! Second Season",
+    "aliases": [
+      "Haikyuu!! Second Season",
+      "Haikyu!! 2nd Season",
+      "HAIKYU!! 2nd Season",
+      "ハイキュー!! セカンドシーズン"
+    ],
+    "year": 2015,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "I'm A Believer",
+    "videoUrl": "https://v.animethemes.moe/HaikyuuS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/HaikyuuS2-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "haikyuu-second-season-op2",
+    "animeName": "Haikyuu!! Second Season",
+    "aliases": [
+      "Haikyuu!! Second Season",
+      "Haikyu!! 2nd Season",
+      "HAIKYU!! 2nd Season",
+      "ハイキュー!! セカンドシーズン"
+    ],
+    "year": 2015,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Fly High!!",
+    "videoUrl": "https://v.animethemes.moe/HaikyuuS2-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/HaikyuuS2-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "haikyuu-karasuno-koukou-vs-shiratorizawa-gakuen-koukou-op1",
+    "animeName": "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou",
+    "aliases": [
+      "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou",
+      "Haikyuu!! Karasuno Koukou vs Shiratorizawa Gakuen Koukou",
+      "Haikyu!! 3rd Season",
+      "Haikyuu!! Third Season",
+      "HAIKYU!! 3rd Season",
+      "ハイキュー!! 烏野高校 VS 白鳥沢学園高校"
+    ],
+    "year": 2016,
+    "season": "Fall",
+    "studio": "Production I.G",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Hikari Are",
+    "videoUrl": "https://v.animethemes.moe/HaikyuuS3-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/HaikyuuS3-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "haikyuu-to-the-top-op1",
+    "animeName": "Haikyuu!!: To the Top",
+    "aliases": [
+      "Haikyuu!!: To the Top",
+      "Haikyuu!! To the Top",
+      "Haikyu!! 4th Season",
+      "Haikyuu!! Fourth Season",
+      "HAIKYU!! TO THE TOP",
+      "ハイキュー!! TO THE TOP"
+    ],
+    "year": 2020,
+    "season": "Winter",
+    "studio": "Production I.G",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "PHOENIX",
+    "videoUrl": "https://v.animethemes.moe/HaikyuuS4-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/HaikyuuS4-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "kuroko-no-basket-2nd-season-op1",
+    "animeName": "Kuroko no Basket 2nd Season",
+    "aliases": [
+      "Kuroko no Basket 2nd Season",
+      "Kuroko's Basketball 2",
+      "Kuroko no Basuke 2nd Season",
+      "黒子のバスケ 2nd SEASON"
+    ],
+    "year": 2013,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "The Other Self",
+    "videoUrl": "https://v.animethemes.moe/KurokoNoBasketS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KurokoNoBasketS2-OP1.ogg"
+  },
+  {
+    "id": "kuroko-no-basket-2nd-season-op2",
+    "animeName": "Kuroko no Basket 2nd Season",
+    "aliases": [
+      "Kuroko no Basket 2nd Season",
+      "Kuroko's Basketball 2",
+      "Kuroko no Basuke 2nd Season",
+      "黒子のバスケ 2nd SEASON"
+    ],
+    "year": 2013,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "Hengen Jizai no Magical Star",
+    "videoUrl": "https://v.animethemes.moe/KurokoNoBasketS2-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/KurokoNoBasketS2-OP2.ogg"
+  },
+  {
+    "id": "kuroko-no-basket-3rd-season-op1",
+    "animeName": "Kuroko no Basket 3rd Season",
+    "aliases": [
+      "Kuroko no Basket 3rd Season",
+      "Kuroko's Basketball 3",
+      "Kuroko no Basuke 3rd Season",
+      "黒子のバスケ 3rd SEASON"
+    ],
+    "year": 2015,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Punky Funky Love",
+    "videoUrl": "https://v.animethemes.moe/KurokoNoBasketS3-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KurokoNoBasketS3-OP1.ogg"
+  },
+  {
+    "id": "kuroko-no-basket-3rd-season-op2",
+    "animeName": "Kuroko no Basket 3rd Season",
+    "aliases": [
+      "Kuroko no Basket 3rd Season",
+      "Kuroko's Basketball 3",
+      "Kuroko no Basuke 3rd Season",
+      "黒子のバスケ 3rd SEASON"
+    ],
+    "year": 2015,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "ZERO",
+    "videoUrl": "https://v.animethemes.moe/KurokoNoBasketS3-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/KurokoNoBasketS3-OP2.ogg"
+  },
+  {
+    "id": "kuroko-no-basket-3rd-season-op3",
+    "animeName": "Kuroko no Basket 3rd Season",
+    "aliases": [
+      "Kuroko no Basket 3rd Season",
+      "Kuroko's Basketball 3",
+      "Kuroko no Basuke 3rd Season",
+      "黒子のバスケ 3rd SEASON"
+    ],
+    "year": 2015,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP3",
+    "songTitle": "Memories",
+    "videoUrl": "https://v.animethemes.moe/KurokoNoBasketS3-OP3.webm",
+    "audioUrl": "https://a.animethemes.moe/KurokoNoBasketS3-OP3.ogg"
+  },
+  {
+    "id": "diamond-no-ace-op1",
+    "animeName": "Diamond no Ace",
+    "aliases": [
+      "Diamond no Ace",
+      "Ace of the Diamond",
+      "Ace of Diamond",
+      "Daiya no Ace",
+      "ダイヤのA"
+    ],
+    "year": 2013,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Go EXCEED!!",
+    "videoUrl": "https://v.animethemes.moe/DiamondNoAce-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/DiamondNoAce-OP1.ogg"
+  },
+  {
+    "id": "diamond-no-ace-op2",
+    "animeName": "Diamond no Ace",
+    "aliases": [
+      "Diamond no Ace",
+      "Ace of the Diamond",
+      "Ace of Diamond",
+      "Daiya no Ace",
+      "ダイヤのA"
+    ],
+    "year": 2013,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Perfect HERO",
+    "videoUrl": "https://v.animethemes.moe/DiamondNoAce-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/DiamondNoAce-OP2.ogg"
+  },
+  {
+    "id": "diamond-no-ace-op3",
+    "animeName": "Diamond no Ace",
+    "aliases": [
+      "Diamond no Ace",
+      "Ace of the Diamond",
+      "Ace of Diamond",
+      "Daiya no Ace",
+      "ダイヤのA"
+    ],
+    "year": 2013,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP3",
+    "songTitle": "Hashire! Mirai",
+    "videoUrl": "https://v.animethemes.moe/DiamondNoAce-OP3.webm",
+    "audioUrl": "https://a.animethemes.moe/DiamondNoAce-OP3.ogg"
+  },
+  {
+    "id": "captain-tsubasa-op1",
+    "animeName": "Captain Tsubasa",
+    "aliases": [
+      "Captain Tsubasa",
+      "Captain Tsubasa (2018)",
+      "キャプテン翼"
+    ],
+    "year": 2018,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Start Dash!",
+    "videoUrl": "https://v.animethemes.moe/CaptainTsubasa2018-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/CaptainTsubasa2018-OP1.ogg"
+  },
+  {
+    "id": "captain-tsubasa-op2",
+    "animeName": "Captain Tsubasa",
+    "aliases": [
+      "Captain Tsubasa",
+      "Captain Tsubasa (2018)",
+      "キャプテン翼"
+    ],
+    "year": 2018,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Kizudarake no Ai",
+    "videoUrl": "https://v.animethemes.moe/CaptainTsubasa2018-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/CaptainTsubasa2018-OP2.ogg"
+  },
+  {
+    "id": "hajime-no-ippo-op1",
+    "animeName": "Hajime no Ippo",
+    "aliases": [
+      "Hajime no Ippo",
+      "Fighting Spirit",
+      "The First Step",
+      "Hajime no Ippo: The Fighting!",
+      "はじめの一歩 THE FIGHTING!"
+    ],
+    "year": 2000,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 576,
+    "themeSlug": "OP1",
+    "songTitle": "Under Star",
+    "videoUrl": "https://v.animethemes.moe/HajimeNoIppo-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/HajimeNoIppo-OP1.ogg"
+  },
+  {
+    "id": "hajime-no-ippo-op2",
+    "animeName": "Hajime no Ippo",
+    "aliases": [
+      "Hajime no Ippo",
+      "Fighting Spirit",
+      "The First Step",
+      "Hajime no Ippo: The Fighting!",
+      "はじめの一歩 THE FIGHTING!"
+    ],
+    "year": 2000,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 576,
+    "themeSlug": "OP2",
+    "songTitle": "Inner Light",
+    "videoUrl": "https://v.animethemes.moe/HajimeNoIppo-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/HajimeNoIppo-OP2.ogg"
+  },
+  {
+    "id": "hajime-no-ippo-op3",
+    "animeName": "Hajime no Ippo",
+    "aliases": [
+      "Hajime no Ippo",
+      "Fighting Spirit",
+      "The First Step",
+      "Hajime no Ippo: The Fighting!",
+      "はじめの一歩 THE FIGHTING!"
+    ],
+    "year": 2000,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 576,
+    "themeSlug": "OP3",
+    "songTitle": "Tumbling Dice",
+    "videoUrl": "https://v.animethemes.moe/HajimeNoIppo-OP3.webm",
+    "audioUrl": "https://a.animethemes.moe/HajimeNoIppo-OP3.ogg"
+  },
+  {
+    "id": "inuyashiki-op1",
+    "animeName": "Inuyashiki",
+    "aliases": [
+      "Inuyashiki",
+      "Inuyashiki: Last Hero",
+      "INUYASHIKI LAST HERO",
+      "いぬやしき"
+    ],
+    "year": 2017,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "My Hero",
+    "videoUrl": "https://v.animethemes.moe/Inuyashiki-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Inuyashiki-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "black-bullet-op1",
+    "animeName": "Black Bullet",
+    "aliases": [
+      "Black Bullet"
+    ],
+    "year": 2014,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "black bullet",
+    "videoUrl": "https://v.animethemes.moe/BlackBullet-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/BlackBullet-OP1.ogg"
+  },
+  {
+    "id": "sword-art-online-ii-op1",
+    "animeName": "Sword Art Online II",
+    "aliases": [
+      "Sword Art Online II"
+    ],
+    "year": 2014,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "IGNITE",
+    "videoUrl": "https://v.animethemes.moe/SwordArtOnlineS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/SwordArtOnlineS2-OP1.ogg"
+  },
+  {
+    "id": "sword-art-online-ii-op2",
+    "animeName": "Sword Art Online II",
+    "aliases": [
+      "Sword Art Online II"
+    ],
+    "year": 2014,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "courage",
+    "videoUrl": "https://v.animethemes.moe/SwordArtOnlineS2-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/SwordArtOnlineS2-OP2.ogg"
+  },
+  {
+    "id": "sword-art-online-alicization-op1",
+    "animeName": "Sword Art Online: Alicization",
+    "aliases": [
+      "Sword Art Online: Alicization"
+    ],
+    "year": 2018,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "ADAMAS",
+    "videoUrl": "https://v.animethemes.moe/SwordArtOnlineAlicization-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/SwordArtOnlineAlicization-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "sword-art-online-alicization-op2",
+    "animeName": "Sword Art Online: Alicization",
+    "aliases": [
+      "Sword Art Online: Alicization"
+    ],
+    "year": 2018,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 1080,
+    "themeSlug": "OP2",
+    "songTitle": "RESISTER",
+    "videoUrl": "https://v.animethemes.moe/SwordArtOnlineAlicization-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/SwordArtOnlineAlicization-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "goblin-slayer-ii-op1",
+    "animeName": "Goblin Slayer II",
+    "aliases": [
+      "Goblin Slayer II",
+      "Goblin Slayer 2nd Season",
+      "GOBLIN SLAYER II",
+      "ゴブリンスレイヤーⅡ"
+    ],
+    "year": 2023,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Entertainment",
+    "videoUrl": "https://v.animethemes.moe/GoblinSlayerS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/GoblinSlayerS2-OP1.ogg"
+  },
+  {
+    "id": "overlord-iv-op1",
+    "animeName": "Overlord IV",
+    "aliases": [
+      "Overlord IV"
+    ],
+    "year": 2022,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "HOLLOW HUNGER",
+    "videoUrl": "https://v.animethemes.moe/OverlordS4-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/OverlordS4-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "mushoku-tensei-ii-isekai-ittara-honki-dasu-op1",
+    "animeName": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
+    "aliases": [
+      "Mushoku Tensei II: Isekai Ittara Honki Dasu",
+      "Mushoku Tensei II",
+      "Mushoku Tensei: Jobless Reincarnation Season 2",
+      "Jobless Reincarnation: I Will Seriously Try If I Go To Another World",
+      "無職転生 Ⅱ ～異世界行ったら本気だす～"
+    ],
+    "year": 2023,
+    "season": "Summer",
+    "studio": "Studio Bind",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "spiral",
+    "videoUrl": "https://v.animethemes.moe/MushokuTenseiS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/MushokuTenseiS2-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "dr-stone-new-world-op1",
+    "animeName": "Dr. Stone: New World",
+    "aliases": [
+      "Dr. Stone: New World",
+      "Dr. Stone Season 3",
+      "Dr. STONE New World",
+      "Dr.STONE NEW WORLD"
+    ],
+    "year": 2023,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Wasuregataki",
+    "videoUrl": "https://v.animethemes.moe/DrStoneS3-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/DrStoneS3-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "dr-stone-stone-wars-op1",
+    "animeName": "Dr. Stone: Stone Wars",
+    "aliases": [
+      "Dr. Stone: Stone Wars",
+      "Dr. STONE Season 2",
+      "Dr. STONE: STONE WARS",
+      "Dr.STONE STONE WARS"
+    ],
+    "year": 2021,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Rakuen",
+    "videoUrl": "https://v.animethemes.moe/DrStoneS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/DrStoneS2-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "bungou-stray-dogs-4th-season-op1",
+    "animeName": "Bungou Stray Dogs 4th Season",
+    "aliases": [
+      "Bungou Stray Dogs 4th Season",
+      "Bungo Stray Dogs 4",
+      "文豪ストレイドッグス 第4シーズン"
+    ],
+    "year": 2023,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "TRUE STORY",
+    "videoUrl": "https://v.animethemes.moe/BungouStrayDogsS4-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/BungouStrayDogsS4-OP1.ogg"
+  },
+  {
+    "id": "bungou-stray-dogs-5th-season-op1",
+    "animeName": "Bungou Stray Dogs 5th Season",
+    "aliases": [
+      "Bungou Stray Dogs 5th Season",
+      "Bungo Stray Dogs 5",
+      "文豪ストレイドッグス 第5シーズン"
+    ],
+    "year": 2023,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Tetsu no Ori",
+    "videoUrl": "https://v.animethemes.moe/BungouStrayDogsS5-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/BungouStrayDogsS5-OP1.ogg"
+  },
+  {
+    "id": "kimi-no-na-wa-op1",
+    "animeName": "Kimi no Na wa.",
+    "aliases": [
+      "Kimi no Na wa.",
+      "Kimi no Na wa",
+      "Your Name.",
+      "君の名は。"
+    ],
+    "year": 2016,
+    "season": "Summer",
+    "studio": "CoMix Wave Films",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Yume Tourou",
+    "videoUrl": "https://v.animethemes.moe/KimiNoNaWa-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KimiNoNaWa-OP1.ogg"
+  },
+  {
+    "id": "kimi-no-na-wa-op1-en",
+    "animeName": "Kimi no Na wa.",
+    "aliases": [
+      "Kimi no Na wa.",
+      "Kimi no Na wa",
+      "Your Name.",
+      "君の名は。"
+    ],
+    "year": 2016,
+    "season": "Summer",
+    "studio": "CoMix Wave Films",
+    "resolution": 1080,
+    "themeSlug": "OP1-EN",
+    "songTitle": "Yume Tourou",
+    "videoUrl": "https://v.animethemes.moe/KimiNoNaWa-OP1-EN.webm",
+    "audioUrl": "https://a.animethemes.moe/KimiNoNaWa-OP1-EN.ogg"
+  },
+  {
+    "id": "tengoku-daimakyou-op1",
+    "animeName": "Tengoku Daimakyou",
+    "aliases": [
+      "Tengoku Daimakyou",
+      "Heavenly Delusion",
+      "Tengoku Daimakyo",
+      "天国大魔境"
+    ],
+    "year": 2023,
+    "season": "Spring",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "innocent arrogance",
+    "videoUrl": "https://v.animethemes.moe/TengokuDaimakyou-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/TengokuDaimakyou-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "trigun-stampede-op1",
+    "animeName": "Trigun Stampede",
+    "aliases": [
+      "Trigun Stampede",
+      "TRIGUN STAMPEDE"
+    ],
+    "year": 2023,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "TOMBI",
+    "videoUrl": "https://v.animethemes.moe/TrigunStampede-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/TrigunStampede-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "dungeon-meshi-op1",
+    "animeName": "Dungeon Meshi",
+    "aliases": [
+      "Dungeon Meshi",
+      "Delicious in Dungeon",
+      "ダンジョン飯"
+    ],
+    "year": 2024,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Sleep Walking Orchestra",
+    "videoUrl": "https://v.animethemes.moe/DungeonMeshi-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/DungeonMeshi-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "dungeon-meshi-op2",
+    "animeName": "Dungeon Meshi",
+    "aliases": [
+      "Dungeon Meshi",
+      "Delicious in Dungeon",
+      "ダンジョン飯"
+    ],
+    "year": 2024,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Unmei",
+    "videoUrl": "https://v.animethemes.moe/DungeonMeshi-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/DungeonMeshi-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "kusuriya-no-hitorigoto-op1",
+    "animeName": "Kusuriya no Hitorigoto",
+    "aliases": [
+      "Kusuriya no Hitorigoto",
+      "The Apothecary Diaries",
+      "薬屋のひとりごと"
+    ],
+    "year": 2023,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Hana ni Natte",
+    "videoUrl": "https://v.animethemes.moe/KusuriyaNoHitorigoto-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KusuriyaNoHitorigoto-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "kusuriya-no-hitorigoto-op2",
+    "animeName": "Kusuriya no Hitorigoto",
+    "aliases": [
+      "Kusuriya no Hitorigoto",
+      "The Apothecary Diaries",
+      "薬屋のひとりごと"
+    ],
+    "year": 2023,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Ambivalent",
+    "videoUrl": "https://v.animethemes.moe/KusuriyaNoHitorigoto-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/KusuriyaNoHitorigoto-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "ousama-ranking-op1",
+    "animeName": "Ousama Ranking",
+    "aliases": [
+      "Ousama Ranking",
+      "Ranking of Kings",
+      "王様ランキング"
+    ],
+    "year": 2021,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "BOY",
+    "videoUrl": "https://v.animethemes.moe/OusamaRanking-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/OusamaRanking-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "ousama-ranking-op2",
+    "animeName": "Ousama Ranking",
+    "aliases": [
+      "Ousama Ranking",
+      "Ranking of Kings",
+      "王様ランキング"
+    ],
+    "year": 2021,
+    "season": "Fall",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP2",
+    "songTitle": "Hadaka no Yuusha",
+    "videoUrl": "https://v.animethemes.moe/OusamaRanking-OP2.webm",
+    "audioUrl": "https://a.animethemes.moe/OusamaRanking-OP2-NCBD1080.ogg"
+  },
+  {
+    "id": "sasaki-to-miyano-op1",
+    "animeName": "Sasaki to Miyano",
+    "aliases": [
+      "Sasaki to Miyano",
+      "Sasaki and Miyano",
+      "佐々木と宮野"
+    ],
+    "year": 2022,
+    "season": "Winter",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Mabataki",
+    "videoUrl": "https://v.animethemes.moe/SasakiToMiyano-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/SasakiToMiyano-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "given-op1",
+    "animeName": "Given",
+    "aliases": [
+      "Given",
+      "given",
+      "ギヴン"
+    ],
+    "year": 2019,
+    "season": "Summer",
+    "studio": null,
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Kizuato",
+    "videoUrl": "https://v.animethemes.moe/Given-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/Given-OP1-NCBD1080.ogg"
+  },
+  {
+    "id": "kuma-kuma-kuma-bear-punch-op1",
+    "animeName": "Kuma Kuma Kuma Bear Punch!",
+    "aliases": [
+      "Kuma Kuma Kuma Bear Punch!",
+      "Yuri Kuma Arashi",
+      "Kuma Kuma Kuma Bear 2nd Season",
+      "The Bears Bear a Bare Kuma 2nd Season",
+      "Kuma Kuma Kuma Bear - Punch!",
+      "くまクマ熊ベアーぱーんち！"
+    ],
+    "year": 2023,
+    "season": "Spring",
+    "studio": "EMT Squared",
+    "resolution": 720,
+    "themeSlug": "OP1",
+    "songTitle": "Kimi to no Mirai",
+    "videoUrl": "https://v.animethemes.moe/KumaKumaKumaBearS2-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/KumaKumaKumaBearS2-OP1.ogg"
+  },
+  {
+    "id": "magia-record-mahou-shoujo-madoka-magica-gaiden-op1",
+    "animeName": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden",
+    "aliases": [
+      "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden",
+      "Magia Record",
+      "Puella Magi Madoka Magica Side Story: Magia Record",
+      "Magia Record: Puella Magi Madoka Magica Side Story",
+      "マギアレコード 魔法少女まどか☆マギカ外伝"
+    ],
+    "year": 2020,
+    "season": "Winter",
+    "studio": "Shaft",
+    "resolution": 1080,
+    "themeSlug": "OP1",
+    "songTitle": "Gomakashi",
+    "videoUrl": "https://v.animethemes.moe/MagiaRecord-OP1.webm",
+    "audioUrl": "https://a.animethemes.moe/MagiaRecord-OP1-NCBD1080.ogg"
   }
 ]

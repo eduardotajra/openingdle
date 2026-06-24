@@ -40,6 +40,8 @@ export interface HistoryEntry {
   animeName: string;
   /** OP1, OP2... */
   themeSlug: string;
+  /** Nome da música (preferido na exibição quando disponível) */
+  songTitle?: string | null;
   /** ganhou ou perdeu */
   won: boolean;
   /** nº de palpites usados */
