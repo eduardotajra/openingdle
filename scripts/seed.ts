@@ -135,7 +135,114 @@ function pickVideo(entry: ApiEntry): ApiVideo | null {
   return videos.slice().sort((a, b) => (b.resolution ?? 0) - (a.resolution ?? 0))[0];
 }
 
+async function fetchAllAnimes(): Promise<ApiAnime[]> {
+  // Pagina /anime?include=...&page[size]=100. AnimeThemes tem ~12 mil animes
+  // mas a maioria não tem OP utilizável; o filtro acontece depois.
+  const all: ApiAnime[] = [];
+  let page = 1;
+  const pageSize = 100;
+  while (true) {
+    const params = new URLSearchParams({
+      "page[number]": String(page),
+      "page[size]": String(pageSize),
+      include: INCLUDE,
+    });
+    const url = `${API}/anime?${params.toString()}`;
+    const res = await fetch(url, {
+      headers: { "User-Agent": "animedle-seed/1.0 (educational project)" },
+    });
+    if (!res.ok) {
+      console.warn(`  ! HTTP ${res.status} na página ${page}`);
+      break;
+    }
+    const json = (await res.json()) as { anime: ApiAnime[]; meta?: { last_page?: number } };
+    const list = json.anime ?? [];
+    all.push(...list);
+    const lastPage = json.meta?.last_page;
+    process.stdout.write(`\r  paginando ${page}${lastPage ? `/${lastPage}` : ""}  ${all.length} animes`);
+    if (list.length < pageSize) break;
+    if (lastPage && page >= lastPage) break;
+    page++;
+    await sleep(200);
+  }
+  console.log();
+  return all;
+}
+
+function extractOpenings(
+  anime: ApiAnime,
+  title: string | null,
+  openings: Opening[],
+  animeMap: Map<string, AnimeListItem>,
+  seenIds: Set<string>,
+): number {
+  const aliases = [
+    anime.name,
+    ...(title ? [title] : []),
+    ...(anime.animesynonyms ?? []).map((s) => s.text),
+  ]
+    .filter(Boolean)
+    .filter((v, i, arr) => arr.indexOf(v) === i);
+  const studio = anime.studios?.[0]?.name ?? null;
+
+  let count = 0;
+  for (const theme of anime.animethemes ?? []) {
+    if (theme.type !== "OP") continue;
+    const entry = (theme.animethemeentries ?? []).find(
+      (e) => !e.nsfw && !e.spoiler && (e.videos ?? []).length > 0,
+    );
+    if (!entry) continue;
+    const video = pickVideo(entry);
+    if (!video?.link) continue;
+
+    const id = `${slugify(anime.name)}-${theme.slug.toLowerCase()}`;
+    if (seenIds.has(id)) continue;
+    seenIds.add(id);
+
+    openings.push({
+      id,
+      animeName: anime.name,
+      aliases,
+      year: anime.year,
+      season: anime.season,
+      studio,
+      resolution: video.resolution,
+      themeSlug: theme.slug,
+      songTitle: theme.song?.title ?? null,
+      videoUrl: video.link,
+      audioUrl: video.audio?.link ?? null,
+    });
+    count++;
+  }
+
+  if (count > 0) animeMap.set(anime.name, { name: anime.name, aliases });
+  return count;
+}
+
 async function main() {
+  const all = process.argv.includes("--all");
+  const openings: Opening[] = [];
+  const animeMap = new Map<string, AnimeListItem>();
+  const seenIds = new Set<string>();
+  let missing = 0;
+
+  if (all) {
+    console.log("Modo --all: paginando TODA a API da AnimeThemes…");
+    const animes = await fetchAllAnimes();
+    console.log(`\nFiltrando ${animes.length} animes por OP utilizável…`);
+    let withOp = 0;
+    for (const anime of animes) {
+      const c = extractOpenings(anime, null, openings, animeMap, seenIds);
+      if (c > 0) withOp++;
+    }
+    console.log(
+      `  → ${withOp} animes com OP, ${animes.length - withOp} descartados.`,
+    );
+    finishWrite(openings, animeMap, missing);
+    return;
+  }
+
+  // Modo curado (padrão).
   const titlesFile = resolve(ROOT, "scripts/curated-titles.txt");
   const titles = readFileSync(titlesFile, "utf8")
     .split(/\r?\n/)
@@ -143,11 +250,6 @@ async function main() {
     .filter((l) => l && !l.startsWith("#"));
 
   console.log(`Buscando ${titles.length} títulos na AnimeThemes...\n`);
-
-  const openings: Opening[] = [];
-  const animeMap = new Map<string, AnimeListItem>();
-  const seenIds = new Set<string>();
-  let missing = 0;
 
   for (const title of titles) {
     process.stdout.write(`• ${title} ... `);
@@ -166,52 +268,23 @@ async function main() {
       continue;
     }
 
-    const aliases = [anime.name, title, ...(anime.animesynonyms ?? []).map((s) => s.text)]
-      .filter(Boolean)
-      .filter((v, i, arr) => arr.indexOf(v) === i);
-    const studio = anime.studios?.[0]?.name ?? null;
-
-    let count = 0;
-    for (const theme of anime.animethemes ?? []) {
-      if (theme.type !== "OP") continue;
-      // Usa a primeira entry válida (v1) com vídeo + áudio.
-      const entry = (theme.animethemeentries ?? []).find(
-        (e) => !e.nsfw && !e.spoiler && (e.videos ?? []).length > 0,
-      );
-      if (!entry) continue;
-      const video = pickVideo(entry);
-      if (!video?.link) continue;
-
-      const id = `${slugify(anime.name)}-${theme.slug.toLowerCase()}`;
-      if (seenIds.has(id)) continue;
-      seenIds.add(id);
-
-      openings.push({
-        id,
-        animeName: anime.name,
-        aliases,
-        year: anime.year,
-        season: anime.season,
-        studio,
-        resolution: video.resolution,
-        themeSlug: theme.slug,
-        songTitle: theme.song?.title ?? null,
-        videoUrl: video.link,
-        audioUrl: video.audio?.link ?? null,
-      });
-      count++;
-    }
-
-    if (count > 0) {
-      animeMap.set(anime.name, { name: anime.name, aliases });
-      console.log(`${count} OP(s)`);
-    } else {
+    const count = extractOpenings(anime, title, openings, animeMap, seenIds);
+    if (count > 0) console.log(`${count} OP(s)`);
+    else {
       console.log("sem OP utilizável");
       missing++;
     }
     await sleep(250); // educado com a API
   }
 
+  finishWrite(openings, animeMap, missing);
+}
+
+function finishWrite(
+  openings: Opening[],
+  animeMap: Map<string, AnimeListItem>,
+  missing: number,
+) {
   const animeList = Array.from(animeMap.values()).sort((a, b) =>
     a.name.localeCompare(b.name),
   );
