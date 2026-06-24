@@ -9,6 +9,7 @@ import {
   loadDailyState,
   saveDailyState,
   loadStats,
+  loadHistory,
   recordResult,
   recordHistory,
   type GameStatus,
@@ -69,6 +70,24 @@ export default function GameBoard({
       if (saved.status !== "playing") {
         recorded.current = true; // já contabilizado em sessão anterior
         setShowModal(false);
+        // Auto-recupera histórico de partidas finalizadas antes do fix:
+        // se o jogo está como won/lost mas não há entrada no histórico
+        // para este puzzle, registra agora. `recordHistory` dedupa por
+        // puzzle, então não cria duplicata.
+        const hasEntry = loadHistory().some(
+          (e) => e.mode === "daily" && e.puzzle === puzzle,
+        );
+        if (!hasEntry) {
+          recordHistory({
+            timestamp: Date.now(),
+            mode: "daily",
+            puzzle,
+            animeName: opening.animeName,
+            themeSlug: opening.themeSlug,
+            won: saved.status === "won",
+            attempts: saved.guesses.length,
+          });
+        }
       }
     } else {
       setGuesses([]);
@@ -84,28 +103,31 @@ export default function GameBoard({
 
   function finish(nextStatus: GameStatus, nextGuesses: GuessEntry[]) {
     setStatus(nextStatus);
-    if (mode === "daily" && puzzle !== undefined) {
+    const isWin = nextStatus === "won";
+
+    // Stats e estado salvo (modo diário): idempotente por puzzle.
+    if (mode === "daily" && puzzle !== undefined && !recorded.current) {
       saveDailyState({ puzzle, status: nextStatus, guesses: nextGuesses });
-      if (!recorded.current) {
-        recorded.current = true;
-        const s = recordResult(puzzle, nextStatus === "won", nextGuesses.length);
-        setStats(s);
-      }
+      recorded.current = true;
+      const s = recordResult(puzzle, isWin, nextGuesses.length);
+      setStats(s);
+    } else if (mode === "daily" && puzzle !== undefined) {
+      // Já contabilizado, mas ainda atualiza o estado salvo.
+      saveDailyState({ puzzle, status: nextStatus, guesses: nextGuesses });
     }
-    // Histórico unificado (diário + livre + fases)
-    if (!recorded.current || mode === "free") {
-      const isWin = nextStatus === "won";
-      recordHistory({
-        timestamp: Date.now(),
-        mode: mode === "daily" ? "daily" : (freeModeLabel ?? "free"),
-        puzzle: mode === "daily" ? puzzle : undefined,
-        animeName: opening.animeName,
-        themeSlug: opening.themeSlug,
-        won: isWin,
-        attempts: nextGuesses.length,
-      });
-      if (mode === "free") recorded.current = true;
-    }
+
+    // Histórico unificado — todos os modos. `recordHistory` dedupa por puzzle
+    // no modo daily, então rejogar o mesmo dia não cria duplicata.
+    recordHistory({
+      timestamp: Date.now(),
+      mode: mode === "daily" ? "daily" : (freeModeLabel ?? "free"),
+      puzzle: mode === "daily" ? puzzle : undefined,
+      animeName: opening.animeName,
+      themeSlug: opening.themeSlug,
+      won: isWin,
+      attempts: nextGuesses.length,
+    });
+
     setTimeout(() => setShowModal(true), 600);
   }
 
